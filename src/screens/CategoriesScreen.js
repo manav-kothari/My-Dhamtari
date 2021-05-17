@@ -16,13 +16,6 @@ const CategoriesScreen = () => {
       <Row className="row p-2">
         <Col sm={12} md={6} lg={4} xl={4}>
           <CategoryCardComponent
-            name="Bakery Accessories"
-            image={bakery}
-            link="/bakeryaccshops"
-          />
-        </Col>
-        <Col sm={12} md={6} lg={4} xl={4}>
-          <CategoryCardComponent
             name="Clothing Shops"
             image={clothes}
             link="/shopcomingsoon"
@@ -33,6 +26,14 @@ const CategoriesScreen = () => {
           <CategoryCardComponent
             name="Electronic Shops"
             image={electronic}
+            link="/shopcomingsoon"
+          />
+        </Col>
+
+        <Col sm={12} md={6} lg={4} xl={4}>
+          <CategoryCardComponent
+            name="Bakery Accessories"
+            image={bakery}
             link="/shopcomingsoon"
           />
         </Col>
