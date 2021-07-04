@@ -60,3 +60,128 @@ body {
 .active {
   color: #fcfcfc;
 }
+
+.navigation {
+  margin: 0px 17px;
+}
+
+.heading {
+  font-weight: 1000;
+}
+
+.shop {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  /* url("./images//shop.jpg"); */
+  /* filter blur(0px); */
+  display: block;
+  /* background-image: blur(4px); */
+  height: 100vh;
+  z-index: 1;
+  background-position: 700px 0px;
+  background-size: cover;
+}
+
+.content {
+  margin: 100px 0px;
+}
+@media screen and (max-device-width: 321px) {
+  .navigation {
+    margin: 0px 11px;
+  }
+  .shop {
+    background-position: 600px 0px;
+  }
+}
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,800);
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+.news {
+  color: #ffffff;
+  overflow: hidden;
+  width: 100%;
+}
+
+.news * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+
+.news img {
+  max-width: 100%;
+  height: 29vh;
+  vertical-align: top;
+  position: relative;
+}
+
+.news .hover {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  align-items: center;
+  background-color: rgba(236, 188, 46, 0.75);
+  display: flex;
+  font-size: 65px;
+  justify-content: center;
+  opacity: 0;
+}
+
+.news a {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  z-index: 1;
+}
+
+.news:hover .hover,
+.news.hover .hover {
+  -webkit-transition-delay: 0.1s;
+  transition-delay: 0.1s;
+  opacity: 1;
+}
+
+.card1 {
+  border: none;
+  height: 250px;
+  box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.25),
+    -5px -5px 30px 7px rgba(0, 0, 0, 0.22);
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.card1 .card_image {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.card1 .card_image img {
+  width: inherit;
+  height: inherit;
+  object-fit: cover;
+}
+
+.card1 .card_title {
+  backdrop-filter: blur(50px);
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: -40px;
+  height: 40px;
+  border: none;
+  text-decoration: none;
+  color: #fff;
+}
+
+/* .card1:hover {
+  transform: scale(0.9, 0.9) !important;
+  box-shadow: 5px 5px 30px 15px rgba(0, 0, 0, 0.25),
+    -5px -5px 30px 15px rgba(0, 0, 0, 0.22);
+  transition: ease-in-out 0.2s !important;
+} */

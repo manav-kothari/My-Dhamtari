@@ -8,12 +8,12 @@ export const homeObjOne = {
   headline: "Have a digital presence and showcase your products online",
   description:
     "We help business owners to build an online presence by providing them a professional website that helps their customers to browse through their products effortlessly.",
-  buttonLabel: "Contact Us",
+  buttonLabel: "Get More Details",
   imgStart: "",
   img: require("../../images/svg-1.svg"),
   alt: "Website graphic",
   start: "",
-  link: "//api.whatsapp.com/send?phone=917415519777",
+  link: "/product",
 };
 
 export const homeObjTwo = {

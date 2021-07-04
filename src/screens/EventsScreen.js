@@ -6,7 +6,7 @@ const EventsScreen = () => {
   return (
     <>
       <Header></Header>
-      <h1 className="text-center p-2 mt-2" as="h1">
+      <h1 className="text-center p-2 mt-2 heading" as="h1">
         Upcoming Events
       </h1>
       <div className="aler alert-danger text-center blink_me p-3 my-5 text-capitalize h2 text-dark">

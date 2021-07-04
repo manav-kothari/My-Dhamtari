@@ -48,7 +48,7 @@ function Navbar() {
             </MobileIcon>
             <NavMenu onClick={handleClick} click={click}>
               <NavItem>
-                <NavLinks to="aboutshop" onClick={closeMobileMenu}>
+                <NavLinks to="/aboutshop" onClick={closeMobileMenu}>
                   Home
                 </NavLinks>
               </NavItem>

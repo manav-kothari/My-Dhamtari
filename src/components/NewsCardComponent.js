@@ -1,10 +1,21 @@
 import React from "react";
-import { Card, Button } from "react-bootstrap";
+
+// import { Card, Button } from "react-bootstrap";
 
 const NewsCardComponent = ({ name, image, link }) => {
   return (
     <>
-      <Card className="my-2 p-1 rounded cards">
+      <a href={link}>
+        <figure class="news rounded">
+          <img src={image} alt="pr-sample13" />
+
+          <div class="hover">
+            <i class="ion-android-open"></i>
+          </div>
+        </figure>
+      </a>
+
+      {/* <Card className="my-2 p-1 rounded cards">
         <a href={link}>
           <Card.Img
             className="news-card-img-top embed-responsive-item"
@@ -28,7 +39,7 @@ const NewsCardComponent = ({ name, image, link }) => {
             </Button>
           </a>
         </Card.Body>
-      </Card>
+      </Card> */}
     </>
   );
 };

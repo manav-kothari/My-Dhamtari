@@ -7,15 +7,18 @@ import SignUp from "./pages/SignUp/SignUp";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import ScrollToTop from "./components/ScrollToTop";
 import BakeryShopScreen from "./screens/BakeryShopScreen";
-import CategoriesScreen from "./screens/CategoriesScreen";
+// import CategoriesScreen from "./screens/CategoriesScreen";
 import ClothingShopScreen from "./screens/ClothingShopScreen";
 import ElectronicShopScreen from "./screens/ElectronicShopScreen";
 
 import GiftShopScreen from "./screens/GiftShopScreen";
 import EventsScreen from "./screens/EventsScreen";
 
-import NewsScreen from "./screens/NewsScreen";
+import NewsScreen from "./screens/NewsScreen/NewsScreen";
 import ShopComingSoonScreen from "./screens/ShopComingSoonScreen";
+import ShopScreen from "./screens/ShopScreen/ShopScreen";
+import ContactScreen from "./screens/ContactScreen/ContactScreen";
+import PlacesScreen from "./screens/PlacesScreen/PlacesScreen";
 
 function App() {
   return (
@@ -23,10 +26,12 @@ function App() {
       <GlobalStyle />
       <ScrollToTop />
       <Switch>
-        <Route path="/" exact component={CategoriesScreen} />
-        <Route path="/shops" exact component={CategoriesScreen} />
+        <Route path="/" exact component={ShopScreen} />
+        <Route path="/shops" exact component={ShopScreen} />
         <Route path="/news" exact component={NewsScreen} />
         <Route path="/events" exact component={EventsScreen} />
+        <Route path="/contact" exact component={ContactScreen} />
+        <Route path="/places" exact component={PlacesScreen} />
         <Route path="/clothingshops" exact component={ClothingShopScreen} />
         <Route path="/electronicshops" exact component={ElectronicShopScreen} />
         <Route path="/giftshops" exact component={GiftShopScreen} />
