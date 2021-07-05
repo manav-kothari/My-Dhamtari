@@ -37,7 +37,7 @@ const ContactScreen = () => {
           sticky="bottom"
         >
           <span className=" mx-auto">
-            If you want to list your your contact information than{" "}
+            If you want to list your contact information than{" "}
             <Button
               href="//api.whatsapp.com/send?phone=917415519777"
               variant="info"

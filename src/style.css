@@ -87,7 +87,7 @@ body {
 }
 @media screen and (max-device-width: 321px) {
   .navigation {
-    margin: 0px 7px;
+    margin: 0px 6px;
   }
   .shop {
     background-position: 600px 0px;
