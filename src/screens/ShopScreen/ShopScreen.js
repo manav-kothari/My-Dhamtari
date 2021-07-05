@@ -21,7 +21,9 @@ const ShopScreen = () => {
               Pre-register and get your own website & showcase your products
               online for Free*
             </HeroP>
-            <HeroBtn to="/aboutshop">Read More</HeroBtn>
+            <HeroBtn target="_blank" to="/aboutshop">
+              Read More
+            </HeroBtn>
           </HeroItems>
         </HeroContent>
       </HeroContainer>
