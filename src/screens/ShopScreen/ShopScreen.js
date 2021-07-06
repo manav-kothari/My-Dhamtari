@@ -27,6 +27,12 @@ const ShopScreen = () => {
           </HeroItems>
         </HeroContent>
       </HeroContainer>
+      <div
+        style={{ backgroundColor: "#000" }}
+        className="text-center text-light m-0 p-0"
+      >
+        <small>*Limited Hosting & 512MB Storage, etc. </small>
+      </div>
     </>
   );
 };

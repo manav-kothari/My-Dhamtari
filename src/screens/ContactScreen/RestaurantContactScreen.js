@@ -1,0 +1,53 @@
+import React from "react";
+import { Card, Row, Col, Navbar, Button } from "react-bootstrap";
+import Header from "../../components/Header";
+
+const RestaurantContactScreen = () => {
+  return (
+    <div>
+      <Header />
+      <h2 className="heading text-center pt-1 my-2">Restaurants:</h2>
+      <Row className="row p-2 text-center">
+        <Col sm={12} md={6} lg={6} xl={3}>
+          <Card>
+            <Card.Body>
+              <Card.Title>Sadda Adda</Card.Title>
+              <Card.Subtitle className="mb-2 text-muted">
+                Dhamtari, Chhattisgarh 493773
+              </Card.Subtitle>
+              <Card.Text>Phone : 9691581113</Card.Text>
+              <Card.Link href="https://www.google.com/maps/place/Sadda+Adda/@20.6700774,81.5467161,15z/data=!3m1!4b1!4m5!3m4!1s0x3a2f273297c3f2b5:0x1d0328d5a93e5a33!8m2!3d20.6700782!4d81.5554666">
+                <strong>Directions</strong>
+              </Card.Link>
+              <Card.Link href="https://www.instagram.com/sadda_adda_cg05/">
+                <strong>Instagram</strong>
+              </Card.Link>
+            </Card.Body>
+          </Card>
+        </Col>
+      </Row>
+      <div className="aler alert-info text-center blink_me p-3 my-5 h4 text-dark">
+        More details will be listed soon...
+      </div>
+      <Navbar
+        bg="dark"
+        variant="dark"
+        className="text-center text-white"
+        fixed="bottom"
+      >
+        <span className=" mx-auto">
+          If you want to list contact information of any restaurant than{" "}
+          <Button
+            href="//api.whatsapp.com/send?phone=917415519777"
+            variant="info"
+            className=" text-capitalize btn"
+          >
+            Contact Us
+          </Button>
+        </span>
+      </Navbar>
+    </div>
+  );
+};
+
+export default RestaurantContactScreen;

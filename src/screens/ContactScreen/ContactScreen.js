@@ -24,17 +24,46 @@ const ContactScreen = () => {
             </small>
           </h6>
         </h2>
-        <ContactCardComponent title="Repairing Services" Img={repair} />
-        <ContactCardComponent title="Doctors/Hospitals" Img={doctor} />
-        <ContactCardComponent title="Restaurants" Img={restaurant} />
+        <ContactCardComponent
+          title="Doctors/Hospitals"
+          Img={doctor}
+          link="/contact/hospitals"
+        />
+        <ContactCardComponent
+          title="Restaurants"
+          Img={restaurant}
+          link="/contact/restaurant"
+        />
+        <ContactCardComponent
+          title="Repairing Services"
+          Img={repair}
+          link="/contact/repair"
+        />
         <ContactCardComponent
           title="Personal Care Services"
           Img={personalcare}
+          link="/contact/personalcare"
         />
-        <ContactCardComponent title="Travel Services" Img={travel} />
-        <ContactCardComponent title="Automobiles Services" Img={automobile} />
-        <ContactCardComponent title="Flowers/Plants Seller" Img={flower} />
-        <ContactCardComponent title="Wedding related Services" Img={wedding} />
+        <ContactCardComponent
+          title="Travel Services"
+          Img={travel}
+          link="/contact/travel"
+        />
+        <ContactCardComponent
+          title="Automobiles Services"
+          Img={automobile}
+          link="/contact/automobile"
+        />
+        <ContactCardComponent
+          title="Flowers/Plants Seller"
+          Img={flower}
+          link="/contact/flower"
+        />
+        <ContactCardComponent
+          title="Wedding related Services"
+          Img={wedding}
+          link="/contact/wedding"
+        />
         <Navbar
           bg="dark"
           variant="dark"

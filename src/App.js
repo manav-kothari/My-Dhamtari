@@ -19,6 +19,14 @@ import ShopComingSoonScreen from "./screens/ShopComingSoonScreen";
 import ShopScreen from "./screens/ShopScreen/ShopScreen";
 import ContactScreen from "./screens/ContactScreen/ContactScreen";
 import PlacesScreen from "./screens/PlacesScreen/PlacesScreen";
+import HospitalScreen from "./screens/ContactScreen/HospitalScreen";
+import RepairScreen from "./screens/ContactScreen/RepairScreen";
+import PersonalCareScreen from "./screens/ContactScreen/PersonalCareScreen";
+import TravelScreen from "./screens/ContactScreen/TravelScreen";
+import AutomobileScreen from "./screens/ContactScreen/AutomobileScreen";
+import FlowerScreen from "./screens/ContactScreen/FlowerScreen";
+import WeddingScreen from "./screens/ContactScreen/WeddingScreen";
+import RestaurantContactScreen from "./screens/ContactScreen/RestaurantContactScreen";
 
 function App() {
   return (
@@ -31,6 +39,23 @@ function App() {
         <Route path="/news" exact component={NewsScreen} />
         <Route path="/events" exact component={EventsScreen} />
         <Route path="/contact" exact component={ContactScreen} />
+        <Route path="/contact/hospitals" exact component={HospitalScreen} />
+        <Route
+          path="/contact/restaurant"
+          exact
+          component={RestaurantContactScreen}
+        />
+
+        <Route path="/contact/repair" exact component={RepairScreen} />
+        <Route
+          path="/contact/personalcare"
+          exact
+          component={PersonalCareScreen}
+        />
+        <Route path="/contact/travel" exact component={TravelScreen} />
+        <Route path="/contact/automobile" exact component={AutomobileScreen} />
+        <Route path="/contact/flower" exact component={FlowerScreen} />
+        <Route path="/contact/wedding" exact component={WeddingScreen} />
         <Route path="/places" exact component={PlacesScreen} />
         <Route path="/clothingshops" exact component={ClothingShopScreen} />
         <Route path="/electronicshops" exact component={ElectronicShopScreen} />
