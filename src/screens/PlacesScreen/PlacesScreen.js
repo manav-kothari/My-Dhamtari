@@ -7,9 +7,15 @@ const PlacesScreen = () => {
   return (
     <>
       <Header />
-      <h2 className="text-center p-1 heading">
+      <h2 className="text-center pt-1 heading">
         <strong>Tourist Places:</strong>
+        <h6>
+          <small className="text-center">
+            (will be adding more places and details soon.)
+          </small>
+        </h6>
       </h2>
+
       <Row className="row p-2 text-center">
         <Col sm={12} md={6} lg={6} xl={6}>
           <PlacesCardCompnent

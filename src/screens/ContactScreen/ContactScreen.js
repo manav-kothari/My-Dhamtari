@@ -16,9 +16,14 @@ const ContactScreen = () => {
     <>
       <div className="p-0 m-0">
         <Header />
-        <h1 className="heading text-center mb-2">
-          <strong> Contact:</strong>
-        </h1>
+        <h2 className="heading text-center pt-1 mb-2">
+          <strong>Get Contact Details:</strong>
+          <h6>
+            <small className="text-center">
+              (will be adding more details soon.)
+            </small>
+          </h6>
+        </h2>
         <ContactCardComponent title="Repairing Services" Img={repair} />
         <ContactCardComponent title="Doctors/Hospitals" Img={doctor} />
         <ContactCardComponent title="Restaurants" Img={restaurant} />
@@ -29,7 +34,7 @@ const ContactScreen = () => {
         <ContactCardComponent title="Travel Services" Img={travel} />
         <ContactCardComponent title="Automobiles Services" Img={automobile} />
         <ContactCardComponent title="Flowers/Plants Seller" Img={flower} />
-        <ContactCardComponent title="Wedding Services" Img={wedding} />
+        <ContactCardComponent title="Wedding related Services" Img={wedding} />
         <Navbar
           bg="dark"
           variant="dark"

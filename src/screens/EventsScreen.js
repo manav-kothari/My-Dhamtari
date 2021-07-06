@@ -29,6 +29,7 @@ const EventsScreen = () => {
           >
             Contact Us
           </Button>
+          <br />
         </span>
       </Navbar>
     </>
