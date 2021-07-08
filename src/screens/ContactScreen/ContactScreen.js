@@ -9,6 +9,8 @@ import travel from "../../images/contact/travel.jpg";
 import automobile from "../../images/contact/automobile.jpg";
 import flower from "../../images/contact/flower.jpg";
 import wedding from "../../images/contact/wedding.jpg";
+import account from "../../images/contact/account.jpg";
+import water from "../../images/contact/water.jpg";
 import { Navbar, Button } from "react-bootstrap";
 
 const ContactScreen = () => {
@@ -33,6 +35,16 @@ const ContactScreen = () => {
           title="Restaurants"
           Img={restaurant}
           link="/contact/restaurant"
+        />
+        <ContactCardComponent
+          title="Water & Ice"
+          Img={water}
+          link="/contact/waterandice"
+        />
+        <ContactCardComponent
+          title="Accounting Services"
+          Img={account}
+          link="/contact/accounting"
         />
         <ContactCardComponent
           title="Repairing Services"
@@ -60,7 +72,7 @@ const ContactScreen = () => {
           link="/contact/flower"
         />
         <ContactCardComponent
-          title="Wedding related Services"
+          title="Wedding related services"
           Img={wedding}
           link="/contact/wedding"
         />

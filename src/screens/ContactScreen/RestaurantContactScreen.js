@@ -11,6 +11,26 @@ const RestaurantContactScreen = () => {
         <Col sm={12} md={6} lg={6} xl={3}>
           <Card>
             <Card.Body>
+              <Card.Title>Route30 cafe</Card.Title>
+              <Card.Subtitle className="mb-2 text-muted">
+                Near Sorid pool, Bastar road, Dhamtari, Chhattisgarh 493773
+              </Card.Subtitle>
+              <Card.Text>Phone : 8305226762</Card.Text>
+              <Card.Link href="https://www.google.com/maps/place/Route30+cafe/@20.6995693,81.524148,15z/data=!3m1!4b1!4m5!3m4!1s0x3a2f29b22e0d6553:0xbe51b30172320f1!8m2!3d20.6995695!4d81.5329028">
+                <strong>Directions</strong>
+              </Card.Link>
+              <Card.Link href="https://www.instagram.com/route30cafe/">
+                <strong>Instagram</strong>
+              </Card.Link>
+              <Card.Link href="//api.whatsapp.com/send?phone=918739979106">
+                <strong>WhatsApp</strong>
+              </Card.Link>
+            </Card.Body>
+          </Card>
+        </Col>
+        <Col sm={12} md={6} lg={6} xl={3}>
+          <Card>
+            <Card.Body>
               <Card.Title>Sadda Adda</Card.Title>
               <Card.Subtitle className="mb-2 text-muted">
                 Dhamtari, Chhattisgarh 493773
