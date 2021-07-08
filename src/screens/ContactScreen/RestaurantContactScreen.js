@@ -29,7 +29,7 @@ const RestaurantContactScreen = () => {
           </Card>
         </Col>
         <Col sm={12} md={6} lg={6} xl={3}>
-          <Card>
+          <Card className="mt-4">
             <Card.Body>
               <Card.Title>Sadda Adda</Card.Title>
               <Card.Subtitle className="mb-2 text-muted">
@@ -46,14 +46,13 @@ const RestaurantContactScreen = () => {
           </Card>
         </Col>
       </Row>
-      <div className="aler alert-info text-center blink_me p-3 my-5 h4 text-dark">
+      <div className="alert alert-info text-center blink_me p-3 my-5 h4 text-dark">
         More details will be listed soon...
       </div>
       <Navbar
         bg="dark"
         variant="dark"
-        className="text-center text-white"
-        fixed="bottom"
+        className="footer text-center text-white"
       >
         <span className=" mx-auto">
           If you want to list contact information of any restaurant than{" "}

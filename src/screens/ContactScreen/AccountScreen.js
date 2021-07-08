@@ -33,8 +33,7 @@ const AccountScreen = () => {
       <Navbar
         bg="dark"
         variant="dark"
-        className="text-center text-white"
-        position="bottom"
+        className="footer text-center text-white"
       >
         <span className=" mx-auto">
           If you want to list contact information of anyone who provides

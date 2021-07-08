@@ -24,7 +24,7 @@ const HospitalScreen = () => {
         </Col>
 
         <Col sm={12} md={6} lg={6} xl={3}>
-          <Card>
+          <Card className="mt-4">
             <Card.Body>
               <Card.Title>Dhamtari Christian Hospital</Card.Title>
               <Card.Subtitle className="mb-2 text-muted">
@@ -37,15 +37,15 @@ const HospitalScreen = () => {
             </Card.Body>
           </Card>
         </Col>
-        <div className="aler alert-info text-center blink_me p-3 my-5 h4 text-dark">
-          More Hospitals details will be listed soon...
-        </div>
       </Row>
+      <div className="aler alert-info text-center blink_me p-3 my-5 h4 text-dark">
+        More Hospitals details will be listed soon...
+      </div>
       <Navbar
         bg="dark"
         variant="dark"
-        className="text-center text-white"
-        sticky="bottom"
+        className="text-center text-white footer"
+        position="bottom"
       >
         <span className=" mx-auto">
           If you want to list contact information of Hospital/Doctor than{" "}
