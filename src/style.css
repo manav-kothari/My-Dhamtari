@@ -189,11 +189,11 @@ body {
 
 @media screen and (min-width: 1000px) {
   .card1 {
-    height: 600px;
+    height: 500px;
   }
 
   .card1 .card_image {
-    height: 600px;
+    height: 500px;
     object-fit: contain;
   }
   .card1 .card_title {
