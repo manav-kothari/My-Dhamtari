@@ -72,7 +72,7 @@ const ContactScreen = () => {
           link="/contact/flower"
         />
         <ContactCardComponent
-          title="Wedding related services"
+          title="Wedding Requisites"
           Img={wedding}
           link="/contact/wedding"
         />
