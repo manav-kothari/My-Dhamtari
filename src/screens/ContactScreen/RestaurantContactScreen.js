@@ -9,6 +9,45 @@ const RestaurantContactScreen = () => {
       <h2 className="heading text-center pt-1 my-2">Restaurants:</h2>
       <Row className="row p-2 text-center">
         <Col sm={12} md={6} lg={6} xl={3}>
+          <Card className="mt-4">
+            <Card.Body>
+              <Card.Title>Dhamtari Food Court</Card.Title>
+              <Card.Subtitle className="mb-2 text-muted">
+                Beside Pawan Hardware, Near Jayka Jahan, Dhamtari, Chhattisgarh
+                493773
+              </Card.Subtitle>
+              <Card.Text>Phone : 9329267028, 9425214751</Card.Text>
+              <Card.Link href="https://goo.gl/maps/qCNXCTnzPNEFceeQA">
+                <strong>Directions</strong>
+              </Card.Link>
+              <Card.Link href="https://www.instagram.com/dhamtari_food_court/">
+                <strong>Instagram</strong>
+              </Card.Link>
+            </Card.Body>
+          </Card>
+        </Col>
+        <Col sm={12} md={6} lg={6} xl={3}>
+          <Card className="mt-4">
+            <Card.Body>
+              <Card.Title>Green Restaurant And Cafe</Card.Title>
+              <Card.Subtitle className="mb-2 text-muted">
+                Green Adventure Resort, Gangrel Dam Road, Dhamtari, Chhattisgarh
+                493773
+              </Card.Subtitle>
+              <Card.Text>Phone : 9826912344</Card.Text>
+              <Card.Link href="https://www.google.com/maps/place/Green+Restaurant+And+Cafe/@20.6175723,81.5524017,15z/data=!3m1!4b1!4m5!3m4!1s0x3a2f2798a7b08733:0xca6a10d857742ca9!8m2!3d20.6175725!4d81.5611565">
+                <strong>Directions</strong>
+              </Card.Link>
+              <Card.Link href="https://www.instagram.com/sadda_adda_cg05/">
+                <strong>Instagram</strong>
+              </Card.Link>
+              <Card.Link href="//api.whatsapp.com/send?phone=918305952081">
+                <strong>WhatsApp</strong>
+              </Card.Link>
+            </Card.Body>
+          </Card>
+        </Col>
+        <Col sm={12} md={6} lg={6} xl={3}>
           <Card>
             <Card.Body>
               <Card.Title>Route30 cafe</Card.Title>
@@ -41,27 +80,6 @@ const RestaurantContactScreen = () => {
               </Card.Link>
               <Card.Link href="https://www.instagram.com/sadda_adda_cg05/">
                 <strong>Instagram</strong>
-              </Card.Link>
-            </Card.Body>
-          </Card>
-        </Col>
-        <Col sm={12} md={6} lg={6} xl={3}>
-          <Card className="mt-4">
-            <Card.Body>
-              <Card.Title>Green Restaurant And Cafe</Card.Title>
-              <Card.Subtitle className="mb-2 text-muted">
-                Green Adventure Resort, Gangrel Dam Road, Dhamtari, Chhattisgarh
-                493773
-              </Card.Subtitle>
-              <Card.Text>Phone : 9826912344</Card.Text>
-              <Card.Link href="https://www.google.com/maps/place/Green+Restaurant+And+Cafe/@20.6175723,81.5524017,15z/data=!3m1!4b1!4m5!3m4!1s0x3a2f2798a7b08733:0xca6a10d857742ca9!8m2!3d20.6175725!4d81.5611565">
-                <strong>Directions</strong>
-              </Card.Link>
-              <Card.Link href="https://www.instagram.com/sadda_adda_cg05/">
-                <strong>Instagram</strong>
-              </Card.Link>
-              <Card.Link href="//api.whatsapp.com/send?phone=918305952081">
-                <strong>WhatsApp</strong>
               </Card.Link>
             </Card.Body>
           </Card>

@@ -203,7 +203,7 @@ body {
   }
   .event-card-img-top {
     width: 100%;
-    height: 80vh;
+    height: auto;
   }
 }
 

@@ -29,6 +29,7 @@ import WeddingScreen from "./screens/ContactScreen/WeddingScreen";
 import RestaurantContactScreen from "./screens/ContactScreen/RestaurantContactScreen";
 import AccountScreen from "./screens/ContactScreen/AccountScreen";
 import WaterScreen from "./screens/ContactScreen/WaterScreen";
+import DecorationScreen from "./screens/ContactScreen/DecorationScreen";
 
 function App() {
   return (
@@ -60,6 +61,7 @@ function App() {
         <Route path="/contact/wedding" exact component={WeddingScreen} />
         <Route path="/contact/accounting" exact component={AccountScreen} />
         <Route path="/contact/waterandice" exact component={WaterScreen} />
+        <Route path="/contact/decoration" exact component={DecorationScreen} />
         <Route path="/places" exact component={PlacesScreen} />
         <Route path="/clothingshops" exact component={ClothingShopScreen} />
         <Route path="/electronicshops" exact component={ElectronicShopScreen} />

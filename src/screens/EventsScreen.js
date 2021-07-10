@@ -2,6 +2,7 @@ import React from "react";
 import { Button, Navbar, Card, Row, Col } from "react-bootstrap";
 import Header from "../components/Header";
 import Cake from "../images/event/cake.jpg";
+import Shubham from "../images/event/Shubham.jpg";
 
 const EventsScreen = () => {
   return (
@@ -18,12 +19,20 @@ const EventsScreen = () => {
               variant="top"
               src={Cake}
             />
-            <Card.Title className="text-center mt-2">
-              <h4>
-                {" "}
-                <strong className="text-dark">Cake Workshop</strong>
-              </h4>
-            </Card.Title>
+            <h4>
+              {" "}
+              <strong className="text-dark my-1">Cake Workshop</strong>
+            </h4>
+          </Card>
+        </Col>
+        <Col sm={12} md={6} lg={6} xl={4}>
+          <Card className="my-2 rounded">
+            <Card.Img
+              className="event-card-img-top embed-responsive-item"
+              variant="top"
+              src={Shubham}
+            />
+            <Card.Title className="text-center mt-2"></Card.Title>
           </Card>
         </Col>
       </Row>

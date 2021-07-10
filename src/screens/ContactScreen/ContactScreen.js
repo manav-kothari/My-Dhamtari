@@ -11,6 +11,7 @@ import flower from "../../images/contact/flower.jpg";
 import wedding from "../../images/contact/wedding.jpg";
 import account from "../../images/contact/account.jpg";
 import water from "../../images/contact/water.jpg";
+import decoration from "../../images/contact/decoration.jpg";
 import { Navbar, Button } from "react-bootstrap";
 
 const ContactScreen = () => {
@@ -45,6 +46,11 @@ const ContactScreen = () => {
           title="Accounting Services"
           Img={account}
           link="/contact/accounting"
+        />
+        <ContactCardComponent
+          title="Decoration Services"
+          Img={decoration}
+          link="/contact/decoration"
         />
         <ContactCardComponent
           title="Repairing Services"
