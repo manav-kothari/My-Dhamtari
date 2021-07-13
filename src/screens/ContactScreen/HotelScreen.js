@@ -17,7 +17,7 @@ const FlowerScreen = () => {
               <Card.Subtitle className="mb-2 text-muted">
                 Vivekanand Colony, Street no. 3, Dhamtari, Chhattisgarh 493773
               </Card.Subtitle>
-              <Card.Text>Phone : N/A</Card.Text>
+              <Card.Text>Phone : 8770011589</Card.Text>
 
               <Card.Link href="https://goo.gl/maps/MWCKLr1KN7UnTzteA">
                 <strong>Directions and Photos</strong>
