@@ -20,10 +20,6 @@ const EventsScreen = () => {
               variant="top"
               src={Cake}
             />
-            <h4>
-              {" "}
-              <strong className="text-dark my-1">Cake Workshop</strong>
-            </h4>
           </Card>
         </Col>
         <Col sm={12} md={6} lg={6} xl={4}>
@@ -33,7 +29,6 @@ const EventsScreen = () => {
               variant="top"
               src={english}
             />
-            <Card.Title className="text-center mt-2"></Card.Title>
           </Card>
         </Col>
         <Col sm={12} md={6} lg={6} xl={4}>
@@ -43,7 +38,6 @@ const EventsScreen = () => {
               variant="top"
               src={Shubham}
             />
-            <Card.Title className="text-center mt-2"></Card.Title>
           </Card>
         </Col>
       </Row>

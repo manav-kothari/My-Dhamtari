@@ -30,6 +30,7 @@ import RestaurantContactScreen from "./screens/ContactScreen/RestaurantContactSc
 import AccountScreen from "./screens/ContactScreen/AccountScreen";
 import WaterScreen from "./screens/ContactScreen/WaterScreen";
 import DecorationScreen from "./screens/ContactScreen/DecorationScreen";
+import HotelScreen from "./screens/ContactScreen/HotelScreen";
 
 function App() {
   return (
@@ -62,6 +63,7 @@ function App() {
         <Route path="/contact/accounting" exact component={AccountScreen} />
         <Route path="/contact/waterandice" exact component={WaterScreen} />
         <Route path="/contact/decoration" exact component={DecorationScreen} />
+        <Route path="/contact/hotel" exact component={HotelScreen} />
         <Route path="/places" exact component={PlacesScreen} />
         <Route path="/clothingshops" exact component={ClothingShopScreen} />
         <Route path="/electronicshops" exact component={ElectronicShopScreen} />
