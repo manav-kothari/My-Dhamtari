@@ -14,7 +14,7 @@ const PlacesCardCompnent = ({ link = "", image = "", title = "Title" }) => {
         </a>
         <Card.Body className="text-center p-2">
           <a style={{ color: "#000" }} href={link}>
-            <Card.Title>
+            <Card.Title className="mt-2 mb-0">
               <strong style={{ color: "#000" }} className="text-dark">
                 {title}
               </strong>
