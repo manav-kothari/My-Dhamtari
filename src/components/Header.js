@@ -28,19 +28,20 @@ const Header = ({ location }) => (
     <Navbar className="m-0 p-0 shadow-sm bg-white " sticky="top" bg="white">
       <Nav className="mx-auto">
         <Nav.Link
-          href="/shops"
-          className="navigation py-auto nav-link text-success text-center font-weight-bold"
+          href="/contact"
+          className="navigation nav-link text-center font-weight-bold"
+          style={{ color: "#02B290" }}
         >
-          <AiFillShop size={25} />
-          <small>Shops</small>
+          <IoIosContacts size={25} />
+          <small>Contact</small>
         </Nav.Link>
 
         <Nav.Link
-          href="/events"
-          className="navigation nav-link text-danger text-center font-weight-bold"
+          href="/places"
+          className="navigation nav-link text-warning text-center font-weight-bold"
         >
-          <MdEventNote size={25} />
-          <small>Events</small>
+          <FaSearchLocation size={25} />
+          <small>Places</small>
         </Nav.Link>
 
         <Nav.Link
@@ -52,19 +53,19 @@ const Header = ({ location }) => (
         </Nav.Link>
 
         <Nav.Link
-          href="/places"
-          className="navigation nav-link text-warning text-center font-weight-bold"
+          href="/events"
+          className="navigation nav-link text-danger text-center font-weight-bold"
         >
-          <FaSearchLocation size={25} />
-          <small>Places</small>
+          <MdEventNote size={25} />
+          <small>Events</small>
         </Nav.Link>
+
         <Nav.Link
-          href="/contact"
-          className="navigation nav-link text-center font-weight-bold"
-          style={{ color: "#02B290" }}
+          href="/shops"
+          className="navigation py-auto nav-link text-success text-center font-weight-bold"
         >
-          <IoIosContacts size={25} />
-          <small>Contact</small>
+          <AiFillShop size={25} />
+          <small>Shops</small>
         </Nav.Link>
       </Nav>
     </Navbar>

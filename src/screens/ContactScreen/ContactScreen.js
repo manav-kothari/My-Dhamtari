@@ -21,7 +21,7 @@ const ContactScreen = () => {
       <div className="p-0 m-0">
         <Header />
         <h2 className="heading text-center pt-1 mb-2">
-          <strong>Get Contact Details:</strong>
+          <strong>Contact Details:</strong>
           <h6>
             <small className="text-center">
               (will be adding more details soon.)

@@ -38,7 +38,7 @@ function App() {
       <GlobalStyle />
       <ScrollToTop />
       <Switch>
-        <Route path="/" exact component={ShopScreen} />
+        <Route path="/" exact component={ContactScreen} />
         <Route path="/shops" exact component={ShopScreen} />
         <Route path="/news" exact component={NewsScreen} />
         <Route path="/events" exact component={EventsScreen} />

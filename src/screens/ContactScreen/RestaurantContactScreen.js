@@ -84,6 +84,21 @@ const RestaurantContactScreen = () => {
             </Card.Body>
           </Card>
         </Col>
+        <Col sm={12} md={6} lg={6} xl={3}>
+          <Card className="mt-4">
+            <Card.Body>
+              <Card.Title>Yummy Bites</Card.Title>
+              <Card.Subtitle className="mb-2 text-muted">
+                Dhamtari, Chhattisgarh 493773
+              </Card.Subtitle>
+              <Card.Text>Phone : 8871653651</Card.Text>
+
+              <Card.Link href="https://www.instagram.com/yummy_bites_dhamtari/">
+                <strong>Instagram</strong>
+              </Card.Link>
+            </Card.Body>
+          </Card>
+        </Col>
       </Row>
       <div className="alert alert-info text-center blink_me p-3 my-5 h4 text-dark">
         More details will be listed soon...

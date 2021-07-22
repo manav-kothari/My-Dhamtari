@@ -1,7 +1,7 @@
 import React from "react";
 import { Button, Navbar, Card, Row, Col } from "react-bootstrap";
 import Header from "../components/Header";
-import Cake from "../images/event/cake.jpg";
+import Cake from "../images/event/Cake.jpg";
 import english from "../images/event/english.jpg";
 import Shubham from "../images/event/Shubham.jpg";
 

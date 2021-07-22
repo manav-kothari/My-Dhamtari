@@ -20,7 +20,10 @@ const FlowerScreen = () => {
               <Card.Text>Phone : 8770011589</Card.Text>
 
               <Card.Link href="https://goo.gl/maps/MWCKLr1KN7UnTzteA">
-                <strong>Directions and Photos</strong>
+                <strong>Directions</strong>
+              </Card.Link>
+              <Card.Link href="https://www.instagram.com/mahrana_pratap_resort_dmt">
+                <strong>Instagram</strong>
               </Card.Link>
             </Card.Body>
           </Card>
