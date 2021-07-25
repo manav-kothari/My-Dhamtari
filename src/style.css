@@ -78,6 +78,15 @@ body {
   text-decoration: none;
   color: #000;
 }
+.headerheading {
+  font-weight: 700;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: bold;
+  border: none;
+  text-decoration: none;
+  color: #fff;
+}
 
 .shop {
   background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));

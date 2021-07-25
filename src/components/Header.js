@@ -13,15 +13,14 @@ const Header = ({ location }) => (
         href="/"
         className="mx-auto text-capitalize font-weight-bold "
       >
-        {" "}
         <img
           src={logo}
-          width="42"
-          height="40"
-          className="d-inline-block align-to mx-2 "
+          width="32"
+          height="30"
+          className="d-inline-block align-to mx-2"
           alt="logo"
         />{" "}
-        My Dhamtari
+        <span className="headerheading">My Dhamtari</span>
       </Navbar.Brand>
     </Navbar>
 

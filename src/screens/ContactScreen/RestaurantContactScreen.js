@@ -48,7 +48,7 @@ const RestaurantContactScreen = () => {
           </Card>
         </Col>
         <Col sm={12} md={6} lg={6} xl={3}>
-          <Card>
+          <Card className="mt-4">
             <Card.Body>
               <Card.Title>Route30 cafe</Card.Title>
               <Card.Subtitle className="mb-2 text-muted">
