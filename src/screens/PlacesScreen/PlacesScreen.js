@@ -1,7 +1,8 @@
 import React from "react";
-import { Col, Row, Navbar, Button } from "react-bootstrap";
+import { Col, Row } from "react-bootstrap";
 import Header from "../../components/Header";
 import PlacesCardCompnent from "./PlacesCardCompnent";
+// import Footer from "../../components/Footer";
 
 const PlacesScreen = () => {
   return (
@@ -88,23 +89,7 @@ const PlacesScreen = () => {
           />
         </Col>
       </Row>
-      <Navbar
-        bg="dark"
-        variant="dark"
-        className="text-center text-white"
-        sticky="bottom"
-      >
-        <span className=" mx-auto">
-          If you want to suggest more places than{" "}
-          <Button
-            href="//api.whatsapp.com/send?phone=917415519777"
-            variant="info"
-            className=" text-capitalize btn"
-          >
-            Contact Us
-          </Button>
-        </span>
-      </Navbar>
+      {/* <Footer /> */}
     </>
   );
 };

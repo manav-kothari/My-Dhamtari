@@ -1,13 +1,14 @@
 import React from "react";
+import { Navbar } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <div
-      style={{ backgroundColor: "#000" }}
-      className=" p-0 m-0 text-center text-light"
-    >
-      <small>Developed by Manav Kothari</small>
-    </div>
+    <Link target="_blank" to="//manavkothari.netlify.app">
+      <Navbar className="text-center text-dark" position="bottom">
+        <small className="mx-auto">Developed by Manav Kothari</small>
+      </Navbar>
+    </Link>
   );
 };
 

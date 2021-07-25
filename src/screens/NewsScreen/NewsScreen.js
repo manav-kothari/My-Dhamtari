@@ -1,5 +1,5 @@
 import React from "react";
-import { Row, Col, Button, Navbar } from "react-bootstrap";
+import { Row, Col } from "react-bootstrap";
 import Header from "../../components/Header";
 import patrika from "../../images/news/patrika.PNG";
 import naidunia from "../../images/news/naidunia-logo.png";
@@ -47,23 +47,6 @@ const NewsScreen = () => {
           />
         </Col>
       </Row>
-      <Navbar
-        bg="dark"
-        variant="dark"
-        className="text-center text-white"
-        sticky="bottom"
-      >
-        <span className=" mx-auto">
-          If you want to list your News Website than{" "}
-          <Button
-            href="//api.whatsapp.com/send?phone=917415519777"
-            variant="info"
-            className=" text-capitalize btn"
-          >
-            Contact Us
-          </Button>
-        </span>
-      </Navbar>
     </NewsContainer>
   );
 };

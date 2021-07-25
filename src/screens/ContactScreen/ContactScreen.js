@@ -1,35 +1,52 @@
 import React from "react";
 import Header from "../../components/Header";
 import ContactCardComponent from "./ContactCardComponent";
-import repair from "../../images/contact/repair.jpg";
-import doctor from "../../images/contact/hospital.jpg";
-import restaurant from "../../images/contact/restaurant.jpg";
-import personalcare from "../../images/contact/personalcare.jpg";
-import travel from "../../images/contact/travel.jpg";
-import automobile from "../../images/contact/automobile.jpg";
-import flower from "../../images/contact/flower.jpg";
-import wedding from "../../images/contact/wedding.jpg";
-import account from "../../images/contact/account.jpg";
-import water from "../../images/contact/water.jpg";
-import hotel from "../../images/contact/hotel.jpg";
-import decoration from "../../images/contact/decoration.jpg";
-import { Navbar, Button } from "react-bootstrap";
+import repair from "../../images/contact/repair.svg";
+import doctor from "../../images/contact/doctor.svg";
+import restaurant from "../../images/contact/restaurants.svg";
+import personalcare from "../../images/contact/beauty.svg";
+import travel from "../../images/contact/travel.svg";
+import automobile from "../../images/contact/automobile.svg";
+import flower from "../../images/contact/flower.svg";
+import wedding from "../../images/contact/weddingrequisites.svg";
+import account from "../../images/contact/accountants.svg";
+import water from "../../images/contact/water.svg";
+import hotel from "../../images/contact/hotels.svg";
+import decoration from "../../images/contact/decorator.svg";
+import builder from "../../images/contact/builderscontractors.svg";
+import caterers from "../../images/contact/caterers.svg";
+import computerrepairs from "../../images/contact/computerrepairs.svg";
+import computertraining from "../../images/contact/computertraining.svg";
+import education from "../../images/contact/education.svg";
+import fitness from "../../images/contact/fitness.svg";
+import flexprintingservices from "../../images/contact/flexprintingservices.svg";
+import furniture from "../../images/contact/furniture.svg";
+import generatorsonhire from "../../images/contact/generatorsonhire.svg";
+import housekeeping from "../../images/contact/housekeeping.svg";
+import interiordesigners from "../../images/contact/interiordesigners.svg";
+import ticketingagents from "../../images/contact/ticketingagents.svg";
+import logistics from "../../images/contact/logistics.svg";
+import medicines from "../../images/contact/medicines.svg";
+import paintingcontractors from "../../images/contact/paintingcontractors.svg";
+import pathologylabs from "../../images/contact/pathologylabs.svg";
+import photographers from "../../images/contact/photographers.svg";
+import physiotherapists from "../../images/contact/physiotherapists.svg";
+import realestate from "../../images/contact/realestate.svg";
+import tattooartists from "../../images/contact/tattooartists.svg";
+import towingservices from "../../images/contact/towingservices.svg";
+import wallpapers from "../../images/contact/wallpapers.svg";
+import yogaclasses from "../../images/contact/yogaclasses.svg";
+import graphicdesigners from "../../images/contact/graphicdesigners.svg";
+import civilengineer from "../../images/contact/civilengineer.svg";
 
 const ContactScreen = () => {
   return (
     <>
       <div className="p-0 m-0">
         <Header />
-        <h2 className="heading text-center pt-1 mb-2">
-          <strong>Contact Details:</strong>
-          <h6>
-            <small className="text-center">
-              (will be adding more details soon.)
-            </small>
-          </h6>
-        </h2>
+
         <ContactCardComponent
-          title="Doctors/Hospitals"
+          title="Medical"
           Img={doctor}
           link="/contact/hospitals"
         />
@@ -38,73 +55,143 @@ const ContactScreen = () => {
           Img={restaurant}
           link="/contact/restaurant"
         />
+
+        <ContactCardComponent
+          title="Hotels"
+          Img={hotel}
+          link="/contact/hotel"
+        />
+
+        <ContactCardComponent title="Automobile" Img={automobile} link="/" />
+
+        <ContactCardComponent
+          title="Builder & Contractor"
+          Img={builder}
+          link="/"
+        />
+
+        <ContactCardComponent title="Caterers" Img={caterers} link="/" />
+
+        <ContactCardComponent
+          title="Chartered Accountants"
+          Img={account}
+          link="/"
+        />
+        <ContactCardComponent
+          title="Civil Enginners"
+          Img={civilengineer}
+          link="/"
+        />
+
+        <ContactCardComponent
+          title="Computer Repairs"
+          Img={computerrepairs}
+          link="/"
+        />
+
+        <ContactCardComponent
+          title="Computer training"
+          Img={computertraining}
+          link="/"
+        />
+
+        <ContactCardComponent
+          title="Decorators"
+          Img={decoration}
+          link="/contact/decoration"
+        />
+
+        <ContactCardComponent title="Education" Img={education} link="/" />
+
+        <ContactCardComponent title="Fitness" Img={fitness} link="/" />
+        <ContactCardComponent
+          title="Flex Printing Services"
+          Img={flexprintingservices}
+          link="/"
+        />
+        <ContactCardComponent title="Flowers/Plants" Img={flower} link="/" />
+
+        <ContactCardComponent title="Furniture" Img={furniture} link="/" />
+        <ContactCardComponent
+          title="Generator"
+          Img={generatorsonhire}
+          link="/"
+        />
+        <ContactCardComponent
+          title="Graphic Designers"
+          Img={graphicdesigners}
+          link="/"
+        />
+        <ContactCardComponent
+          title="House Keeping"
+          Img={housekeeping}
+          link="/"
+        />
+
+        <ContactCardComponent
+          title="Interior Designers"
+          Img={interiordesigners}
+          link="/"
+        />
+        <ContactCardComponent
+          title="Ticketing Agents"
+          Img={ticketingagents}
+          link="/"
+        />
+        <ContactCardComponent title="Logistics" Img={logistics} link="/" />
+        <ContactCardComponent title="Medicines" Img={medicines} link="/" />
+        <ContactCardComponent
+          title="Painting Contractors"
+          Img={paintingcontractors}
+          link="/"
+        />
+        <ContactCardComponent
+          title="Pathology Labs"
+          Img={pathologylabs}
+          link="/"
+        />
+        <ContactCardComponent
+          title="Personal Care"
+          Img={personalcare}
+          link="/"
+        />
+        <ContactCardComponent
+          title="Photographers"
+          Img={photographers}
+          link="/"
+        />
+        <ContactCardComponent
+          title="Physiotherapists"
+          Img={physiotherapists}
+          link="/"
+        />
+
+        <ContactCardComponent title="Real Estate" Img={realestate} link="/" />
+        <ContactCardComponent title="Repairing" Img={repair} link="/" />
+
+        <ContactCardComponent
+          title="Tattoo Artists"
+          Img={tattooartists}
+          link="/"
+        />
+        <ContactCardComponent
+          title="Towing Services"
+          Img={towingservices}
+          link="/"
+        />
+        <ContactCardComponent title="Travel" Img={travel} link="/" />
         <ContactCardComponent
           title="Water & Ice"
           Img={water}
           link="/contact/waterandice"
         />
-        <ContactCardComponent
-          title="Accounting Services"
-          Img={account}
-          link="/contact/accounting"
-        />
-        <ContactCardComponent
-          title="Hotel and Resorts"
-          Img={hotel}
-          link="/contact/hotel"
-        />
-        <ContactCardComponent
-          title="Decoration Services"
-          Img={decoration}
-          link="/contact/decoration"
-        />
-        <ContactCardComponent
-          title="Repairing Services"
-          Img={repair}
-          link="/contact/repair"
-        />
-        <ContactCardComponent
-          title="Personal Care Services"
-          Img={personalcare}
-          link="/contact/personalcare"
-        />
-        <ContactCardComponent
-          title="Travel Services"
-          Img={travel}
-          link="/contact/travel"
-        />
-        <ContactCardComponent
-          title="Automobiles Services"
-          Img={automobile}
-          link="/contact/automobile"
-        />
-        <ContactCardComponent
-          title="Flowers/Plants Seller"
-          Img={flower}
-          link="/contact/flower"
-        />
+        <ContactCardComponent title="Wall Papers" Img={wallpapers} link="/" />
         <ContactCardComponent
           title="Wedding Requisites"
           Img={wedding}
-          link="/contact/wedding"
+          link="/"
         />
-        <Navbar
-          bg="dark"
-          variant="dark"
-          className="text-center text-white"
-          sticky="bottom"
-        >
-          <span className=" mx-auto">
-            If you want to list your contact information than{" "}
-            <Button
-              href="//api.whatsapp.com/send?phone=917415519777"
-              variant="info"
-              className=" text-capitalize btn"
-            >
-              Contact Us
-            </Button>
-          </span>
-        </Navbar>
+        <ContactCardComponent title="Yoga Classes" Img={yogaclasses} link="/" />
       </div>
     </>
   );

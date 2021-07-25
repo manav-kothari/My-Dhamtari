@@ -70,7 +70,12 @@ body {
 }
 
 .heading {
-  font-weight: 1000;
+  font-weight: 500;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: bold;
+  border: none;
+  text-decoration: none;
   color: #000;
 }
 
@@ -155,73 +160,84 @@ body {
   opacity: 1;
 }
 
-.card1 {
-  border: none;
-  height: 250px;
-  cursor: pointer;
-  transition: 0.2s;
+.column {
+  float: left;
+  width: 10%;
+  height: 20vh;
+  padding: 30px;
+  margin: auto;
 }
 
-.card1 .card_image {
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.contact {
   width: 100%;
-  height: 250px;
-  object-fit: cover;
 }
 
-.card1 .card_image img {
-  width: inherit;
-  height: inherit;
-  object-fit: cover;
-}
-
-.card1 .card_title {
-  backdrop-filter: blur(50px);
+.contact_title {
   text-align: center;
   font-family: sans-serif;
   font-weight: bold;
-  font-size: 30px;
-  margin-top: -40px;
-  height: 40px;
+  font-size: clamp(0.7rem, 0.7vw, 3rem);
   border: none;
   text-decoration: none;
-  color: #fff;
+  color: #000;
 }
 
 @media screen and (min-width: 1000px) {
-  .card1 {
-    height: 500px;
-  }
-
-  .card1 .card_image {
-    height: 500px;
-    object-fit: contain;
-  }
-  .card1 .card_title {
-    font-size: 50px;
-    margin-top: -70px;
-    height: 70px;
-  }
   .event-card-img-top {
     width: 100%;
     height: auto;
   }
 }
 
-/* .card1:hover {
-  transform: scale(0.9, 0.9) !important;
-  box-shadow: 5px 5px 30px 15px rgba(0, 0, 0, 0.25),
-    -5px -5px 30px 15px rgba(0, 0, 0, 0.22);
-  transition: ease-in-out 0.2s !important;
-} */
-
 .footer {
   position: absolute;
   bottom: 0px;
   left: 0;
   right: 0;
+  background: transparent;
 }
 @media screen and (max-device-width: 375px) {
   .footer {
     position: relative;
+  }
+  .column {
+    float: left;
+    width: 33.33%;
+    height: 20vh;
+    padding: 20px;
+  }
+
+  .contact_title {
+    font-size: 2vh;
+  }
+}
+@media screen and (min-width: 375px) and (max-width: 420px) {
+  .column {
+    float: left;
+    width: 33.33%;
+    height: 20vh;
+    padding: 20px;
+  }
+
+  .contact_title {
+    font-size: 2vh;
+  }
+}
+
+@media screen and (min-width: 420px) and (max-width: 1000px) {
+  .column {
+    float: left;
+    width: 33.33%;
+    height: 25vh;
+    padding: 20px;
+  }
+
+  .contact_title {
+    font-size: 2vh;
   }
 }
