@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 const PlacesCategoryComponent = ({
   link = "/places",
@@ -7,12 +6,12 @@ const PlacesCategoryComponent = ({
   Img = "",
 }) => {
   return (
-    <Link to={link}>
+    <a href={link}>
       <div className="placecatecard">
         <img className="placecateimg" src={Img} alt={title} />
         <p className="placecatetitle">{title}</p>
       </div>
-    </Link>
+    </a>
   );
 };
 
