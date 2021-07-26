@@ -30,7 +30,7 @@ body {
 @media screen and (max-device-width: 480px) and (orientation: portrait) {
   .card-img-top {
     width: 100%;
-    height: 35vh;
+    height: auto;
   }
 
   .vt {
@@ -195,6 +195,34 @@ body {
   text-decoration: none;
   color: #000;
 }
+.placecatecard {
+  margin: 5px auto;
+  width: 450px;
+  height: 250px;
+  cursor: pointer;
+}
+
+.placecatetitle {
+  text-align: center;
+  position: relative;
+  font-family: serif;
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: -20vh;
+  color: #fff;
+}
+
+.placecateimg {
+  width: inherit;
+  height: inherit;
+  object-fit: cover;
+  filter: brightness(60%);
+}
+
+.page {
+  height: 80vh;
+  background: #fcfcfc;
+}
 
 @media screen and (min-width: 1000px) {
   .event-card-img-top {
@@ -224,8 +252,24 @@ body {
   .contact_title {
     font-size: 2vh;
   }
+
+  .placecatecard {
+    margin: 5px auto;
+    width: 290px;
+    height: 170px;
+  }
+
+  .placecatetitle {
+    text-align: center;
+    position: relative;
+    font-family: serif;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: -105px;
+    color: #fff;
+  }
 }
-@media screen and (min-width: 375px) and (max-width: 420px) {
+@media screen and (min-width: 375px) and (max-width: 410px) {
   .column {
     float: left;
     width: 33.33%;
@@ -233,17 +277,29 @@ body {
     padding: 20px;
   }
 
+  .placecatecard {
+    margin: 6px auto;
+    width: 345px;
+    height: 170px;
+  }
+
   .contact_title {
     font-size: 2vh;
   }
 }
 
-@media screen and (min-width: 420px) and (max-width: 1000px) {
+@media screen and (min-width: 410px) and (max-width: 1000px) {
   .column {
     float: left;
     width: 33.33%;
     height: 25vh;
     padding: 20px;
+  }
+
+  .placecatecard {
+    margin: 5px auto;
+    width: 390px;
+    height: 180px;
   }
 
   .contact_title {

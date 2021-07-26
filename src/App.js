@@ -31,6 +31,11 @@ import AccountScreen from "./screens/ContactScreen/AccountScreen";
 import WaterScreen from "./screens/ContactScreen/WaterScreen";
 import DecorationScreen from "./screens/ContactScreen/DecorationScreen";
 import HotelScreen from "./screens/ContactScreen/HotelScreen";
+import FooterMain from "./components/Footer Main/FooterMain";
+import ParksScreen from "./screens/PlacesScreen/ParksScreen";
+import DamsScreens from "./screens/PlacesScreen/DamsScreens";
+import RestaurantsScreens from "./screens/PlacesScreen/RestaurantsScreen";
+import WaterfallsScreen from "./screens/PlacesScreen/WaterfallsScreen";
 
 function App() {
   return (
@@ -65,6 +70,14 @@ function App() {
         <Route path="/contact/decoration" exact component={DecorationScreen} />
         <Route path="/contact/hotel" exact component={HotelScreen} />
         <Route path="/places" exact component={PlacesScreen} />
+        <Route path="/places/parks" exact component={ParksScreen} />
+        <Route path="/places/dams" exact component={DamsScreens} />
+        <Route
+          path="/places/restaurants"
+          exact
+          component={RestaurantsScreens}
+        />
+        <Route path="/places/waterfalls" exact component={WaterfallsScreen} />
         <Route path="/clothingshops" exact component={ClothingShopScreen} />
         <Route path="/electronicshops" exact component={ElectronicShopScreen} />
         <Route path="/giftshops" exact component={GiftShopScreen} />
@@ -75,6 +88,7 @@ function App() {
         <Route path="/product" component={Product} />
         <Route path="/sign-up" component={SignUp} />
       </Switch>
+      <FooterMain />
     </Router>
   );
 }

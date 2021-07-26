@@ -34,6 +34,10 @@ export const HeroContent = styled.div`
   height: calc(100vh - 80px);
   max-height: 100%;
   padding: 0rem calc((100vw - 1300px) / 2);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 `;
 
 export const HeroItems = styled.div`
@@ -43,7 +47,7 @@ export const HeroItems = styled.div`
   align-items: center;
   height: 100vh;
   max-height: 100%;
-  padding: 0 2rem;
+  padding: 0 0.7rem;
   width: 650px;
   color: #fff;
   line-height: 1;
@@ -55,13 +59,12 @@ export const HeroItems = styled.div`
 `;
 
 export const HeroH1 = styled.h1`
-  font-size: clamp(1rem, 7vw, 4rem);
+  font-size: clamp(1.5rem, 7vw, 4rem);
   margin-bottom: 1rem;
-  letter-spacing: 3px;
 `;
 
-export const HeroP = styled.p`
-  font-size: clamp(1.2rem, 3vw, 5rem);
+export const HeroP = styled.h6`
+  font-size: clamp(1.2rem, 3vw, 1rem);
   margin: 0px auto;
   margin-bottom: 2rem;
 `;

@@ -18,8 +18,8 @@ const ShopScreen = () => {
           <HeroItems>
             <HeroH1>My Dhamtari Shops</HeroH1>
             <HeroP className="text-center">
-              Pre-register and get your own website & showcase your products
-              online for Free*
+              Pre-register and get your own website and showcase your products
+              online. Contact us now and get started for FREE
             </HeroP>
             <HeroBtn target="_blank" to="/aboutshop">
               Read More
@@ -27,12 +27,6 @@ const ShopScreen = () => {
           </HeroItems>
         </HeroContent>
       </HeroContainer>
-      <div
-        style={{ backgroundColor: "#000" }}
-        className="text-center text-light m-0 p-0"
-      >
-        <small>*Limited Hosting & 512MB Storage, etc. </small>
-      </div>
     </>
   );
 };

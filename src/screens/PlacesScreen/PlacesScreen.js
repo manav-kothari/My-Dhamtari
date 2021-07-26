@@ -2,14 +2,23 @@ import React from "react";
 import { Col, Row } from "react-bootstrap";
 import Header from "../../components/Header";
 import PlacesCardCompnent from "./PlacesCardCompnent";
-// import Footer from "../../components/Footer";
+import PlacesCategoryComponent from "./PlacesCategoryComponent";
+import Parks from "../../images/places/Parks.jpg";
+import Restaurants from "../../images/places/Restaurants.jpg";
+import Dams from "../../images/places/Dams.jpg";
+import Waterfalls from "../../images/places/Waterfalls.jpg";
+import Nature from "../../images/places/Nature.jpg";
+import Jungle from "../../images/places/jungle.jpg";
+import Cultural from "../../images/places/cultural.jpg";
+import Adventure from "../../images/places/Adventure.webp";
+import WildlifeSanturies from "../../images/places/Wildlife Santuries.jpg";
 
 const PlacesScreen = () => {
   return (
     <>
       <Header />
       <h2 className="text-center pt-1 heading">
-        <strong>Tourist Places:</strong>
+        <strong>Explore Places:</strong>
         <h6>
           <small className="text-center">
             (will be adding more places and details soon.)
@@ -17,28 +26,57 @@ const PlacesScreen = () => {
         </h6>
       </h2>
 
-      <Row className="row p-2 text-center">
-        <Col sm={12} md={6} lg={6} xl={6}>
-          <PlacesCardCompnent
-            title="Mini Goa - Gangrel"
-            image="https://new-img.patrika.com/upload/2018/09/27/dmt__3478592_835x547-m.jpg"
-            link="https://www.google.com/maps/place/Mini+goa/@20.6166782,81.5644312,17z/data=!3m1!4b1!4m5!3m4!1s0x3a2f2772c3317017:0x17a0e613c664fb66!8m2!3d20.6166782!4d81.5644312"
+      <Row className="row text-center">
+        <Col sm={12} md={6} lg={4} xl={4}>
+          <PlacesCategoryComponent
+            link="/places/restaurants"
+            title="Restaurants/Cafe"
+            Img={Restaurants}
           />
         </Col>
-        <Col sm={12} md={6} lg={6} xl={6}>
-          <PlacesCardCompnent
-            title="Rudri Dam"
-            image="https://pbs.twimg.com/media/DVbDHENXkAEbW1X.jpg"
-            link="https://goo.gl/maps/zuc1u8sUPpb9QcuT8"
+
+        <Col sm={12} md={6} lg={4} xl={4}>
+          <PlacesCategoryComponent
+            link="/places/parks"
+            title="Parks"
+            Img={Parks}
           />
         </Col>
-        <Col sm={12} md={6} lg={6} xl={6}>
-          <PlacesCardCompnent
-            title="Murumsilli Dam"
-            image="https://cdn.s3waas.gov.in/s3b5dc4e5d9b495d0196f61d45b26ef33e/uploads/bfi_thumb/2018050215-olwbu4pizjyeafm3fm5gcdcq6o3m1uvfhxss71frm2.jpg"
-            link="https://www.google.com/maps/place/Murumsilli+dam/@20.541179,81.6649182,17z/data=!3m1!4b1!4m5!3m4!1s0x3a2f22ebe1a447c5:0x6be38537d6a679dc!8m2!3d20.541179!4d81.6649182"
+
+        <Col sm={12} md={6} lg={4} xl={4}>
+          <PlacesCategoryComponent
+            link="/places/dams"
+            title="Dams"
+            Img={Dams}
           />
         </Col>
+        <Col sm={12} md={6} lg={4} xl={4}>
+          <PlacesCategoryComponent
+            link="/places/waterfalls"
+            title="Waterfalls"
+            Img={Waterfalls}
+          />
+        </Col>
+        <Col sm={12} md={6} lg={4} xl={4}>
+          <PlacesCategoryComponent
+            title="Wildlife Santuries"
+            Img={WildlifeSanturies}
+          />
+        </Col>
+        <Col sm={12} md={6} lg={4} xl={4}>
+          <PlacesCategoryComponent title="Nature Friendly" Img={Nature} />
+        </Col>
+        <Col sm={12} md={6} lg={4} xl={4}>
+          <PlacesCategoryComponent title="Adventure" Img={Adventure} />
+        </Col>
+        <Col sm={12} md={6} lg={4} xl={4}>
+          <PlacesCategoryComponent title="Jungle Safari & Zoo" Img={Jungle} />
+        </Col>
+        <Col sm={12} md={6} lg={4} xl={4}>
+          <PlacesCategoryComponent title="Cultural" Img={Cultural} />
+        </Col>
+
+        {/* 
         <Col sm={12} md={6} lg={6} xl={6}>
           <PlacesCardCompnent
             title="Onakona"
@@ -67,29 +105,15 @@ const PlacesScreen = () => {
             link="https://www.google.com/maps/place/Shringirishi+Parwat/@20.3128755,81.906724,15z/data=!3m1!4b1!4m5!3m4!1s0x3a2f7267327cb67d:0x3e9dec12fc29ea2!8m2!3d20.3128955!4d81.9154656"
           />
         </Col>
-        <Col sm={12} md={6} lg={6} xl={6}>
-          <PlacesCardCompnent
-            title="Sondhur Dam"
-            image="https://i.ytimg.com/vi/2xfDZsB-SIo/maxresdefault.jpg"
-            link="https://www.google.com/maps/place/Sondhur+Dam/@20.2289265,82.102266,17z/data=!4m5!3m4!1s0x3a2f794e3933824b:0x5dc52bbe065abe2!8m2!3d20.2289265!4d82.1044547"
-          />
-        </Col>
-        <Col sm={12} md={6} lg={6} xl={6}>
-          <PlacesCardCompnent
-            title="Dudhawa Dam"
-            image="https://media-cdn.tripadvisor.com/media/photo-s/15/af/84/a7/very-beautiful-place.jpg"
-            link="https://www.google.com/maps/place/Dudhawa+Dam,+Kormud,+Chhattisgarh+493778/@20.307778,81.771667,17z/data=!3m1!4b1!4m5!3m4!1s0x3a2f0e0c4323b0f9:0xd7d5dd1dc7ce396d!8m2!3d20.307778!4d81.771667"
-          />
-        </Col>
+        
         <Col sm={12} md={6} lg={6} xl={6}>
           <PlacesCardCompnent
             title="Sitanadi Wildlife Sanctuary"
             image="https://3.bp.blogspot.com/-V14NUzqchDo/VsDuzemFi4I/AAAAAAAABNM/_JPaXDiH6p0/s640/EChhattisgarh-Sitanadi_Wildlife_Sanctuary%2B%25284%2529.jpg"
             link="https://goo.gl/maps/Bdg1R8ib3Kn9EiB98"
           />
-        </Col>
+        </Col> */}
       </Row>
-      {/* <Footer /> */}
     </>
   );
 };

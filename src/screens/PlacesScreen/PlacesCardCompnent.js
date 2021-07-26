@@ -4,7 +4,7 @@ import { Card } from "react-bootstrap";
 const PlacesCardCompnent = ({ link = "", image = "", title = "Title" }) => {
   return (
     <>
-      <Card className="my-2 p-2 mx-2  rounded cards">
+      <Card className="my-2 p-2 mx-1  rounded cards">
         <a style={{ color: "#000" }} href={link}>
           <Card.Img
             className="card-img-top embed-responsive-item"
