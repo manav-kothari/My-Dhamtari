@@ -83,20 +83,7 @@ const PlacesScreen = () => {
             link="https://www.google.com/maps/place/Onakona,+Chhattisgarh/@20.5776541,81.4169054,14z/data=!3m1!4b1!4m5!3m4!1s0x3a2edea4095f09cd:0x686d54416f383621!8m2!3d20.5806789!4d81.4416324"
           />
         </Col>
-        <Col sm={12} md={6} lg={6} xl={6}>
-          <PlacesCardCompnent
-            title="Narhara Waterfall"
-            image="https://content.jdmagicbox.com/comp/dhamtari/x2/9999p7722.7722.190826203741.s5x2/catalogue/narhara-waterfall-dhamtari-yttngu2o8v.jpg?clr=#422e24?fit=around%7C270%3A130&crop=270%3A130%3B%2A%2C%2A"
-            link="https://www.google.com/maps/place/Narhara+Waterfall/@20.6000762,81.7840634,17z/data=!3m1!4b1!4m5!3m4!1s0x3a2f3ea60058b4af:0x49b277112973f6af!8m2!3d20.6000762!4d81.7840634"
-          />
-        </Col>
-        <Col sm={12} md={6} lg={6} xl={6}>
-          <PlacesCardCompnent
-            title="Gahandar Waterfall"
-            image="https://indiasthan.cdnpro.in/states/cg/narayanpur/tourist_place/kuyemari-waterfall-229293.jpg"
-            link="https://www.google.com/maps/place/Gahandar+waterfall/@20.5981444,81.7290575,12z/data=!4m9!1m2!2m1!1sghandar+waterfall!3m5!1s0x3a2f3d1558e52469:0xa712bed45e6163c3!8m2!3d20.5981576!4d81.7290377!15sChFnaGFuZGFyIHdhdGVyZmFsbFoTIhFnaGFuZGFyIHdhdGVyZmFsbJIBEnRvdXJpc3RfYXR0cmFjdGlvbpoBJENoZERTVWhOTUc5blMwVkpRMEZuU1VSVFgzRk1PRGgzUlJBQg"
-          />
-        </Col>
+        
         <Col sm={12} md={6} lg={6} xl={6}>
           <PlacesCardCompnent
             title="Shringirishi Parwat"

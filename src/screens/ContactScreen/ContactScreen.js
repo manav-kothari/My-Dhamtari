@@ -38,6 +38,7 @@ import wallpapers from "../../images/contact/wallpapers.svg";
 import yogaclasses from "../../images/contact/yogaclasses.svg";
 import graphicdesigners from "../../images/contact/graphicdesigners.svg";
 import civilengineer from "../../images/contact/civilengineer.svg";
+import { Navbar, Button } from "react-bootstrap";
 
 const ContactScreen = () => {
   return (
@@ -193,7 +194,20 @@ const ContactScreen = () => {
         />
         <ContactCardComponent title="Yoga Classes" Img={yogaclasses} link="/" />
       </div>
-      <small style={{ visibility: "hidden" }}>.</small>
+      {/* <small style={{ visibility: "hidden" }}>.</small> */}
+      <Navbar className=" text-center text-dark mx-auto pt-4">
+        <span className="mx-auto">
+          If you want to list any contact detail here for FREE then{" "}
+          <Button
+            variant="info"
+            href="//api.whatsapp.com/send?phone=917415519777"
+            className=" text-capitalize btn my-1"
+          >
+            Contact Us
+          </Button>
+          <br />
+        </span>
+      </Navbar>
     </>
   );
 };

@@ -1,5 +1,5 @@
 import React from "react";
-import { Card, Row, Col, Navbar, Button } from "react-bootstrap";
+import { Card, Row, Col } from "react-bootstrap";
 import Header from "../../components/Header";
 
 const RestaurantContactScreen = () => {
@@ -103,22 +103,6 @@ const RestaurantContactScreen = () => {
       <div className="alert alert-info text-center blink_me p-3 my-5 h4 text-dark">
         More details will be listed soon...
       </div>
-      <Navbar
-        bg="dark"
-        variant="dark"
-        className="footer text-center text-white"
-      >
-        <span className=" mx-auto">
-          If you want to list contact information of any restaurant than{" "}
-          <Button
-            href="//api.whatsapp.com/send?phone=917415519777"
-            variant="info"
-            className=" text-capitalize btn"
-          >
-            Contact Us
-          </Button>
-        </span>
-      </Navbar>
     </div>
   );
 };
