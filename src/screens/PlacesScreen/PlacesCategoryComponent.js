@@ -1,5 +1,4 @@
 import React from "react";
-import { Card } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
 const PlacesCategoryComponent = ({
@@ -10,7 +9,7 @@ const PlacesCategoryComponent = ({
   return (
     <Link to={link}>
       <div className="placecatecard">
-        <img className="placecateimg" src={Img} />
+        <img className="placecateimg" src={Img} alt={title} />
         <p className="placecatetitle">{title}</p>
       </div>
     </Link>

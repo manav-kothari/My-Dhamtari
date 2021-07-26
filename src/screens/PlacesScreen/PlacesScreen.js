@@ -1,7 +1,6 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import Header from "../../components/Header";
-import PlacesCardCompnent from "./PlacesCardCompnent";
 import PlacesCategoryComponent from "./PlacesCategoryComponent";
 import Parks from "../../images/places/Parks.jpg";
 import Restaurants from "../../images/places/Restaurants.jpg";

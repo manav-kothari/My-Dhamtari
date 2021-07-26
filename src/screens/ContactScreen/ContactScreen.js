@@ -21,7 +21,7 @@ import education from "../../images/contact/education.svg";
 import fitness from "../../images/contact/fitness.svg";
 import flexprintingservices from "../../images/contact/flexprintingservices.svg";
 import furniture from "../../images/contact/furniture.svg";
-import generatorsonhire from "../../images/contact/generatorsonhire.svg";
+// import generatorsonhire from "../../images/contact/generatorsonhire.svg";
 import housekeeping from "../../images/contact/housekeeping.svg";
 import interiordesigners from "../../images/contact/interiordesigners.svg";
 import ticketingagents from "../../images/contact/ticketingagents.svg";
