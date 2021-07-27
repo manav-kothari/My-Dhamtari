@@ -58,13 +58,6 @@ const PlacesScreen = () => {
         </Col>
         <Col sm={12} md={6} lg={4} xl={4}>
           <PlacesCategoryComponent
-            link="/places/wildlife"
-            title="Wildlife Santuries"
-            Img={WildlifeSanturies}
-          />
-        </Col>
-        <Col sm={12} md={6} lg={4} xl={4}>
-          <PlacesCategoryComponent
             link="/places/nature"
             title="Nature Friendly"
             Img={Nature}
@@ -75,6 +68,13 @@ const PlacesScreen = () => {
             link="/places/adventure"
             title="Adventure"
             Img={Adventure}
+          />
+        </Col>
+        <Col sm={12} md={6} lg={4} xl={4}>
+          <PlacesCategoryComponent
+            link="/places/wildlife"
+            title="Wildlife Santuries"
+            Img={WildlifeSanturies}
           />
         </Col>
         <Col sm={12} md={6} lg={4} xl={4}>
