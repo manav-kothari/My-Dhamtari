@@ -36,6 +36,9 @@ import ParksScreen from "./screens/PlacesScreen/ParksScreen";
 import DamsScreens from "./screens/PlacesScreen/DamsScreens";
 import RestaurantsScreens from "./screens/PlacesScreen/RestaurantsScreen";
 import WaterfallsScreen from "./screens/PlacesScreen/WaterfallsScreen";
+import WildllifeSanturyScreen from "./screens/PlacesScreen/WildllifeSanturyScreen";
+import NatureFriendlyScreens from "./screens/PlacesScreen/NatureFriendlyScreens";
+import AdventureScreen from "./screens/PlacesScreen/AdventureScreen";
 
 function App() {
   return (
@@ -78,6 +81,13 @@ function App() {
           component={RestaurantsScreens}
         />
         <Route path="/places/waterfalls" exact component={WaterfallsScreen} />
+        <Route
+          path="/places/wildlife"
+          exact
+          component={WildllifeSanturyScreen}
+        />
+        <Route path="/places/nature" exact component={NatureFriendlyScreens} />
+        <Route path="/places/adventure" exact component={AdventureScreen} />
         <Route path="/clothingshops" exact component={ClothingShopScreen} />
         <Route path="/electronicshops" exact component={ElectronicShopScreen} />
         <Route path="/giftshops" exact component={GiftShopScreen} />
