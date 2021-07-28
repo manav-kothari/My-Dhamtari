@@ -38,6 +38,9 @@ import wallpapers from "../../images/contact/wallpapers.svg";
 import yogaclasses from "../../images/contact/yogaclasses.svg";
 import graphicdesigners from "../../images/contact/graphicdesigners.svg";
 import civilengineer from "../../images/contact/civilengineer.svg";
+import electricity from "../../images/contact/electricity.png";
+import helpline from "../../images/contact/helpline.png";
+import police from "../../images/contact/police.v1.jpeg";
 import { Navbar, Button } from "react-bootstrap";
 
 const ContactScreen = () => {
@@ -46,6 +49,21 @@ const ContactScreen = () => {
       <Header />
 
       <div className="page">
+        <ContactCardComponent
+          title="HelpLine"
+          Img={helpline}
+          link="/contact/helpline"
+        />
+        <ContactCardComponent
+          title="Police"
+          Img={police}
+          link="/contact/police"
+        />
+        <ContactCardComponent
+          title="Electricity"
+          Img={electricity}
+          link="/contact/electricity"
+        />
         <ContactCardComponent
           title="Medical"
           Img={doctor}
