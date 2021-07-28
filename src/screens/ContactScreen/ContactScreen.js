@@ -76,7 +76,7 @@ const ContactScreen = () => {
         <ContactCardComponent
           title="Chartered Accountants"
           Img={account}
-          link="/"
+          link="/contact/accounting"
         />
         <ContactCardComponent
           title="Civil Engineers"
