@@ -63,15 +63,23 @@ const ContactScreen = () => {
           link="/contact/hotel"
         />
 
-        <ContactCardComponent title="Automobile" Img={automobile} link="/" />
+        <ContactCardComponent
+          title="Automobile"
+          Img={automobile}
+          link="/contact/comingsoon"
+        />
 
         <ContactCardComponent
           title="Builder & Contractor"
           Img={builder}
-          link="/"
+          link="/contact/comingsoon"
         />
 
-        <ContactCardComponent title="Caterers" Img={caterers} link="/" />
+        <ContactCardComponent
+          title="Caterers"
+          Img={caterers}
+          link="/contact/comingsoon"
+        />
 
         <ContactCardComponent
           title="Chartered Accountants"
@@ -81,19 +89,19 @@ const ContactScreen = () => {
         <ContactCardComponent
           title="Civil Engineers"
           Img={civilengineer}
-          link="/"
+          link="/contact/comingsoon"
         />
 
         <ContactCardComponent
           title="Computer Repairs"
           Img={computerrepairs}
-          link="/"
+          link="/contact/comingsoon"
         />
 
         <ContactCardComponent
           title="Computer training"
           Img={computertraining}
-          link="/"
+          link="/contact/comingsoon"
         />
 
         <ContactCardComponent
@@ -102,97 +110,141 @@ const ContactScreen = () => {
           link="/contact/decoration"
         />
 
-        <ContactCardComponent title="Education" Img={education} link="/" />
+        <ContactCardComponent
+          title="Education"
+          Img={education}
+          link="/contact/comingsoon"
+        />
 
-        <ContactCardComponent title="Fitness" Img={fitness} link="/" />
+        <ContactCardComponent
+          title="Fitness"
+          Img={fitness}
+          link="/contact/comingsoon"
+        />
         <ContactCardComponent
           title="Flex Printing Services"
           Img={flexprintingservices}
-          link="/"
+          link="/contact/comingsoon"
         />
-        <ContactCardComponent title="Flowers/Plants" Img={flower} link="/" />
+        <ContactCardComponent
+          title="Flowers/Plants"
+          Img={flower}
+          link="/contact/comingsoon"
+        />
 
-        <ContactCardComponent title="Furniture" Img={furniture} link="/" />
+        <ContactCardComponent
+          title="Furniture"
+          Img={furniture}
+          link="/contact/comingsoon"
+        />
         {/* <ContactCardComponent
           title="Generator"
           Img={generatorsonhire}
-          link="/"
+          link="/contact/comingsoon"
         /> */}
         <ContactCardComponent
           title="Graphic Designers"
           Img={graphicdesigners}
-          link="/"
+          link="/contact/comingsoon"
         />
         <ContactCardComponent
           title="House Keeping"
           Img={housekeeping}
-          link="/"
+          link="/contact/comingsoon"
         />
 
         <ContactCardComponent
           title="Interior Designers"
           Img={interiordesigners}
-          link="/"
+          link="/contact/comingsoon"
         />
         <ContactCardComponent
           title="Ticketing Agents"
           Img={ticketingagents}
-          link="/"
+          link="/contact/comingsoon"
         />
-        <ContactCardComponent title="Logistics" Img={logistics} link="/" />
-        <ContactCardComponent title="Medicines" Img={medicines} link="/" />
+        <ContactCardComponent
+          title="Logistics"
+          Img={logistics}
+          link="/contact/comingsoon"
+        />
+        <ContactCardComponent
+          title="Medicines"
+          Img={medicines}
+          link="/contact/comingsoon"
+        />
         <ContactCardComponent
           title="Painting Contractors"
           Img={paintingcontractors}
-          link="/"
+          link="/contact/comingsoon"
         />
         <ContactCardComponent
           title="Pathology Labs"
           Img={pathologylabs}
-          link="/"
+          link="/contact/comingsoon"
         />
         <ContactCardComponent
           title="Personal Care"
           Img={personalcare}
-          link="/"
+          link="/contact/comingsoon"
         />
         <ContactCardComponent
           title="Photographers"
           Img={photographers}
-          link="/"
+          link="/contact/comingsoon"
         />
         <ContactCardComponent
           title="Physio Therapists"
           Img={physiotherapists}
-          link="/"
+          link="/contact/comingsoon"
         />
 
-        <ContactCardComponent title="Real Estate" Img={realestate} link="/" />
-        <ContactCardComponent title="Repairing" Img={repair} link="/" />
+        <ContactCardComponent
+          title="Real Estate"
+          Img={realestate}
+          link="/contact/comingsoon"
+        />
+        <ContactCardComponent
+          title="Repairing"
+          Img={repair}
+          link="/contact/comingsoon"
+        />
 
         <ContactCardComponent
           title="Tattoo Artists"
           Img={tattooartists}
-          link="/"
+          link="/contact/comingsoon"
         />
         <ContactCardComponent
           title="Towing Services"
           Img={towingservices}
-          link="/"
+          link="/contact/comingsoon"
         />
-        <ContactCardComponent title="Travel" Img={travel} link="/" />
+        <ContactCardComponent
+          title="Travel"
+          Img={travel}
+          link="/contact/comingsoon"
+        />
         <ContactCardComponent
           title="Water & Ice"
           Img={water}
           link="/contact/waterandice"
         />
-        <ContactCardComponent title="Wall Papers" Img={wallpapers} link="/" />
+        <ContactCardComponent
+          title="Wall Papers"
+          Img={wallpapers}
+          link="/contact/comingsoon"
+        />
         <ContactCardComponent
           title="Wedding Requisites"
           Img={wedding}
-          link="/"
+          link="/contact/comingsoon"
         />
-        <ContactCardComponent title="Yoga Classes" Img={yogaclasses} link="/" />
+        <ContactCardComponent
+          title="Yoga Classes"
+          Img={yogaclasses}
+          link="/contact/comingsoon"
+        />
       </div>
       {/* <small style={{ visibility: "hidden" }}>.</small> */}
       <Navbar className=" text-center text-dark mx-auto pt-4">

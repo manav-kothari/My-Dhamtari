@@ -39,6 +39,7 @@ import WaterfallsScreen from "./screens/PlacesScreen/WaterfallsScreen";
 import WildllifeSanturyScreen from "./screens/PlacesScreen/WildllifeSanturyScreen";
 import NatureFriendlyScreens from "./screens/PlacesScreen/NatureFriendlyScreens";
 import AdventureScreen from "./screens/PlacesScreen/AdventureScreen";
+import ContactComingSoon from "./screens/ContactScreen/ContactComingSoon";
 
 function App() {
   return (
@@ -51,6 +52,7 @@ function App() {
         <Route path="/news" exact component={NewsScreen} />
         <Route path="/events" exact component={EventsScreen} />
         <Route path="/contact" exact component={ContactScreen} />
+        <Route path="/contact/comingsoon" exact component={ContactComingSoon} />
         <Route path="/contact/hospitals" exact component={HospitalScreen} />
         <Route
           path="/contact/restaurant"
