@@ -1,5 +1,5 @@
 import React from "react";
-import { Footer, InfoSection, Navbar } from "../../components";
+import { InfoSection, Navbar } from "../../components";
 import { homeObjFour, homeObjThree } from "./Data";
 
 function Product() {
@@ -8,7 +8,6 @@ function Product() {
       <Navbar />
       <InfoSection {...homeObjThree} />
       <InfoSection {...homeObjFour} />
-      <Footer />
     </>
   );
 }

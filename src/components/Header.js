@@ -48,7 +48,7 @@ const Header = ({ location }) => (
           className="navigation nav-link text-info text-center font-weight-bold"
         >
           <GiNewspaper size={25} />
-          <small>Paper</small>
+          <small>News</small>
         </Nav.Link>
 
         <Nav.Link

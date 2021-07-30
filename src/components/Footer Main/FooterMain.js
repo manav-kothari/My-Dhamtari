@@ -38,6 +38,20 @@ function FooterMain() {
           <FaFacebook />
         </SocialIconLink>
       </SocialIcons>
+      <span className="mt-2 text-white">
+        Developed by{" "}
+        <a
+          href="https://manavkothari.netlify.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-white"
+        >
+          Manav Kothari
+        </a>
+      </span>
+      <small className="text-muted mb-1">
+        Views: 4.15K (updated on 30/07/21)
+      </small>
     </FooterContainer>
   );
 }

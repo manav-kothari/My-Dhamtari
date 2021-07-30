@@ -1,5 +1,5 @@
 import React from "react";
-import { Footer, InfoSection, Navbar, Pricing } from "../../components";
+import { InfoSection, Navbar, Pricing } from "../../components";
 import { homeObjTwo } from "./Data";
 
 function PricingScreen() {
@@ -8,7 +8,6 @@ function PricingScreen() {
       <Navbar />
       <Pricing />
       <InfoSection {...homeObjTwo} />
-      <Footer />
     </>
   );
 }

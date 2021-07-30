@@ -1,6 +1,8 @@
 import React from "react";
-import { Card, Row, Col } from "react-bootstrap";
+import { Row, Col } from "react-bootstrap";
 import Header from "../../components/Header";
+import ContactDetailCard from "./ContactDetailCard";
+import hoteldata from "./data/hotel";
 
 const HotelScreen = () => {
   return (
@@ -10,44 +12,11 @@ const HotelScreen = () => {
       <div className="">
         {" "}
         <Row className="row p-2 text-center">
-          <Col sm={12} md={6} lg={6} xl={3}>
-            <Card>
-              <Card.Body>
-                <Card.Title>Hotel Shimon Inn</Card.Title>
-                <Card.Subtitle className="mb-2 text-muted">
-                  NH 26, Shubhash Nagar, Dhamtari, Chhattisgarh 493773
-                </Card.Subtitle>
-                <Card.Text>Phone : 07722236281</Card.Text>
-
-                <Card.Link href="https://www.google.com/maps/place/shimon+inn,+NH26,+Subhash+Nagar,+Dhamtari,+Chhattisgarh+493773/@20.7048463,81.5390458,17z/data=!4m2!3m1!1s0x3a2f2872c1fbde0f:0x9fe3f40f82c4194e">
-                  <strong>Directions</strong>
-                </Card.Link>
-                <Card.Link href="https://www.instagram.com/hotel_shimon_inn_/">
-                  <strong>Instagram</strong>
-                </Card.Link>
-              </Card.Body>
-            </Card>
-          </Col>
-          <Col sm={12} md={6} lg={6} xl={3}>
-            <Card className="mt-4">
-              <Card.Body>
-                <Card.Title>
-                  Maharana Pratap marriage garden and resort
-                </Card.Title>
-                <Card.Subtitle className="mb-2 text-muted">
-                  Vivekanand Colony, Street no. 3, Dhamtari, Chhattisgarh 493773
-                </Card.Subtitle>
-                <Card.Text>Phone : 8770011589</Card.Text>
-
-                <Card.Link href="https://goo.gl/maps/MWCKLr1KN7UnTzteA">
-                  <strong>Directions</strong>
-                </Card.Link>
-                <Card.Link href="https://www.instagram.com/mahrana_pratap_resort_dmt">
-                  <strong>Instagram</strong>
-                </Card.Link>
-              </Card.Body>
-            </Card>
-          </Col>
+          {hoteldata.map((categorydata, index) => (
+            <Col key={index} sm={12} md={6} lg={6} xl={3}>
+              <ContactDetailCard categorydata={categorydata} />
+            </Col>
+          ))}
         </Row>
         <div className="aler alert-info text-center blink_me p-3 my-5 h4 text-dark">
           More Hotels details will be listed soon...

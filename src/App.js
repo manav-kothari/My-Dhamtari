@@ -3,17 +3,13 @@ import GlobalStyle from "./globalStyles";
 import Home from "./pages/HomePage/Home";
 import PricingScreen from "./pages/Pricing/PricingScreen";
 import Product from "./pages/Product/Product";
-import SignUp from "./pages/SignUp/SignUp";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import ScrollToTop from "./components/ScrollToTop";
 import BakeryShopScreen from "./screens/BakeryShopScreen";
-// import CategoriesScreen from "./screens/CategoriesScreen";
 import ClothingShopScreen from "./screens/ClothingShopScreen";
 import ElectronicShopScreen from "./screens/ElectronicShopScreen";
-
 import GiftShopScreen from "./screens/GiftShopScreen";
 import EventsScreen from "./screens/EventsScreen";
-
 import NewsScreen from "./screens/NewsScreen/NewsScreen";
 import ShopComingSoonScreen from "./screens/ShopComingSoonScreen";
 import ShopScreen from "./screens/ShopScreen/ShopScreen";
@@ -108,7 +104,6 @@ function App() {
         <Route path="/aboutshop" exact component={Home} />
         <Route path="/pricing" component={PricingScreen} />
         <Route path="/product" component={Product} />
-        <Route path="/sign-up" component={SignUp} />
       </Switch>
       <FooterMain />
     </Router>

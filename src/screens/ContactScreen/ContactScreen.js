@@ -65,7 +65,7 @@ const ContactScreen = () => {
           link="/contact/electricity"
         />
         <ContactCardComponent
-          title="Medical"
+          title="Hospitals & Clincs"
           Img={doctor}
           link="/contact/hospitals"
         />

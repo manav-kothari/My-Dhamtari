@@ -4,6 +4,8 @@ import Header from "../../components/Header";
 import PlacesCardCompnent from "./PlacesCardCompnent";
 import aati from "../../images/places/aati.jpg";
 import trino from "../../images/places/trino.jpg";
+import cg05 from "../../images/places/cg05.jpg";
+import rajgharana from "../../images/places/rajgharana.webp";
 
 const RestaurantsScreen = () => {
   return (
@@ -23,6 +25,13 @@ const RestaurantsScreen = () => {
             title="Aati kya khandala"
             image={aati}
             link="https://goo.gl/maps/Vwdn4Fzd3xvirQwv8"
+          />
+        </Col>
+        <Col sm={12} md={6} lg={4} xl={4}>
+          <PlacesCardCompnent
+            title="CG 05 Restaurant"
+            image={cg05}
+            link="https://www.google.com/maps/place/CG+05+Restaurant+DMT,+Gangrel+Dam+Rd,+Itwari+Bazar,+Dhamtari,+Chhattisgarh+493773/@20.6965379,81.5433487,17z/data=!4m2!3m1!1s0x3a2f29b776b46525:0x92f903fff5b66621"
           />
         </Col>
         <Col sm={12} md={6} lg={4} xl={4}>
@@ -62,9 +71,16 @@ const RestaurantsScreen = () => {
         </Col>
         <Col sm={12} md={6} lg={4} xl={4}>
           <PlacesCardCompnent
-            title="Puttu Veg"
-            image="https://scontent.fbho1-2.fna.fbcdn.net/v/t1.18169-9/12144663_1628894367383234_8119173195675213425_n.jpg?_nc_cat=103&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=jgRK0Gm4WqoAX9cdetf&tn=1Kfqevv5ZJWMEAge&_nc_ht=scontent.fbho1-2.fna&oh=fe1b805f072305435cd4d526744f2671&oe=6125C757"
+            title="Puttu Restaurant"
+            image="https://10619-2.s.cdn12.com/rests/small/w550/h367/330_508316099.jpg"
             link="https://goo.gl/maps/yNsXiFoZhGgMEzFm6"
+          />
+        </Col>
+        <Col sm={12} md={6} lg={4} xl={4}>
+          <PlacesCardCompnent
+            title="Rajgharana Family Restaurant"
+            image={rajgharana}
+            link="https://www.google.com/maps/place/Rajgharana+Family+Restaurant,+Nahar+Naka+Chowk,+Dhamtari+Road,+Dani+Tola,+Dhamtari,+Chhattisgarh+493773/@20.6890072,81.5633536,15z/data=!4m2!3m1!1s0x3a2f262c694c8b0b:0x352ba53f6bfa08a8"
           />
         </Col>
         <Col sm={12} md={6} lg={4} xl={4}>
