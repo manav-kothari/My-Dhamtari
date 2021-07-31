@@ -39,6 +39,9 @@ import ContactComingSoon from "./screens/ContactScreen/ContactComingSoon";
 import HelplineScreen from "./screens/ContactScreen/HelplineScreen";
 import PoliceScreen from "./screens/ContactScreen/PoliceScreen";
 import ElectricityScreen from "./screens/ContactScreen/ElectricityScreen";
+import CaterersScreen from "./screens/ContactScreen/CaterersScreen";
+import CivilEngineerScreen from "./screens/ContactScreen/CivilEngineerScreen";
+import ComputerSellandRepairScreen from "./screens/ContactScreen/ComputerSellandRepairScreen";
 
 function App() {
   return (
@@ -80,6 +83,17 @@ function App() {
         <Route path="/contact/waterandice" exact component={WaterScreen} />
         <Route path="/contact/decoration" exact component={DecorationScreen} />
         <Route path="/contact/hotel" exact component={HotelScreen} />
+        <Route path="/contact/caterer" exact component={CaterersScreen} />
+        <Route
+          path="/contact/civilengineer"
+          exact
+          component={CivilEngineerScreen}
+        />
+        <Route
+          path="/contact/computersellandrepair"
+          exact
+          component={ComputerSellandRepairScreen}
+        />
         <Route path="/places" exact component={PlacesScreen} />
         <Route path="/places/parks" exact component={ParksScreen} />
         <Route path="/places/dams" exact component={DamsScreens} />

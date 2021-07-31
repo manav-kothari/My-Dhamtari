@@ -27,24 +27,19 @@ const DecorationScreen = () => {
         </Col>
       </Row>
       <div className="aler alert-info text-center blink_me p-3 my-5 h4 text-dark">
-        More details will be listed soon...
+        Contact details will be listed soon...
       </div>
-      <Navbar
-        bg="dark"
-        variant="dark"
-        className="text-center text-white"
-        fixed="bottom"
-      >
-        <span className=" mx-auto">
-          If you want to list contact information of anyone who provides
-          services regarding decoration then{" "}
+      <Navbar className=" text-center text-dark mx-auto pt-4">
+        <span className="mx-auto">
+          If you want to list any contact detail here for FREE then{" "}
           <Button
-            href="//api.whatsapp.com/send?phone=917415519777"
             variant="info"
-            className=" text-capitalize btn"
+            href="//api.whatsapp.com/send?phone=917415519777"
+            className=" text-capitalize btn my-1"
           >
             Contact Us
           </Button>
+          <br />
         </span>
       </Navbar>
     </div>

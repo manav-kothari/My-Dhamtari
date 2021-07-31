@@ -1,12 +1,12 @@
 import React from "react";
-import { Card, Row, Col } from "react-bootstrap";
+import { Card, Row, Col, Navbar, Button } from "react-bootstrap";
 import Header from "../../components/Header";
 
 const AccountScreen = () => {
   return (
     <div>
       <Header />
-      <div className="page">
+      <div className="">
         {" "}
         <h3 className="heading text-center pt-1 my-2">
           Accounting related services:
@@ -32,8 +32,21 @@ const AccountScreen = () => {
           </Col>
         </Row>
         <div className="aler alert-info text-center blink_me p-3 my-5 h4 text-dark">
-          More details will be listed soon...
+          Contact details will be listed soon...
         </div>
+        <Navbar className=" text-center text-dark mx-auto pt-4">
+          <span className="mx-auto">
+            If you want to list any contact detail here for FREE then{" "}
+            <Button
+              variant="info"
+              href="//api.whatsapp.com/send?phone=917415519777"
+              className=" text-capitalize btn my-1"
+            >
+              Contact Us
+            </Button>
+            <br />
+          </span>
+        </Navbar>
       </div>
     </div>
   );

@@ -32,9 +32,16 @@ function Pricing() {
                 <PricingCardIcon>
                   <GiRock />
                 </PricingCardIcon>
-                <PricingCardPlan>Starter Plan</PricingCardPlan>
+                <PricingCardPlan className="text-center">
+                  Starter Plan:{" "}
+                  <small>
+                    <s>₹ 999/-</s>
+                  </small>
+                </PricingCardPlan>
                 <PricingCardCost>FREE</PricingCardCost>
                 {/* <PricingCardLength>per month</PricingCardLength> */}
+                <span>(Limited time deal)</span>
+
                 <PricingCardFeatures>
                   <PricingCardFeature>Shared RAM</PricingCardFeature>
                   <PricingCardFeature>512MB of storage</PricingCardFeature>

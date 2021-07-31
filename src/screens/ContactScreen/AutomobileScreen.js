@@ -1,30 +1,34 @@
 import React from "react";
-import { Navbar, Button } from "react-bootstrap";
+import { Navbar, Button, Row, Col } from "react-bootstrap";
 import Header from "../../components/Header";
+import automobileservicedata from "./data/automobileservice";
+import ContactDetailCard from "./ContactDetailCard";
 
 const AutomobileScreen = () => {
   return (
     <div>
       <Header />
+      <Row className="row p-2 text-center">
+        {automobileservicedata.map((categorydata, index) => (
+          <Col key={index} sm={12} md={6} lg={6} xl={3}>
+            <ContactDetailCard categorydata={categorydata} />
+          </Col>
+        ))}
+      </Row>
       <div className="aler alert-info text-center blink_me p-3 my-5 h4 text-dark">
         Contact details will be listed soon...
       </div>
-      <Navbar
-        bg="dark"
-        variant="dark"
-        className="text-center text-white"
-        fixed="bottom"
-      >
-        <span className=" mx-auto">
-          If you want to list the contact information of anyone who sells a car,
-          bike, etc. or provides services regarding automobiles, then{" "}
+      <Navbar className=" text-center text-dark mx-auto pt-4">
+        <span className="mx-auto">
+          If you want to list any contact detail here for FREE then{" "}
           <Button
-            href="//api.whatsapp.com/send?phone=917415519777"
             variant="info"
-            className=" text-capitalize btn"
+            href="//api.whatsapp.com/send?phone=917415519777"
+            className=" text-capitalize btn my-1"
           >
             Contact Us
           </Button>
+          <br />
         </span>
       </Navbar>
     </div>

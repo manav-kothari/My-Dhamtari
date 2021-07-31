@@ -1,5 +1,5 @@
 import React from "react";
-import { Row, Col } from "react-bootstrap";
+import { Row, Col, Navbar, Button } from "react-bootstrap";
 import Header from "../../components/Header";
 import ContactDetailCard from "./ContactDetailCard";
 import hoteldata from "./data/hotel";
@@ -18,9 +18,22 @@ const HotelScreen = () => {
             </Col>
           ))}
         </Row>
-        <div className="aler alert-info text-center blink_me p-3 my-5 h4 text-dark">
+        <div className="alert alert-info text-center blink_me p-3 my-5 h4 text-dark">
           More Hotels details will be listed soon...
         </div>
+        <Navbar className=" text-center text-dark mx-auto pt-4">
+          <span className="mx-auto">
+            If you want to list any contact detail here for FREE then{" "}
+            <Button
+              variant="info"
+              href="//api.whatsapp.com/send?phone=917415519777"
+              className=" text-capitalize btn my-1"
+            >
+              Contact Us
+            </Button>
+            <br />
+          </span>
+        </Navbar>
       </div>
     </div>
   );

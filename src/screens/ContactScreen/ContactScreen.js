@@ -84,7 +84,7 @@ const ContactScreen = () => {
         <ContactCardComponent
           title="Automobile"
           Img={automobile}
-          link="/contact/comingsoon"
+          link="/contact/automobile"
         />
 
         <ContactCardComponent
@@ -96,7 +96,7 @@ const ContactScreen = () => {
         <ContactCardComponent
           title="Caterers"
           Img={caterers}
-          link="/contact/comingsoon"
+          link="/contact/caterer"
         />
 
         <ContactCardComponent
@@ -107,13 +107,13 @@ const ContactScreen = () => {
         <ContactCardComponent
           title="Civil Engineers"
           Img={civilengineer}
-          link="/contact/comingsoon"
+          link="/contact/civilengineer"
         />
 
         <ContactCardComponent
-          title="Computer Repairs"
+          title="Computer Sell & Repair"
           Img={computerrepairs}
-          link="/contact/comingsoon"
+          link="/contact/computersellandrepair"
         />
 
         <ContactCardComponent
