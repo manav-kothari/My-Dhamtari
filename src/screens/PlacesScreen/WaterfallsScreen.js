@@ -38,7 +38,7 @@ const WaterfallsScreen = () => {
               link="https://goo.gl/maps/d9EhewcGZSY2UPLU8"
             />
           </Col>
-          <Col sm={12} md={6} lg={6} xl={6}>
+          {/* <Col sm={12} md={6} lg={6} xl={6}>
             <PlacesCardCompnent
               title="Tirathgarh Waterfall"
               image="https://lh5.googleusercontent.com/p/AF1QipOxMD_NmL-QHFpSfcyB3KSJ_AX4uf7qpQNeWDCZ=w408-h272-k-no"
@@ -58,7 +58,7 @@ const WaterfallsScreen = () => {
               image="https://upload.wikimedia.org/wikipedia/commons/c/cd/Mendri-Ghumar_Waterfalls_taken_on_27_Aug_2017.jpg"
               link="https://goo.gl/maps/EiDXq5ANKcT8y1io8"
             />
-          </Col>
+          </Col> */}
         </Row>
       </div>
     </>

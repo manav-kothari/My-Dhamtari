@@ -13,7 +13,7 @@ import account from "../../images/contact/accountants.svg";
 import water from "../../images/contact/water.svg";
 import hotel from "../../images/contact/hotels.svg";
 import decoration from "../../images/contact/decorator.svg";
-import builder from "../../images/contact/builderscontractors.svg";
+// import builder from "../../images/contact/builderscontractors.svg";
 import caterers from "../../images/contact/caterers.svg";
 import computerrepairs from "../../images/contact/computerrepairs.svg";
 import computertraining from "../../images/contact/computertraining.svg";
@@ -32,14 +32,16 @@ import pathologylabs from "../../images/contact/pathologylabs.svg";
 import photographers from "../../images/contact/photographers.svg";
 import physiotherapists from "../../images/contact/physiotherapists.svg";
 import realestate from "../../images/contact/realestate.svg";
-import tattooartists from "../../images/contact/tattooartists.svg";
+// import tattooartists from "../../images/contact/tattooartists.svg";
 import towingservices from "../../images/contact/towingservices.svg";
 import wallpapers from "../../images/contact/wallpapers.svg";
 import yogaclasses from "../../images/contact/yogaclasses.svg";
 import graphicdesigners from "../../images/contact/graphicdesigners.svg";
-import civilengineer from "../../images/contact/civilengineer.svg";
+import civilengineer from "../../images/contact/architects.svg";
+import dairy from "../../images/contact/milkproducts.svg";
 import electricity from "../../images/contact/electricity.png";
 import helpline from "../../images/contact/helpline.png";
+import electronics from "../../images/contact/electronics.png";
 import police from "../../images/contact/police.v1.jpeg";
 import { Navbar, Button } from "react-bootstrap";
 
@@ -80,18 +82,22 @@ const ContactScreen = () => {
           Img={hotel}
           link="/contact/hotel"
         />
-
+        <ContactCardComponent
+          title="Architects"
+          Img={civilengineer}
+          link="/contact/civilengineer"
+        />
         <ContactCardComponent
           title="Automobile"
           Img={automobile}
           link="/contact/automobile"
         />
 
-        <ContactCardComponent
+        {/* <ContactCardComponent
           title="Builder & Contractor"
           Img={builder}
           link="/contact/comingsoon"
-        />
+        /> */}
 
         <ContactCardComponent
           title="Caterers"
@@ -103,11 +109,6 @@ const ContactScreen = () => {
           title="Chartered Accountants"
           Img={account}
           link="/contact/accounting"
-        />
-        <ContactCardComponent
-          title="Civil Engineers"
-          Img={civilengineer}
-          link="/contact/civilengineer"
         />
 
         <ContactCardComponent
@@ -122,6 +123,8 @@ const ContactScreen = () => {
           link="/contact/comingsoon"
         />
 
+        <ContactCardComponent title="Dairy" Img={dairy} link="/contact/dairy" />
+
         <ContactCardComponent
           title="Decorators"
           Img={decoration}
@@ -131,6 +134,12 @@ const ContactScreen = () => {
         <ContactCardComponent
           title="Education"
           Img={education}
+          link="/contact/education"
+        />
+
+        <ContactCardComponent
+          title="Electronics Shops"
+          Img={electronics}
           link="/contact/comingsoon"
         />
 
@@ -191,6 +200,7 @@ const ContactScreen = () => {
           Img={medicines}
           link="/contact/comingsoon"
         />
+
         <ContactCardComponent
           title="Painting Contractors"
           Img={paintingcontractors}
@@ -228,11 +238,12 @@ const ContactScreen = () => {
           link="/contact/comingsoon"
         />
 
-        <ContactCardComponent
+        {/* <ContactCardComponent
           title="Tattoo Artists"
           Img={tattooartists}
           link="/contact/comingsoon"
-        />
+        /> */}
+
         <ContactCardComponent
           title="Towing Services"
           Img={towingservices}

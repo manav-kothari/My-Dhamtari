@@ -1,16 +1,17 @@
 import React from "react";
 import { Navbar, Button, Row, Col } from "react-bootstrap";
 import Header from "../../components/Header";
-import civilengineerdata from "./data/civilengineer";
+import schooldata from "./data/school";
 import ContactDetailCard from "./ContactDetailCard";
 
-const CivilEngineerScreen = () => {
+const EducationScreen = () => {
   return (
     <div>
       <Header />
-      <div className="page">
+      <div className="">
+        {" "}
         <Row className="row p-2 text-center">
-          {civilengineerdata.map((categorydata, index) => (
+          {schooldata.map((categorydata, index) => (
             <Col key={index} sm={12} md={6} lg={6} xl={3}>
               <ContactDetailCard categorydata={categorydata} />
             </Col>
@@ -37,4 +38,4 @@ const CivilEngineerScreen = () => {
   );
 };
 
-export default CivilEngineerScreen;
+export default EducationScreen;

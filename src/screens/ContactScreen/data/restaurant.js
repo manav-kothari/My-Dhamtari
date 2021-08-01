@@ -39,7 +39,7 @@ const restaurantdata = [
   },
   {
     _id: "4",
-    title: "Route30 cafe",
+    title: "Sadda Adda Cafe",
     address:
       "Aastha Complex, In front of Sahu Sadan Rudri, Dhamtari, Chhattisgarh 493773",
     number1: "9691581113",

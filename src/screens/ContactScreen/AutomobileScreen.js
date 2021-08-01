@@ -16,7 +16,7 @@ const AutomobileScreen = () => {
         ))}
       </Row>
       <div className="aler alert-info text-center blink_me p-3 my-5 h4 text-dark">
-        Contact details will be listed soon...
+        More details will be listed soon...
       </div>
       <Navbar className=" text-center text-dark mx-auto pt-4">
         <span className="mx-auto">
