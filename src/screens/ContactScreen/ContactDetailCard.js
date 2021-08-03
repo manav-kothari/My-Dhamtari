@@ -17,6 +17,9 @@ const ContactDetailCard = ({ categorydata }) => {
       <Card className="my-2">
         <Card.Body>
           <Card.Title>{categorydata.title}</Card.Title>
+          <Card.Text className="mb-2 text-dark">
+            {categorydata.description}
+          </Card.Text>
           <Card.Subtitle className="mb-2 text-muted">
             {categorydata.address}
           </Card.Subtitle>

@@ -8,7 +8,7 @@ const PostOfficeScreen = () => {
       <Header />
       <div className="page">
         {" "}
-        <h3 className="heading text-center pt-1 my-2">Post Office Office:</h3>
+        <h3 className="heading text-center pt-1 my-2">Post Office:</h3>
         <Row className="row p-2 text-center">
           <Col sm={12} md={6} lg={6} xl={3}>
             <Card className="my-2">

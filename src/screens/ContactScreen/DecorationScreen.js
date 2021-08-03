@@ -6,9 +6,7 @@ const DecorationScreen = () => {
   return (
     <div>
       <Header />
-      <h3 className="heading text-center pt-1 my-2">
-        Accounting related services:
-      </h3>
+      <h3 className="heading text-center pt-1 my-2">Decoration services:</h3>
       <Row className="row p-2 text-center">
         <Col sm={12} md={6} lg={6} xl={3}>
           <Card>

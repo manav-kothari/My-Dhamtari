@@ -8,7 +8,7 @@ const FurnitureScreen = () => {
   return (
     <div>
       <Header />
-      <h3 className="heading text-center pt-1 my-2">furnitures & Resorts:</h3>
+      <h3 className="heading text-center pt-1 my-2">Furniture & Interior:</h3>
       <div className="">
         {" "}
         <Row className="row p-2 text-center">

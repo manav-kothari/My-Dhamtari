@@ -4,10 +4,12 @@ import Header from "../../components/Header";
 import computershopsdata from "./data/computershops";
 import ContactDetailCard from "./ContactDetailCard";
 
-const ComputerSellandRepairScreen = () => {
+const ComputerShopsScreen = () => {
   return (
     <div>
       <Header />
+      <h2 className="heading text-center pt-1 my-2">Computer Shops:</h2>
+
       <Row className="row p-2 text-center">
         {computershopsdata.map((categorydata, index) => (
           <Col key={index} sm={12} md={6} lg={6} xl={3}>
@@ -35,4 +37,4 @@ const ComputerSellandRepairScreen = () => {
   );
 };
 
-export default ComputerSellandRepairScreen;
+export default ComputerShopsScreen;

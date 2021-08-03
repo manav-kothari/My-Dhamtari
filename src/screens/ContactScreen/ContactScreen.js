@@ -8,7 +8,7 @@ import personalcare from "../../images/contact/beauty.svg";
 import travel from "../../images/contact/travel.svg";
 import automobile from "../../images/contact/automobile.svg";
 // import flower from "../../images/contact/flower.svg";
-import wedding from "../../images/contact/weddingrequisites.svg";
+// import wedding from "../../images/contact/weddingrequisites.svg";
 import account from "../../images/contact/accountants.svg";
 import water from "../../images/contact/water.svg";
 import hotel from "../../images/contact/hotels.svg";
@@ -50,6 +50,7 @@ import postoffice from "../../images/contact/postoffice.png";
 import telephone from "../../images/contact/telephone.png";
 import fire from "../../images/contact/fire.png";
 import bloodbank from "../../images/contact/bloodbank.jpg";
+import bhawan from "../../images/contact/bhawan.jpg";
 import vastushastra from "../../images/contact/VastuShastra.png";
 import police from "../../images/contact/police.v1.jpeg";
 import { Navbar, Button } from "react-bootstrap";
@@ -119,6 +120,12 @@ const ContactScreen = () => {
           link="/contact/automobile"
         />
 
+        <ContactCardComponent
+          title="Bhawans"
+          Img={bhawan}
+          link="/contact/bhawan"
+        />
+
         {/* <ContactCardComponent
           title="Borewell Contractors"
           Img={borewell}
@@ -170,7 +177,7 @@ const ContactScreen = () => {
         <ContactCardComponent
           title="Computer Training"
           Img={computertraining}
-          link="/contact/comingsoon"
+          link="/contact/computertraining"
         />
 
         <ContactCardComponent title="Dairy" Img={dairy} link="/contact/dairy" />
@@ -254,12 +261,12 @@ const ContactScreen = () => {
         <ContactCardComponent
           title="Medicines"
           Img={medicines}
-          link="/contact/comingsoon"
+          link="/contact/medicine"
         />
         <ContactCardComponent
           title="Mobile Shops"
           Img={mobile}
-          link="/contact/comingsoon"
+          link="/contact/mobileshops"
         />
 
         {/* <ContactCardComponent
@@ -270,7 +277,7 @@ const ContactScreen = () => {
         <ContactCardComponent
           title="Pathology Labs"
           Img={pathologylabs}
-          link="/contact/comingsoon"
+          link="/contact/pathology"
         />
         <ContactCardComponent
           title="Personal Care"
@@ -280,7 +287,7 @@ const ContactScreen = () => {
         <ContactCardComponent
           title="Photographers"
           Img={photographers}
-          link="/contact/comingsoon"
+          link="/contact/photographers"
         />
         <ContactCardComponent
           title="Physio Therapists"
@@ -313,7 +320,7 @@ const ContactScreen = () => {
         <ContactCardComponent
           title="Travel"
           Img={travel}
-          link="/contact/comingsoon"
+          link="/contact/travel"
         />
         <ContactCardComponent
           title="Vastu Shastra"
@@ -330,15 +337,15 @@ const ContactScreen = () => {
           Img={wallpapers}
           link="/contact/comingsoon"
         /> */}
-        <ContactCardComponent
+        {/* <ContactCardComponent
           title="Wedding Requisites"
           Img={wedding}
           link="/contact/comingsoon"
-        />
+        /> */}
         <ContactCardComponent
           title="Yoga Classes"
           Img={yogaclasses}
-          link="/contact/comingsoon"
+          link="/contact/yoga"
         />
       </div>
       {/* <small style={{ visibility: "hidden" }}>.</small> */}

@@ -46,13 +46,20 @@ import EducationScreen from "./screens/ContactScreen/EducationScreen";
 import DairyScreen from "./screens/ContactScreen/DairyScreen";
 import FireBrigadeScreen from "./screens/ContactScreen/FireBrigadeScreen";
 import TelephoneScreen from "./screens/ContactScreen/TelephoneScreen";
-import PostOfficeScreen from "./screens/ContactScreen/PostOfficeScree";
+import PostOfficeScreen from "./screens/ContactScreen/PostOfficeScreen";
 import ComputerRepairScreen from "./screens/ContactScreen/ComputerRepairScreen";
 import carOnHireScreen from "./screens/ContactScreen/CarOnHire";
 import ElectronicShopsScreen from "./screens/ContactScreen/ElectronicShopsScreen";
 import FitnessScreen from "./screens/ContactScreen/Fitness";
 import BloodBankScreen from "./screens/ContactScreen/BloodBank";
 import FurnitureScreen from "./screens/ContactScreen/FurnitureScreen";
+import ComputerTrainingScreen from "./screens/ContactScreen/ComputerTrainingScreen";
+import MedicineScreen from "./screens/ContactScreen/MedicineScreen";
+import MobileShopsScreen from "./screens/ContactScreen/MobileShopsScreen";
+import PathologyScreen from "./screens/ContactScreen/PathologyLab";
+import PhotographersScreen from "./screens/ContactScreen/PhotographersScreen";
+import BhawanScreen from "./screens/ContactScreen/BhawanScreen";
+import YogaScreen from "./screens/ContactScreen/YogaScreen";
 
 function App() {
   return (
@@ -126,10 +133,30 @@ function App() {
           component={ComputerRepairScreen}
         />
         <Route
+          path="/contact/computertraining"
+          exact
+          component={ComputerTrainingScreen}
+        />
+        <Route
           path="/contact/electronicshops"
           exact
           component={ElectronicShopsScreen}
         />
+        <Route
+          path="/contact/mobileshops"
+          exact
+          component={MobileShopsScreen}
+        />
+        <Route
+          path="/contact/photographers"
+          exact
+          component={PhotographersScreen}
+        />
+        <Route path="/contact/bhawan" exact component={BhawanScreen} />
+        <Route path="/contact/yoga" exact component={YogaScreen} />
+        <Route path="/contact/travel" exact component={TravelScreen} />
+        <Route path="/contact/pathology" exact component={PathologyScreen} />
+        <Route path="/contact/medicine" exact component={MedicineScreen} />
         <Route path="/contact/furniture" exact component={FurnitureScreen} />
         <Route path="/contact/education" exact component={EducationScreen} />
         <Route path="/contact/fitness" exact component={FitnessScreen} />

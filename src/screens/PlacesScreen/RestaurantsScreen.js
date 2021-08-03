@@ -99,6 +99,13 @@ const RestaurantsScreen = () => {
         </Col>
         <Col sm={12} md={6} lg={4} xl={4}>
           <PlacesCardCompnent
+            title="Saheb Swadi Shahanshah"
+            image="https://10619-2.s.cdn12.com/rests/small/w312/h280/315_508920282.jpg"
+            link="https://www.google.com/maps/place/Sadda+Adda/@20.6700774,81.5467161,15z/data=!3m1!4b1!4m5!3m4!1s0x3a2f273297c3f2b5:0x1d0328d5a93e5a33!8m2!3d20.6700782!4d81.5554666"
+          />
+        </Col>
+        <Col sm={12} md={6} lg={4} xl={4}>
+          <PlacesCardCompnent
             title="Sandeep Restaurant"
             image="https://content3.jdmagicbox.com/comp/dhamtari/q7/9999p7722.7722.180308191954.e4q7/catalogue/swastik-bhojnalay-dhamtari-74prc.jpg"
             link="https://goo.gl/maps/nKpYEWLnhXSzf53G8"

@@ -7,7 +7,7 @@ const HospitalScreen = () => {
   return (
     <div>
       <Header />
-      <h2 className="heading text-center pt-1 my-2">Hospitals:</h2>
+      <h2 className="heading text-center pt-1 my-2">Hospitals & Clinics:</h2>
       <div className="">
         <Row className="row p-2 text-center">
           {hospitaldata.map((categorydata, index) => (

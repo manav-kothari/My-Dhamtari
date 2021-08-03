@@ -8,8 +8,9 @@ const CaterersScreen = () => {
   return (
     <div>
       <Header />
-      <div className="page">
-        {" "}
+      <div className="">
+        <h2 className="heading text-center pt-1 my-2">Caterers:</h2>
+
         <Row className="row p-2 text-center">
           {catererdata.map((categorydata, index) => (
             <Col key={index} sm={12} md={6} lg={6} xl={3}>

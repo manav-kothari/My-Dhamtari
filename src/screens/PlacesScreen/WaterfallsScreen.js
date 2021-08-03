@@ -28,7 +28,7 @@ const WaterfallsScreen = () => {
           </Col>
         </Row>
         <h3 className="text-center mx-1 mt-2 heading">
-          Waterfalls around Dhamtari:
+          Waterfalls Near Dhamtari:
         </h3>
         <Row className="row p-2 text-center">
           <Col sm={12} md={6} lg={6} xl={6}>
@@ -36,6 +36,13 @@ const WaterfallsScreen = () => {
               title="Ghatarani Waterfall"
               image="https://media-cdn.tripadvisor.com/media/photo-s/08/4e/19/c4/jatmai-temple.jpg"
               link="https://goo.gl/maps/d9EhewcGZSY2UPLU8"
+            />
+          </Col>
+          <Col sm={12} md={6} lg={6} xl={6}>
+            <PlacesCardCompnent
+              title="Siyadevi Waterfall"
+              image="https://raw.githubusercontent.com/sumitc91/sumitc91.github.io/master/Blogs/028c36b8-b641-4c05-ab27-ef265820ca67_Siyadevi-Waterfall.jpg"
+              link="https://goo.gl/maps/cwhH3THCNPRYx2ke7"
             />
           </Col>
           {/* <Col sm={12} md={6} lg={6} xl={6}>

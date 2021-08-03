@@ -2,6 +2,7 @@ import React from "react";
 import { Row, Col } from "react-bootstrap";
 import Header from "../../components/Header";
 import patrika from "../../images/news/patrika.PNG";
+import prakharsamachar from "../../images/news/prakharsamachar.jpeg";
 import naidunia from "../../images/news/naidunia-logo.png";
 import nb from "../../images/news/navbharat.jpg";
 import haribhoomi from "../../images/news/haribhoomi.jpg";
@@ -44,6 +45,13 @@ const NewsScreen = () => {
             name="Patrika"
             image={patrika}
             link="https://epaper.patrika.com/chhattisgarh/dhamtari"
+          />
+        </Col>
+        <Col sm={12} md={6} lg={6} xl={12}>
+          <NewsCardComponent
+            name={prakharsamachar}
+            image="https://epaper.prakharsamachar.com/assets/images/prakhar_samachar_logo.jpeg"
+            link="https://epaper.prakharsamachar.com/"
           />
         </Col>
       </Row>

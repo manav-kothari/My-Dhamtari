@@ -1,17 +1,17 @@
 import React from "react";
 import { Navbar, Button, Row, Col } from "react-bootstrap";
 import Header from "../../components/Header";
-import electronicshopsdata from "./data/electronicshops";
+import computertrainingdata from "./data/computertraining";
 import ContactDetailCard from "./ContactDetailCard";
 
-const ElectronicShopsScreen = () => {
+const ComputerTrainingScreen = () => {
   return (
     <div>
       <Header />
-      <h2 className="heading text-center pt-1 my-2">Electronics Shops:</h2>
+      <h2 className="heading text-center pt-1 my-2">Computer Training:</h2>
 
       <Row className="row p-2 text-center">
-        {electronicshopsdata.map((categorydata, index) => (
+        {computertrainingdata.map((categorydata, index) => (
           <Col key={index} sm={12} md={6} lg={6} xl={3}>
             <ContactDetailCard categorydata={categorydata} />
           </Col>
@@ -37,4 +37,4 @@ const ElectronicShopsScreen = () => {
   );
 };
 
-export default ElectronicShopsScreen;
+export default ComputerTrainingScreen;
