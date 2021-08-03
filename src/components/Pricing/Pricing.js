@@ -67,7 +67,7 @@ function Pricing() {
                 <PricingCardPlan>Gold Plan</PricingCardPlan>
                 <PricingCardCost>Pay as you go</PricingCardCost>
                 <PricingCardFeatures>
-                  <PricingCardFeature>Cutomised Design</PricingCardFeature>
+                  <PricingCardFeature>Customised Design</PricingCardFeature>
                   <PricingCardFeature>Storage as per need</PricingCardFeature>
                   <PricingCardFeature>
                     RAM & Bandwith as per need
