@@ -1,4 +1,4 @@
-const computersellandrepairdata = [
+const computershopsdata = [
   {
     _id: "1",
     title: "Planet IT",
@@ -25,4 +25,4 @@ const computersellandrepairdata = [
   },
 ];
 
-export default computersellandrepairdata;
+export default computershopsdata;

@@ -35,7 +35,7 @@ function Pricing() {
                 <PricingCardPlan className="text-center">
                   Starter Plan:{" "}
                   <small>
-                    <s>₹ 999/-</s>
+                    <s>₹ 777/-</s>
                   </small>
                 </PricingCardPlan>
                 <PricingCardCost>FREE</PricingCardCost>
@@ -43,11 +43,13 @@ function Pricing() {
                 <span>(Limited time deal)</span>
 
                 <PricingCardFeatures>
-                  <PricingCardFeature>Shared RAM</PricingCardFeature>
+                  <PricingCardFeature>Basic Design</PricingCardFeature>
                   <PricingCardFeature>512MB of storage</PricingCardFeature>
-                  <PricingCardFeature>End-to-end encryption</PricingCardFeature>
                   <PricingCardFeature>
-                    Many more exciting features
+                    Limited RAM & Bandwith
+                  </PricingCardFeature>
+                  <PricingCardFeature>
+                    Products Sort, Filter, etc. features
                   </PricingCardFeature>
                 </PricingCardFeatures>
                 <Button primary>Contact Us</Button>
@@ -65,9 +67,11 @@ function Pricing() {
                 <PricingCardPlan>Gold Plan</PricingCardPlan>
                 <PricingCardCost>Pay as you go</PricingCardCost>
                 <PricingCardFeatures>
-                  <PricingCardFeature>Dedicated RAM</PricingCardFeature>
+                  <PricingCardFeature>Cutomised Design</PricingCardFeature>
                   <PricingCardFeature>Storage as per need</PricingCardFeature>
-                  <PricingCardFeature>End-to-end encryption</PricingCardFeature>
+                  <PricingCardFeature>
+                    RAM & Bandwith as per need
+                  </PricingCardFeature>
                   <PricingCardFeature>
                     More Features as per requirment
                   </PricingCardFeature>

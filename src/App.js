@@ -41,9 +41,18 @@ import PoliceScreen from "./screens/ContactScreen/PoliceScreen";
 import ElectricityScreen from "./screens/ContactScreen/ElectricityScreen";
 import CaterersScreen from "./screens/ContactScreen/CaterersScreen";
 import CivilEngineerScreen from "./screens/ContactScreen/CivilEngineerScreen";
-import ComputerSellandRepairScreen from "./screens/ContactScreen/ComputerSellandRepairScreen";
+import ComputerShopsScreen from "./screens/ContactScreen/ComputerShopsScreen";
 import EducationScreen from "./screens/ContactScreen/EducationScreen";
 import DairyScreen from "./screens/ContactScreen/DairyScreen";
+import FireBrigadeScreen from "./screens/ContactScreen/FireBrigadeScreen";
+import TelephoneScreen from "./screens/ContactScreen/TelephoneScreen";
+import PostOfficeScreen from "./screens/ContactScreen/PostOfficeScree";
+import ComputerRepairScreen from "./screens/ContactScreen/ComputerRepairScreen";
+import carOnHireScreen from "./screens/ContactScreen/CarOnHire";
+import ElectronicShopsScreen from "./screens/ContactScreen/ElectronicShopsScreen";
+import FitnessScreen from "./screens/ContactScreen/Fitness";
+import BloodBankScreen from "./screens/ContactScreen/BloodBank";
+import FurnitureScreen from "./screens/ContactScreen/FurnitureScreen";
 
 function App() {
   return (
@@ -59,10 +68,17 @@ function App() {
         <Route path="/contact/helpline" exact component={HelplineScreen} />
         <Route path="/contact/police" exact component={PoliceScreen} />
         <Route
+          path="/contact/firebrigade"
+          exact
+          component={FireBrigadeScreen}
+        />
+        <Route path="/contact/telephone" exact component={TelephoneScreen} />
+        <Route
           path="/contact/electricity"
           exact
           component={ElectricityScreen}
         />
+        <Route path="/contact/postoffice" exact component={PostOfficeScreen} />
         <Route path="/contact/comingsoon" exact component={ContactComingSoon} />
         <Route path="/contact/hospitals" exact component={HospitalScreen} />
         <Route
@@ -86,18 +102,37 @@ function App() {
         <Route path="/contact/decoration" exact component={DecorationScreen} />
         <Route path="/contact/hotel" exact component={HotelScreen} />
         <Route path="/contact/caterer" exact component={CaterersScreen} />
+        <Route
+          path="/contact/vastushastra"
+          exact
+          component={CivilEngineerScreen}
+        />
+        <Route path="/contact/bloodbank" exact component={BloodBankScreen} />
         <Route path="/contact/dairy" exact component={DairyScreen} />
         <Route
           path="/contact/civilengineer"
           exact
           component={CivilEngineerScreen}
         />
+        <Route path="/contact/caronhire" exact component={carOnHireScreen} />
         <Route
-          path="/contact/computersellandrepair"
+          path="/contact/computershops"
           exact
-          component={ComputerSellandRepairScreen}
+          component={ComputerShopsScreen}
         />
+        <Route
+          path="/contact/computerrepair"
+          exact
+          component={ComputerRepairScreen}
+        />
+        <Route
+          path="/contact/electronicshops"
+          exact
+          component={ElectronicShopsScreen}
+        />
+        <Route path="/contact/furniture" exact component={FurnitureScreen} />
         <Route path="/contact/education" exact component={EducationScreen} />
+        <Route path="/contact/fitness" exact component={FitnessScreen} />
         <Route path="/places" exact component={PlacesScreen} />
         <Route path="/places/parks" exact component={ParksScreen} />
         <Route path="/places/dams" exact component={DamsScreens} />

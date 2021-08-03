@@ -1,15 +1,15 @@
 import React from "react";
 import { Navbar, Button, Row, Col } from "react-bootstrap";
 import Header from "../../components/Header";
-import computersellandrepairdata from "./data/computersellandrepair";
+import computerrepairdata from "./data/computerrepair";
 import ContactDetailCard from "./ContactDetailCard";
 
-const ComputerSellandRepairScreen = () => {
+const ComputerRepairScreen = () => {
   return (
     <div>
       <Header />
       <Row className="row p-2 text-center">
-        {computersellandrepairdata.map((categorydata, index) => (
+        {computerrepairdata.map((categorydata, index) => (
           <Col key={index} sm={12} md={6} lg={6} xl={3}>
             <ContactDetailCard categorydata={categorydata} />
           </Col>
@@ -35,4 +35,4 @@ const ComputerSellandRepairScreen = () => {
   );
 };
 
-export default ComputerSellandRepairScreen;
+export default ComputerRepairScreen;

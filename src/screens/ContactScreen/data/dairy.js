@@ -1,4 +1,4 @@
-const catererdata = [
+const dairydata = [
   {
     _id: "1",
     title: "Aabhivadhya Milks",
@@ -12,4 +12,4 @@ const catererdata = [
   },
 ];
 
-export default catererdata;
+export default dairydata;

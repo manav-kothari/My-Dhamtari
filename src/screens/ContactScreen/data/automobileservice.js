@@ -12,6 +12,18 @@ const automobileservicedata = [
     instagram: "",
     whatsapp: "",
   },
+  {
+    _id: "1",
+    title: "Royal car Sringar",
+    address:
+      "Jagdalpur Road, Near Ambedkar Chowk, Dhamtari, Chhattisgarh 493773",
+    number1: "896262369",
+    number2: "",
+    number3: "",
+    directions: "https://goo.gl/maps/m7M687bpMzDP1BXJA",
+    instagram: "",
+    whatsapp: "",
+  },
 ];
 
 export default automobileservicedata;

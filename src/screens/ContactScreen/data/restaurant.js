@@ -45,6 +45,17 @@ const restaurantdata = [
     number1: "9691581113",
     number2: "",
     number3: "",
+    directions: "https://goo.gl/maps/fuwNkSRcmPm5tUj6A",
+    instagram: "https://www.instagram.com/saheb_swadi_shahanshah/",
+    whatsapp: "",
+  },
+  {
+    _id: "6",
+    title: "Saheb Swadi Shahanshah",
+    address: "Housing board Colony, Hatkeshar, Dhamtari, Chhattisgarh 493773",
+    number1: "07722235995",
+    number2: "7389430894",
+    number3: "",
     directions:
       "https://www.google.com/maps/place/Sadda+Adda/@20.6700774,81.5467161,15z/data=!3m1!4b1!4m5!3m4!1s0x3a2f273297c3f2b5:0x1d0328d5a93e5a33!8m2!3d20.6700782!4d81.5554666",
     instagram: "https://www.instagram.com/sadda_adda_cg05/",
