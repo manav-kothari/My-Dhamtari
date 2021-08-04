@@ -294,7 +294,7 @@ const ContactScreen = () => {
           link="/contact/comingsoon"
         /> */}
         <ContactCardComponent
-          title="Photographers"
+          title="Photographer"
           Img={photographers}
           link="/contact/photographers"
         />
