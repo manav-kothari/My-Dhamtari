@@ -79,6 +79,17 @@ const schooldata = [
     whatsapp: "",
   },
   {
+    _id: "10",
+    title: "Vandematram English School & College",
+    address: "Dhamtari, Chhattisgarh 493773",
+    number1: "9424203501",
+    number2: "",
+    number3: "",
+    directions: "",
+    instagram: "",
+    whatsapp: "",
+  },
+  {
     _id: "6",
     title: "Vidhya Kunj Memorial School",
     address: "Dhamtari, Chhattisgarh 493773",

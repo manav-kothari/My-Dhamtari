@@ -62,6 +62,7 @@ import BhawanScreen from "./screens/ContactScreen/BhawanScreen";
 import YogaScreen from "./screens/ContactScreen/YogaScreen";
 import IcecreamScreen from "./screens/ContactScreen/IcecreamScreen";
 import WebDeveloperScreen from "./screens/ContactScreen/WebDeveloperScreen";
+import GasScreen from "./screens/ContactScreen/GasScreen";
 
 function App() {
   return (
@@ -111,6 +112,7 @@ function App() {
         <Route path="/contact/decoration" exact component={DecorationScreen} />
         <Route path="/contact/hotel" exact component={HotelScreen} />
         <Route path="/contact/caterer" exact component={CaterersScreen} />
+        <Route path="/contact/gas" exact component={GasScreen} />
         <Route
           path="/contact/vastushastra"
           exact

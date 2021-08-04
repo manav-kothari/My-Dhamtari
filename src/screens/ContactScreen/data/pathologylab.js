@@ -11,6 +11,17 @@ const pathologylabdata = [
     whatsapp: "",
   },
   {
+    _id: "5",
+    title: "Bharti Pathology",
+    address: "Near Bhagwati Lodge, Dhamtari, Chhattisgarh 493773",
+    number1: "9770107257",
+    number2: "",
+    number3: "",
+    directions: "",
+    instagram: "",
+    whatsapp: "",
+  },
+  {
     _id: "2",
     title: "Lakshya Pathology Lab",
     address: "Shubhash Nagar, Dhamtari, Chhattisgarh 493773",
@@ -35,7 +46,8 @@ const pathologylabdata = [
   {
     _id: "4",
     title: "Rathore Pathology Lab",
-    address: "Sadar Bazar Road, Dhamtari, Chhattisgarh 493773",
+    address:
+      "Near Government Hospital Dhamtari, Ratnabandha road, Dhamtari, Chhattisgarh 493773",
     number1: "07722237488",
     number2: "",
     number3: "",

@@ -4,7 +4,7 @@ import ContactCardComponent from "./ContactCardComponent";
 import repair from "../../images/contact/repair.svg";
 import doctor from "../../images/contact/doctor.svg";
 import restaurant from "../../images/contact/restaurants.svg";
-import personalcare from "../../images/contact/beauty.svg";
+// import personalcare from "../../images/contact/beauty.svg";
 import travel from "../../images/contact/travel.svg";
 import automobile from "../../images/contact/automobile.svg";
 // import flower from "../../images/contact/flower.svg";
@@ -40,6 +40,7 @@ import mobile from "../../images/contact/mobile.svg";
 // import job from "../../images/contact/job.svg";
 // import borewell from "../../images/contact/borewellcontractors.svg";
 import caronhire from "../../images/contact/caronhire.svg";
+import gas from "../../images/contact/gas.svg";
 import webdeveloper from "../../images/contact/graphicdesigners.svg";
 import civilengineer from "../../images/contact/architects.svg";
 import dairy from "../../images/contact/milkproducts.svg";
@@ -250,6 +251,7 @@ const ContactScreen = () => {
           Img={ticketingagents}
           link="/contact/comingsoon"
         /> */}
+        <ContactCardComponent title="Gas" Img={gas} link="/contact/gas" />
         <ContactCardComponent
           title="Ice Cream Shops"
           Img={icecream}
@@ -281,11 +283,11 @@ const ContactScreen = () => {
           Img={pathologylabs}
           link="/contact/pathology"
         />
-        <ContactCardComponent
+        {/* <ContactCardComponent
           title="Personal Care"
           Img={personalcare}
           link="/contact/comingsoon"
-        />
+        /> */}
         <ContactCardComponent
           title="Photographers"
           Img={photographers}

@@ -11,6 +11,17 @@ const traveldata = [
     whatsapp: "",
   },
   {
+    _id: "3",
+    title: "Hemal Tours & Travels",
+    address: "Dhamtari, Chhattisgarh 493773",
+    number1: "9300136524",
+    number2: "",
+    number3: "",
+    directions: "",
+    instagram: "",
+    whatsapp: "",
+  },
+  {
     _id: "2",
     title: "Nahar Travels",
     address: "Balak Chowk Area, Itwari Bazar, Dhamtari, Chhattisgarh 493773",

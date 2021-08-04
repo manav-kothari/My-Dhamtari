@@ -12,6 +12,17 @@ const mdicinedata = [
     whatsapp: "",
   },
   {
+    _id: "3",
+    title: "Manish Medical",
+    address: "Near Bus Stand, Dhamtari, Chhattisgarh 493773",
+    number1: "9425214921",
+    number2: "",
+    number3: "",
+    directions: "",
+    instagram: "",
+    whatsapp: "",
+  },
+  {
     _id: "2",
     title: "Swastik Medical",
     address: "Dhamtari, Chhattisgarh 493773",

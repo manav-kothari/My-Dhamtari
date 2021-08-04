@@ -13,6 +13,14 @@ const ElectricityScreen = () => {
           <Col sm={12} md={6} lg={6} xl={3}>
             <Card>
               <Card.Body>
+                <Card.Title>Electricity Office</Card.Title>
+                <Card.Text>Phone : 07722233623, 07722233123</Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col sm={12} md={6} lg={6} xl={3}>
+            <Card>
+              <Card.Body>
                 <Card.Title>CSEB Dhamtari Division</Card.Title>
                 <Card.Text>Phone : 07722-237711</Card.Text>
               </Card.Body>
