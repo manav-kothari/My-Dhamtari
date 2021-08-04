@@ -23,8 +23,8 @@ const photographersdata = [
   },
   {
     _id: "4",
-    title: "Montu Photography",
-    address: "Dhamtari, Chhattisgarh 493773",
+    title: "New Calcutta Photo Studio",
+    address: "Near Ratnabandha Chowk, Dhamtari, Chhattisgarh 493773",
     number1: "9977929260",
     number2: "",
     number3: "",

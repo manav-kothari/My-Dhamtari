@@ -31,7 +31,7 @@ import medicines from "../../images/contact/medicines.svg";
 import pathologylabs from "../../images/contact/pathologylabs.svg";
 import photographers from "../../images/contact/photographers.svg";
 import physiotherapists from "../../images/contact/physiotherapists.svg";
-import realestate from "../../images/contact/realestate.svg";
+// import realestate from "../../images/contact/realestate.svg";
 // import tattooartists from "../../images/contact/tattooartists.svg";
 // import towingservices from "../../images/contact/towingservices.svg";
 // import wallpapers from "../../images/contact/wallpapers.svg";
@@ -40,7 +40,7 @@ import mobile from "../../images/contact/mobile.svg";
 // import job from "../../images/contact/job.svg";
 // import borewell from "../../images/contact/borewellcontractors.svg";
 import caronhire from "../../images/contact/caronhire.svg";
-import graphicdesigners from "../../images/contact/graphicdesigners.svg";
+import webdeveloper from "../../images/contact/graphicdesigners.svg";
 import civilengineer from "../../images/contact/architects.svg";
 import dairy from "../../images/contact/milkproducts.svg";
 import electricity from "../../images/contact/electricity.png";
@@ -52,6 +52,7 @@ import fire from "../../images/contact/fire.png";
 import bloodbank from "../../images/contact/bloodbank.jpg";
 import bhawan from "../../images/contact/bhawan.jpg";
 import vastushastra from "../../images/contact/VastuShastra.png";
+import icecream from "../../images/contact/icecream.jpg";
 import police from "../../images/contact/police.v1.jpeg";
 import { Navbar, Button } from "react-bootstrap";
 
@@ -226,11 +227,7 @@ const ContactScreen = () => {
           Img={generatorsonhire}
           link="/contact/comingsoon"
         /> */}
-        <ContactCardComponent
-          title="Graphic Designers"
-          Img={graphicdesigners}
-          link="/contact/comingsoon"
-        />
+
         {/* <ContactCardComponent
           title="House Keeping"
           Img={housekeeping}
@@ -253,6 +250,11 @@ const ContactScreen = () => {
           Img={ticketingagents}
           link="/contact/comingsoon"
         /> */}
+        <ContactCardComponent
+          title="Ice Cream Shops"
+          Img={icecream}
+          link="/contact/icecream"
+        />
         <ContactCardComponent
           title="Logistics"
           Img={logistics}
@@ -295,11 +297,11 @@ const ContactScreen = () => {
           link="/contact/comingsoon"
         />
 
-        <ContactCardComponent
+        {/* <ContactCardComponent
           title="Real Estate"
           Img={realestate}
           link="/contact/comingsoon"
-        />
+        /> */}
         <ContactCardComponent
           title="Repairing"
           Img={repair}
@@ -331,6 +333,11 @@ const ContactScreen = () => {
           title="Water & Ice"
           Img={water}
           link="/contact/waterandice"
+        />
+        <ContactCardComponent
+          title="Web Developer"
+          Img={webdeveloper}
+          link="/contact/webdev"
         />
         {/* <ContactCardComponent
           title="Wall Papers"

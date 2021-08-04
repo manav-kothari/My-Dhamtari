@@ -60,6 +60,8 @@ import PathologyScreen from "./screens/ContactScreen/PathologyLab";
 import PhotographersScreen from "./screens/ContactScreen/PhotographersScreen";
 import BhawanScreen from "./screens/ContactScreen/BhawanScreen";
 import YogaScreen from "./screens/ContactScreen/YogaScreen";
+import IcecreamScreen from "./screens/ContactScreen/IcecreamScreen";
+import WebDeveloperScreen from "./screens/ContactScreen/WebDeveloperScreen";
 
 function App() {
   return (
@@ -160,6 +162,8 @@ function App() {
         <Route path="/contact/furniture" exact component={FurnitureScreen} />
         <Route path="/contact/education" exact component={EducationScreen} />
         <Route path="/contact/fitness" exact component={FitnessScreen} />
+        <Route path="/contact/icecream" exact component={IcecreamScreen} />
+        <Route path="/contact/webdev" exact component={WebDeveloperScreen} />
         <Route path="/places" exact component={PlacesScreen} />
         <Route path="/places/parks" exact component={ParksScreen} />
         <Route path="/places/dams" exact component={DamsScreens} />
