@@ -9,7 +9,7 @@ const ContactComingSoon = () => {
 
       <div className="page">
         <div className="aler alert-info text-center blink_me p-4 my-5 h4 text-dark">
-          More details will be listed soon...
+          Details will be listed soon...
         </div>
         <Navbar className=" text-center text-dark mx-auto pt-4">
           <span className="mx-auto">

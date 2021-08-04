@@ -4,43 +4,47 @@ import ContactCardComponent from "./ContactCardComponent";
 import repair from "../../images/contact/repair.svg";
 import doctor from "../../images/contact/doctor.svg";
 import restaurant from "../../images/contact/restaurants.svg";
-// import personalcare from "../../images/contact/beauty.svg";
+import personalcare from "../../images/contact/beauty.svg";
 import travel from "../../images/contact/travel.svg";
 import automobile from "../../images/contact/automobile.svg";
-// import flower from "../../images/contact/flower.svg";
-// import wedding from "../../images/contact/weddingrequisites.svg";
+import flower from "../../images/contact/flower.svg";
+import wedding from "../../images/contact/weddingrequisites.svg";
 import account from "../../images/contact/accountants.svg";
 import water from "../../images/contact/water.svg";
 import hotel from "../../images/contact/hotels.svg";
 import decoration from "../../images/contact/decorator.svg";
-// import builder from "../../images/contact/builderscontractors.svg";
+import builder from "../../images/contact/builderscontractors.svg";
 import caterers from "../../images/contact/caterers.svg";
 import computerrepairs from "../../images/contact/computerrepairs.svg";
 import computershops from "../../images/contact/computershop.svg";
 import computertraining from "../../images/contact/computertraining.svg";
 import education from "../../images/contact/education.svg";
 import fitness from "../../images/contact/fitness.svg";
-// import flexprintingservices from "../../images/contact/flexprintingservices.svg";
+import flexprintingservices from "../../images/contact/flexprintingservices.svg";
 import furniture from "../../images/contact/furniture.svg";
-// import generatorsonhire from "../../images/contact/generatorsonhire.svg";
-// import housekeeping from "../../images/contact/housekeeping.svg";
-// import interiordesigners from "../../images/contact/interiordesigners.svg";
+import generatorsonhire from "../../images/contact/generatorsonhire.svg";
+import housekeeping from "../../images/contact/housekeeping.svg";
+import interiordesigners from "../../images/contact/interiordesigners.svg";
 import logistics from "../../images/contact/logistics.svg";
 import medicines from "../../images/contact/medicines.svg";
-// import paintingcontractors from "../../images/contact/paintingcontractors.svg";
+import paintingcontractors from "../../images/contact/paintingcontractors.svg";
 import pathologylabs from "../../images/contact/pathologylabs.svg";
 import photographers from "../../images/contact/photographers.svg";
 import physiotherapists from "../../images/contact/physiotherapists.svg";
-// import realestate from "../../images/contact/realestate.svg";
-// import tattooartists from "../../images/contact/tattooartists.svg";
-// import towingservices from "../../images/contact/towingservices.svg";
-// import wallpapers from "../../images/contact/wallpapers.svg";
+import realestate from "../../images/contact/realestate.svg";
+import tattooartists from "../../images/contact/tattooartists.svg";
+import towingservices from "../../images/contact/towingservices.svg";
+import wallpapers from "../../images/contact/wallpapers.svg";
 import yogaclasses from "../../images/contact/yogaclasses.svg";
 import mobile from "../../images/contact/mobile.svg";
-// import job from "../../images/contact/job.svg";
-// import borewell from "../../images/contact/borewellcontractors.svg";
+import ticketingagents from "../../images/contact/ticketingagents.svg";
+import job from "../../images/contact/job.svg";
+import borewell from "../../images/contact/borewellcontractors.svg";
 import caronhire from "../../images/contact/caronhire.svg";
 import gas from "../../images/contact/gas.svg";
+import courier from "../../images/contact/courierservices.svg";
+import pet from "../../images/contact/petpetcare.svg";
+import insurance from "../../images/contact/insurance.svg";
 import webdeveloper from "../../images/contact/graphicdesigners.svg";
 import civilengineer from "../../images/contact/architects.svg";
 import dairy from "../../images/contact/milkproducts.svg";
@@ -50,10 +54,12 @@ import electronics from "../../images/contact/electronics.png";
 import postoffice from "../../images/contact/postoffice.png";
 import telephone from "../../images/contact/telephone.png";
 import fire from "../../images/contact/fire.png";
+import game from "../../images/contact/game.png";
 import bloodbank from "../../images/contact/bloodbank.jpg";
 import bhawan from "../../images/contact/bhawan.jpg";
 import vastushastra from "../../images/contact/VastuShastra.png";
 import icecream from "../../images/contact/icecream.jpg";
+import stamp from "../../images/contact/stamp.jpg";
 import police from "../../images/contact/police.v1.jpeg";
 import { Navbar, Button } from "react-bootstrap";
 
@@ -78,6 +84,7 @@ const ContactScreen = () => {
           Img={fire}
           link="/contact/firebrigade"
         />
+
         <ContactCardComponent
           title="Electricity"
           Img={electricity}
@@ -106,9 +113,9 @@ const ContactScreen = () => {
           link="/contact/restaurant"
         />
         <ContactCardComponent
-          title="Web Developer"
-          Img={webdeveloper}
-          link="/contact/webdev"
+          title="Hotels"
+          Img={hotel}
+          link="/contact/hotel"
         />
 
         <ContactCardComponent
@@ -128,17 +135,17 @@ const ContactScreen = () => {
           link="/contact/bhawan"
         />
 
-        {/* <ContactCardComponent
+        <ContactCardComponent
           title="Borewell Contractors"
           Img={borewell}
           link="/contact/comingsoon"
-        /> */}
+        />
 
-        {/* <ContactCardComponent
+        <ContactCardComponent
           title="Builder & Contractor"
           Img={builder}
           link="/contact/comingsoon"
-        /> */}
+        />
 
         <ContactCardComponent
           title="Blood Bank"
@@ -182,6 +189,12 @@ const ContactScreen = () => {
           link="/contact/computertraining"
         />
 
+        <ContactCardComponent
+          title="Courier Services"
+          Img={courier}
+          link="/contact/comingsoon"
+        />
+
         <ContactCardComponent title="Dairy" Img={dairy} link="/contact/dairy" />
 
         <ContactCardComponent
@@ -207,60 +220,66 @@ const ContactScreen = () => {
           Img={fitness}
           link="/contact/fitness"
         />
-        {/* <ContactCardComponent
+        <ContactCardComponent
           title="Flex Printing Services"
           Img={flexprintingservices}
           link="/contact/comingsoon"
-        /> */}
-        {/* <ContactCardComponent
+        />
+        <ContactCardComponent
           title="Flowers/Plants"
           Img={flower}
           link="/contact/comingsoon"
-        /> */}
+        />
 
         <ContactCardComponent
           title="Furniture"
           Img={furniture}
           link="/contact/furniture"
         />
-        {/* <ContactCardComponent
+        <ContactCardComponent
+          title="Gaming"
+          Img={game}
+          link="/contact/comingsoon"
+        />
+        <ContactCardComponent
           title="Generator"
           Img={generatorsonhire}
           link="/contact/comingsoon"
-        /> */}
+        />
 
-        {/* <ContactCardComponent
+        <ContactCardComponent
           title="House Keeping"
           Img={housekeeping}
           link="/contact/comingsoon"
-        /> */}
-        {/* 
+        />
+
         <ContactCardComponent
           title="Interior Designers"
           Img={interiordesigners}
           link="/contact/comingsoon"
-        /> */}
+        />
 
-        {/* <ContactCardComponent
+        <ContactCardComponent
           title="Jobs Available"
           Img={job}
           link="/contact/comingsoon"
-        /> */}
-        {/* <ContactCardComponent
+        />
+        <ContactCardComponent
           title="Ticketing Agents"
           Img={ticketingagents}
           link="/contact/comingsoon"
-        /> */}
-        <ContactCardComponent title="Gas" Img={gas} link="/contact/gas" />
-        <ContactCardComponent
-          title="Hotels"
-          Img={hotel}
-          link="/contact/hotel"
         />
+        <ContactCardComponent title="Gas" Img={gas} link="/contact/gas" />
+
         <ContactCardComponent
           title="Ice Cream Shops"
           Img={icecream}
           link="/contact/icecream"
+        />
+        <ContactCardComponent
+          title="Insurance"
+          Img={insurance}
+          link="/contact/comingsoon"
         />
         <ContactCardComponent
           title="Logistics"
@@ -278,21 +297,26 @@ const ContactScreen = () => {
           link="/contact/mobileshops"
         />
 
-        {/* <ContactCardComponent
+        <ContactCardComponent
           title="Painting Contractors"
           Img={paintingcontractors}
           link="/contact/comingsoon"
-        /> */}
+        />
         <ContactCardComponent
           title="Pathology Labs"
           Img={pathologylabs}
           link="/contact/pathology"
         />
-        {/* <ContactCardComponent
+        <ContactCardComponent
           title="Personal Care"
           Img={personalcare}
           link="/contact/comingsoon"
-        /> */}
+        />
+        <ContactCardComponent
+          title="Pet"
+          Img={pet}
+          link="/contact/comingsoon"
+        />
         <ContactCardComponent
           title="Photographer"
           Img={photographers}
@@ -304,28 +328,33 @@ const ContactScreen = () => {
           link="/contact/comingsoon"
         />
 
-        {/* <ContactCardComponent
+        <ContactCardComponent
           title="Real Estate"
           Img={realestate}
           link="/contact/comingsoon"
-        /> */}
+        />
         <ContactCardComponent
           title="Repairing"
           Img={repair}
           link="/contact/comingsoon"
         />
+        <ContactCardComponent
+          title="Stamp Works"
+          Img={stamp}
+          link="/contact/comingsoon"
+        />
 
-        {/* <ContactCardComponent
+        <ContactCardComponent
           title="Tattoo Artists"
           Img={tattooartists}
           link="/contact/comingsoon"
-        /> */}
+        />
 
-        {/* <ContactCardComponent
+        <ContactCardComponent
           title="Towing Services"
           Img={towingservices}
           link="/contact/comingsoon"
-        /> */}
+        />
         <ContactCardComponent
           title="Travel"
           Img={travel}
@@ -342,16 +371,21 @@ const ContactScreen = () => {
           link="/contact/waterandice"
         />
 
-        {/* <ContactCardComponent
+        <ContactCardComponent
           title="Wall Papers"
           Img={wallpapers}
           link="/contact/comingsoon"
-        /> */}
-        {/* <ContactCardComponent
+        />
+        <ContactCardComponent
+          title="Web Developer"
+          Img={webdeveloper}
+          link="/contact/webdev"
+        />
+        <ContactCardComponent
           title="Wedding Requisites"
           Img={wedding}
           link="/contact/comingsoon"
-        /> */}
+        />
         <ContactCardComponent
           title="Yoga Classes"
           Img={yogaclasses}
