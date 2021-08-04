@@ -105,12 +105,12 @@ const ContactScreen = () => {
           Img={restaurant}
           link="/contact/restaurant"
         />
-
         <ContactCardComponent
-          title="Hotels"
-          Img={hotel}
-          link="/contact/hotel"
+          title="Web Developer"
+          Img={webdeveloper}
+          link="/contact/webdev"
         />
+
         <ContactCardComponent
           title="Architects"
           Img={civilengineer}
@@ -253,6 +253,11 @@ const ContactScreen = () => {
         /> */}
         <ContactCardComponent title="Gas" Img={gas} link="/contact/gas" />
         <ContactCardComponent
+          title="Hotels"
+          Img={hotel}
+          link="/contact/hotel"
+        />
+        <ContactCardComponent
           title="Ice Cream Shops"
           Img={icecream}
           link="/contact/icecream"
@@ -336,11 +341,7 @@ const ContactScreen = () => {
           Img={water}
           link="/contact/waterandice"
         />
-        <ContactCardComponent
-          title="Web Developer"
-          Img={webdeveloper}
-          link="/contact/webdev"
-        />
+
         {/* <ContactCardComponent
           title="Wall Papers"
           Img={wallpapers}

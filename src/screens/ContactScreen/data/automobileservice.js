@@ -1,5 +1,16 @@
 const automobileservicedata = [
   {
+    _id: "3",
+    title: "Anand Car",
+    address: "Near Mahalaxmi Colony, Dhamtari, Chhattisgarh 493773",
+    number1: "9827160607",
+    number2: "",
+    number3: "",
+    directions: "",
+    instagram: "",
+    whatsapp: "",
+  },
+  {
     _id: "1",
     title: "Car Saloon",
     address:
@@ -13,7 +24,7 @@ const automobileservicedata = [
     whatsapp: "",
   },
   {
-    _id: "1",
+    _id: "2",
     title: "Royal Car Sringar",
     address:
       "Jagdalpur Road, Near Ambedkar Chowk, Dhamtari, Chhattisgarh 493773",
