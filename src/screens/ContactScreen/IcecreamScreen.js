@@ -9,7 +9,7 @@ const IcecreamScreen = () => {
     <div>
       <Header />
       <h3 className="heading text-center pt-1 my-2">Icecream Shops:</h3>
-      <div className="">
+      <div className="page">
         {" "}
         <Row className="row p-2 text-center">
           {icecreamdata.map((categorydata, index) => (
