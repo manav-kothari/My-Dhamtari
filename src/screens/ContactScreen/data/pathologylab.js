@@ -1,15 +1,15 @@
 const pathologylabdata = [
-  // {
-  //   _id: "1",
-  //   title: "Fit Life",
-  //   address: "Near Timber Bahwan, Raipur Road, Dhamtari, Chhattisgarh 493773",
-  //   number1: "9826182367",
-  //   number2: "",
-  //   number3: "",
-  //   directions: "https://goo.gl/maps/GNW7suSVZcMVjKns7",
-  //   instagram: "",
-  //   whatsapp: "",
-  // },
+  {
+    _id: "1",
+    title: "Amrit Pathology",
+    address: "Makai Chowk, Dhamtari, Chhattisgarh 493773",
+    number1: "07722237076",
+    number2: "",
+    number3: "",
+    directions: "",
+    instagram: "",
+    whatsapp: "",
+  },
   {
     _id: "2",
     title: "Lakshya Pathology Lab",

@@ -22,6 +22,17 @@ const photographersdata = [
     whatsapp: "",
   },
   {
+    _id: "4",
+    title: "Montu Photography",
+    address: "Dhamtari, Chhattisgarh 493773",
+    number1: "9977929260",
+    number2: "",
+    number3: "",
+    directions: "",
+    instagram: "",
+    whatsapp: "",
+  },
+  {
     _id: "3",
     title: "Sagar Kaushik Photography",
     address: "Maratha Para, Itwari Bazar, Dhamtari, Chhattisgarh 493773",

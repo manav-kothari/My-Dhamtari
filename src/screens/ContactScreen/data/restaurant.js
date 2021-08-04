@@ -1,5 +1,16 @@
 const restaurantdata = [
   {
+    _id: "7",
+    title: "The Food Garage Cafe",
+    address: "Near Ambedkar Chowk, Dhamtari, Chhattisgarh 493773",
+    number1: "9755684214",
+    number2: "",
+    number3: "",
+    directions: "https://goo.gl/maps/PfxPtEuwVGh4tXQt6",
+    instagram: "https://www.instagram.com/thefoodgaragecafe/",
+    whatsapp: "",
+  },
+  {
     _id: "1",
     title: "Dhamtari Food Court",
     address:
@@ -72,17 +83,7 @@ const restaurantdata = [
     instagram: "",
     whatsapp: "",
   },
-  {
-    _id: "7",
-    title: "The Food Garage Cafe",
-    address: "Near Ambedkar Chowk, Dhamtari, Chhattisgarh 493773",
-    number1: "9755684214",
-    number2: "",
-    number3: "",
-    directions: "https://goo.gl/maps/PfxPtEuwVGh4tXQt6",
-    instagram: "https://www.instagram.com/thefoodgaragecafe/",
-    whatsapp: "",
-  },
+
   {
     _id: "5",
     title: "Yummy Bites",

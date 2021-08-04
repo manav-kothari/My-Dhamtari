@@ -2,6 +2,7 @@ const computershopsdata = [
   {
     _id: "3",
     title: "Raju Raichura",
+    description: "Tara Choice Center",
     address: "Haraftarai Road, Dhamtari, Chhattisgarh 493773",
     number1: "9425505222",
     number2: "",

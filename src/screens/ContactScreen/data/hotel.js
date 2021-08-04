@@ -2,9 +2,10 @@ const hoteldata = [
   {
     _id: "1",
     title: "Hotel Shimon Inn",
-    address: "NH 26, Shubhash Nagar, Dhamtari, Chhattisgarh 493773",
+    address:
+      "Near Ambedkar Chowk, Jagdalpur Road, Dhamtari, Chhattisgarh 493773",
     number1: "07722236281",
-    number2: "",
+    number2: "7000730600",
     number3: "",
     directions:
       "https://www.google.com/maps/place/shimon+inn,+NH26,+Subhash+Nagar,+Dhamtari,+Chhattisgarh+493773/@20.7048463,81.5390458,17z/data:!4m2!3m1!1s0x3a2f2872c1fbde0f:0x9fe3f40f82c4194e",

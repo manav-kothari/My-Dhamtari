@@ -4,7 +4,7 @@ const bhawandata = [
     title: "Gujrati Samaj Bhawan",
     address: "Dev Shri Talkies Road, Dhamtari, Chhattisgarh 493773",
     number1: "07722232282",
-    number2: "",
+    number2: "9131467607",
     number3: "",
     directions: "https://goo.gl/maps/TXcNsJ4bDxBxibcq7",
     instagram: "",
