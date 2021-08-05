@@ -37,7 +37,7 @@ import towingservices from "../../images/contact/towingservices.svg";
 import wallpapers from "../../images/contact/wallpapers.svg";
 import yogaclasses from "../../images/contact/yogaclasses.svg";
 import mobile from "../../images/contact/mobile.svg";
-import ticketingagents from "../../images/contact/ticketingagents.svg";
+import constructionmachinerysupplies from "../../images/contact/constructionmachinerysupplies.svg";
 import job from "../../images/contact/job.svg";
 import borewell from "../../images/contact/borewellcontractors.svg";
 import caronhire from "../../images/contact/caronhire.svg";
@@ -188,9 +188,14 @@ const ContactScreen = () => {
           Img={computertraining}
           link="/contact/computertraining"
         />
+        <ContactCardComponent
+          title="Construction"
+          Img={constructionmachinerysupplies}
+          link="/contact/comingsoon"
+        />
 
         <ContactCardComponent
-          title="Courier Services"
+          title="Courier"
           Img={courier}
           link="/contact/comingsoon"
         />
@@ -264,11 +269,7 @@ const ContactScreen = () => {
           Img={job}
           link="/contact/comingsoon"
         />
-        <ContactCardComponent
-          title="Ticketing Agents"
-          Img={ticketingagents}
-          link="/contact/comingsoon"
-        />
+
         <ContactCardComponent title="Gas" Img={gas} link="/contact/gas" />
 
         <ContactCardComponent

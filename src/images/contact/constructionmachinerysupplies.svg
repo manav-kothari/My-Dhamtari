@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+    <defs>
+        <style>
+            .cls-3{fill:#ffd782}.cls-4{fill:#394d5c}.cls-5{fill:#143441}.cls-10{fill:#333a60}
+        </style>
+    </defs>
+    <g id="Construction_Machinery_Supplies" transform="translate(-32 -209)">
+        <g id="daily-needs-icn" transform="translate(32 209)">
+            <path id="Rectangle_91" fill="none" d="M0 0h28v28H0z"/>
+            <g id="Filled_outline" transform="translate(0 -6)">
+                <path id="Path_15925" fill="#f9bb4b" d="M15 35H4.6A1.6 1.6 0 0 1 3 33.4V29h10l2 3.6z" transform="translate(-.6 -10.2)"/>
+                <path id="Path_15926" d="M33 38h10a1.2 1.2 0 0 1 0 2.4H33z" class="cls-3" transform="translate(-18.6 -15.6)"/>
+                <path id="Path_15927" d="M20 14.6v4.8h1.6v-4.8h7.2L27.6 13h-6a1.6 1.6 0 0 0-1.6 1.6z" class="cls-3" transform="translate(-10.8 -.6)"/>
+                <path id="Path_15928" d="M33 35l2-2h4v2z" class="cls-4" transform="translate(-18.6 -12.6)"/>
+                <path id="Path_15929" d="M38 24.6V27h1.6v-4z" class="cls-5" transform="translate(-21.6 -6.6)"/>
+                <path id="Path_15930" fill="#d3843d" d="M24.8 23a.8.8 0 0 1 .8.8v1.6H24v-1.6a.8.8 0 0 1 .8-.8z" transform="translate(-13.2 -6.6)"/>
+                <path id="Path_15931" d="M3 29h5.6v1.6H3z" class="cls-3" transform="translate(-.6 -10.2)"/>
+                <path id="Path_15932" fill="#4f97d5" d="M9.2 14L8 15.2l.8.8v4h1.6v-4.8z" transform="translate(-3.6 -1.2)"/>
+                <path id="Path_15933" d="M28 29h1.2a.8.8 0 0 1 .8.8v2.8z" class="cls-5" transform="translate(-15.6 -10.2)"/>
+                <circle id="Ellipse_1064" cx="2.8" cy="2.8" r="2.8" class="cls-4" transform="translate(4.8 22)"/>
+                <circle id="Ellipse_1065" cx="1.2" cy="1.2" r="1.2" fill="#f4f4e6" transform="translate(6.4 23.6)"/>
+                <circle id="Ellipse_1066" cx="3.6" cy="3.6" r="3.6" fill="#7d8d9c" transform="translate(16.8 20.4)"/>
+                <path id="Path_15934" d="M24.4 22h-.541a4 4 0 0 0-3.459-2h-2v-3.6a.4.4 0 0 0-.683-.283l-.717.717-.434-.434.517-.517a.4.4 0 1 0-.566-.566l-1.6 1.6a.4.4 0 1 0 .566.566l.517-.517.434.434-.317.317A.4.4 0 0 0 16 18v2.234l-1.2 1.2V19.6a1.2 1.2 0 0 0-1.2-1.2h-.8v-1.2a1.2 1.2 0 0 0-1.2-1.2 1.186 1.186 0 0 0-.4.074V14.4H18a.4.4 0 0 0 .32-.64l-1.2-1.6a.4.4 0 0 0-.32-.16h-6a2 2 0 0 0-2 2v4.4H7.2V14a.4.4 0 0 0-.117-.283l-1.2-1.2a.4.4 0 0 0-.566 0l-1.2 1.2a.4.4 0 0 0 0 .566l.683.683V18.4H2.4a.4.4 0 0 0-.4.4v4.4a2 2 0 0 0 2 2h.428a3.2 3.2 0 0 0 6.345 0h5.812a4 4 0 0 0 7.631 0h.184a1.6 1.6 0 1 0 0-3.2zm-12.8-5.2a.4.4 0 0 1 .4.4v1.2h-.8v-1.2a.4.4 0 0 1 .4-.4zm-2-2.8a1.2 1.2 0 0 1 1.2-1.2h5.8l.6.8h-6.4a.4.4 0 0 0-.4.4v4.4h-.8zm-4-.634l.8.8V18.4h-.8v-3.6a.4.4 0 0 0-.117-.283L4.966 14zM2.8 19.2h4.8v.8H2.8zm4.8 8a2.4 2.4 0 1 1 2.4-2.4 2.4 2.4 0 0 1-2.4 2.4zm6.4-2.8h-3.228a3.2 3.2 0 0 0-6.345 0H4a1.2 1.2 0 0 1-1.2-1.2v-2.4H8a.4.4 0 0 0 .4-.4v-1.2h3.765L14 22.5zm0-3.544l-.92-1.656h.52a.4.4 0 0 1 .4.4zm2.8-2.691l.8-.8V20h-.8zM16.4 24a4 4 0 0 0 .02.4H14.8v-1.6h1.784A4 4 0 0 0 16.4 24zm-1.034-2l1.2-1.2h1.444a4.026 4.026 0 0 0-1.069 1.2zm5.034 5.2a3.2 3.2 0 1 1 3.2-3.2 3.2 3.2 0 0 1-3.2 3.2zm4.565-3.035a.793.793 0 0 1-.565.235h-.02a3.98 3.98 0 0 0-.164-1.6h.184a.8.8 0 0 1 .565 1.365z" class="cls-10"/>
+                <path id="Path_15935" d="M13.6 40a1.6 1.6 0 1 0 1.6 1.6 1.6 1.6 0 0 0-1.6-1.6zm0 2.4a.8.8 0 1 1 .8-.8.8.8 0 0 1-.8.8z" class="cls-10" transform="translate(-6 -16.8)"/>
+                <path id="Path_15936" d="M20 32h.8v.8H20z" class="cls-10" transform="translate(-10.8 -12)"/>
+                <path id="Path_15937" d="M47 36h.8v4.8H47z" class="cls-10" transform="translate(-27 -14.4)"/>
+            </g>
+        </g>
+    </g>
+</svg>

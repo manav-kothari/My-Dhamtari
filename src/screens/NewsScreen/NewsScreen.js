@@ -32,14 +32,6 @@ const NewsScreen = () => {
             link="https://epaper.navabharat.news/category/16/dhamtari"
           />
         </Col>
-
-        <Col sm={12} md={6} lg={6} xl={12}>
-          <NewsCardComponent
-            name="Naidunia"
-            image={naidunia}
-            link="https://epaper.naidunia.com/mepaper/edition-today-dhamtari-44.html"
-          />
-        </Col>
         <Col sm={12} md={6} lg={6} xl={12}>
           <NewsCardComponent
             name="Patrika"
@@ -47,6 +39,14 @@ const NewsScreen = () => {
             link="https://epaper.patrika.com/chhattisgarh/dhamtari"
           />
         </Col>
+        <Col sm={12} md={6} lg={6} xl={12}>
+          <NewsCardComponent
+            name="Naidunia"
+            image={naidunia}
+            link="https://epaper.naidunia.com/mepaper/edition-today-dhamtari-44.html"
+          />
+        </Col>
+
         <Col sm={12} md={6} lg={6} xl={12}>
           <NewsCardComponent
             name={prakharsamachar}
