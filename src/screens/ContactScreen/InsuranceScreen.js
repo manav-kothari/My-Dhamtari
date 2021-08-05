@@ -8,7 +8,7 @@ const InsuranceScreen = () => {
   return (
     <div>
       <Header />
-      <div className="page">
+      <div className="">
         <h2 className="heading text-center pt-1 my-2">Insurance:</h2>
 
         <Row className="row p-2 text-center">
