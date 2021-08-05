@@ -10,6 +10,7 @@ const mobileshopsdata = [
     instagram: "",
     whatsapp: "",
   },
+
   {
     _id: "2",
     title: "Laxmi Mobile",
@@ -18,6 +19,17 @@ const mobileshopsdata = [
     number2: "",
     number3: "",
     directions: "https://g.page/LaxmiMobileDmt?share",
+    instagram: "",
+    whatsapp: "",
+  },
+  {
+    _id: "6",
+    title: "Lucky Mobile",
+    address: "Rajiv Complex, Old Bus Stand, Dhamtari, Chhattisgarh 493773",
+    number1: "8109291899",
+    number2: "",
+    number3: "",
+    directions: "https://g.page/_lucky_lm_?share",
     instagram: "",
     whatsapp: "",
   },

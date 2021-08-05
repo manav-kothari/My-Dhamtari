@@ -63,6 +63,9 @@ import YogaScreen from "./screens/ContactScreen/YogaScreen";
 import IcecreamScreen from "./screens/ContactScreen/IcecreamScreen";
 import WebDeveloperScreen from "./screens/ContactScreen/WebDeveloperScreen";
 import GasScreen from "./screens/ContactScreen/GasScreen";
+import GamingScreen from "./screens/ContactScreen/GamingScreen";
+import StampScreen from "./screens/ContactScreen/StampScreen";
+import InsuranceScreen from "./screens/ContactScreen/InsuranceScreen";
 
 function App() {
   return (
@@ -98,11 +101,13 @@ function App() {
         />
 
         <Route path="/contact/repair" exact component={RepairScreen} />
+        <Route path="/contact/stamp" exact component={StampScreen} />
         <Route
           path="/contact/personalcare"
           exact
           component={PersonalCareScreen}
         />
+        <Route path="/contact/gaming" exact component={GamingScreen} />
         <Route path="/contact/travel" exact component={TravelScreen} />
         <Route path="/contact/automobile" exact component={AutomobileScreen} />
         <Route path="/contact/flower" exact component={FlowerScreen} />
@@ -141,6 +146,7 @@ function App() {
           exact
           component={ComputerTrainingScreen}
         />
+        <Route path="/contact/insurance" exact component={InsuranceScreen} />
         <Route
           path="/contact/electronicshops"
           exact

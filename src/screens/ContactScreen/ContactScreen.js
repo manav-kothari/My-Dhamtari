@@ -241,10 +241,12 @@ const ContactScreen = () => {
           Img={furniture}
           link="/contact/furniture"
         />
+        <ContactCardComponent title="Gas" Img={gas} link="/contact/gas" />
+
         <ContactCardComponent
           title="Gaming"
           Img={game}
-          link="/contact/comingsoon"
+          link="/contact/gaming"
         />
         <ContactCardComponent
           title="Generator"
@@ -259,20 +261,6 @@ const ContactScreen = () => {
         />
 
         <ContactCardComponent
-          title="Interior Designers"
-          Img={interiordesigners}
-          link="/contact/comingsoon"
-        />
-
-        <ContactCardComponent
-          title="Jobs Available"
-          Img={job}
-          link="/contact/comingsoon"
-        />
-
-        <ContactCardComponent title="Gas" Img={gas} link="/contact/gas" />
-
-        <ContactCardComponent
           title="Ice Cream Shops"
           Img={icecream}
           link="/contact/icecream"
@@ -280,6 +268,16 @@ const ContactScreen = () => {
         <ContactCardComponent
           title="Insurance"
           Img={insurance}
+          link="/contact/insurance"
+        />
+        <ContactCardComponent
+          title="Interior Designers"
+          Img={interiordesigners}
+          link="/contact/comingsoon"
+        />
+        <ContactCardComponent
+          title="Jobs Available"
+          Img={job}
           link="/contact/comingsoon"
         />
         <ContactCardComponent
@@ -342,7 +340,7 @@ const ContactScreen = () => {
         <ContactCardComponent
           title="Stamp Works"
           Img={stamp}
-          link="/contact/comingsoon"
+          link="/contact/stamp"
         />
 
         <ContactCardComponent
