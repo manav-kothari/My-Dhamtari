@@ -226,12 +226,12 @@ const ContactScreen = () => {
           link="/contact/fitness"
         />
         <ContactCardComponent
-          title="Flex Printing Services"
+          title="Flex & Printing"
           Img={flexprintingservices}
           link="/contact/comingsoon"
         />
         <ContactCardComponent
-          title="Flowers/Plants"
+          title="Flower/Plant"
           Img={flower}
           link="/contact/comingsoon"
         />
@@ -288,7 +288,7 @@ const ContactScreen = () => {
           link="/contact/comingsoon"
         />
         <ContactCardComponent
-          title="Medicines"
+          title="Medical Shops"
           Img={medicines}
           link="/contact/medicine"
         />
@@ -314,7 +314,7 @@ const ContactScreen = () => {
           link="/contact/comingsoon"
         />
         <ContactCardComponent
-          title="Pet"
+          title="Pet & Pet Care"
           Img={pet}
           link="/contact/comingsoon"
         />
