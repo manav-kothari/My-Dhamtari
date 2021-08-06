@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "../../components/Header";
 import ContactCardComponent from "./ContactCardComponent";
-import repair from "../../images/contact/repair.svg";
+// import repair from "../../images/contact/repair.svg";
 import doctor from "../../images/contact/doctor.svg";
 import restaurant from "../../images/contact/restaurants.svg";
 import personalcare from "../../images/contact/beauty.svg";
@@ -39,7 +39,7 @@ import wallpapers from "../../images/contact/wallpapers.svg";
 import yogaclasses from "../../images/contact/yogaclasses.svg";
 import mobile from "../../images/contact/mobile.svg";
 // import constructionmachinerysupplies from "../../images/contact/constructionmachinerysupplies.svg";
-// import job from "../../images/contact/job.svg";
+import job from "../../images/contact/job.svg";
 import borewell from "../../images/contact/borewellcontractors.svg";
 import caronhire from "../../images/contact/caronhire.svg";
 import gas from "../../images/contact/gas.svg";
@@ -284,11 +284,11 @@ const ContactScreen = () => {
           Img={interiordesigners}
           link="/contact/comingsoon"
         />
-        {/* <ContactCardComponent
+        <ContactCardComponent
           title="Jobs Available"
           Img={job}
           link="/contact/comingsoon"
-        /> */}
+        />
         <ContactCardComponent
           title="Logistics"
           Img={logistics}
@@ -346,11 +346,11 @@ const ContactScreen = () => {
           Img={realestate}
           link="/contact/comingsoon"
         />
-        <ContactCardComponent
+        {/* <ContactCardComponent
           title="Repairing"
           Img={repair}
           link="/contact/comingsoon"
-        />
+        /> */}
         <ContactCardComponent
           title="Stamp Works"
           Img={stamp}
