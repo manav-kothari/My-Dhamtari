@@ -32,19 +32,21 @@ import pathologylabs from "../../images/contact/pathologylabs.svg";
 import photographers from "../../images/contact/photographers.svg";
 import physiotherapists from "../../images/contact/physiotherapists.svg";
 import realestate from "../../images/contact/realestate.svg";
-import tattooartists from "../../images/contact/tattooartists.svg";
+// import tattooartists from "../../images/contact/tattooartists.svg";
+import plumber from "../../images/contact/plumber.svg";
 import towingservices from "../../images/contact/towingservices.svg";
 import wallpapers from "../../images/contact/wallpapers.svg";
 import yogaclasses from "../../images/contact/yogaclasses.svg";
 import mobile from "../../images/contact/mobile.svg";
-import constructionmachinerysupplies from "../../images/contact/constructionmachinerysupplies.svg";
-import job from "../../images/contact/job.svg";
+// import constructionmachinerysupplies from "../../images/contact/constructionmachinerysupplies.svg";
+// import job from "../../images/contact/job.svg";
 import borewell from "../../images/contact/borewellcontractors.svg";
 import caronhire from "../../images/contact/caronhire.svg";
 import gas from "../../images/contact/gas.svg";
+import electrician from "../../images/contact/electrician.jpg";
 import courier from "../../images/contact/courierservices.svg";
 import pet from "../../images/contact/petpetcare.svg";
-import insurance from "../../images/contact/insurance.svg";
+import insurance from "../../images/contact/insurance.png";
 import webdeveloper from "../../images/contact/graphicdesigners.svg";
 import civilengineer from "../../images/contact/architects.svg";
 import dairy from "../../images/contact/milkproducts.svg";
@@ -55,6 +57,7 @@ import postoffice from "../../images/contact/postoffice.png";
 import telephone from "../../images/contact/telephone.png";
 import fire from "../../images/contact/fire.png";
 import game from "../../images/contact/game.png";
+import taro from "../../images/contact/taro.png";
 import bloodbank from "../../images/contact/bloodbank.jpg";
 import bhawan from "../../images/contact/bhawan.jpg";
 import vastushastra from "../../images/contact/VastuShastra.png";
@@ -188,11 +191,11 @@ const ContactScreen = () => {
           Img={computertraining}
           link="/contact/computertraining"
         />
-        <ContactCardComponent
+        {/* <ContactCardComponent
           title="Construction"
           Img={constructionmachinerysupplies}
           link="/contact/comingsoon"
-        />
+        /> */}
 
         <ContactCardComponent
           title="Courier"
@@ -212,6 +215,12 @@ const ContactScreen = () => {
           title="Education"
           Img={education}
           link="/contact/education"
+        />
+
+        <ContactCardComponent
+          title="Electrician"
+          Img={electrician}
+          link="/contact/electrician"
         />
 
         <ContactCardComponent
@@ -275,11 +284,11 @@ const ContactScreen = () => {
           Img={interiordesigners}
           link="/contact/comingsoon"
         />
-        <ContactCardComponent
+        {/* <ContactCardComponent
           title="Jobs Available"
           Img={job}
           link="/contact/comingsoon"
-        />
+        /> */}
         <ContactCardComponent
           title="Logistics"
           Img={logistics}
@@ -317,7 +326,7 @@ const ContactScreen = () => {
           link="/contact/comingsoon"
         />
         <ContactCardComponent
-          title="Photographer"
+          title="Photo Studio"
           Img={photographers}
           link="/contact/photographers"
         />
@@ -325,6 +334,11 @@ const ContactScreen = () => {
           title="Physio Therapists"
           Img={physiotherapists}
           link="/contact/comingsoon"
+        />
+        <ContactCardComponent
+          title="Plumber"
+          Img={plumber}
+          link="/contact/plumber"
         />
 
         <ContactCardComponent
@@ -344,10 +358,16 @@ const ContactScreen = () => {
         />
 
         <ContactCardComponent
+          title="Taro & Healing"
+          Img={taro}
+          link="/contact/taro"
+        />
+
+        {/* <ContactCardComponent
           title="Tattoo Artists"
           Img={tattooartists}
           link="/contact/comingsoon"
-        />
+        /> */}
 
         <ContactCardComponent
           title="Towing Services"

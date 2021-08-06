@@ -50,7 +50,7 @@ function FooterMain() {
         </a>
       </span>
       <small className="text-muted mb-1">
-        Views: 6.9K (updated on 06/08/21)
+        Views: 7.11K (updated on 07/08/21)
       </small>
     </FooterContainer>
   );
