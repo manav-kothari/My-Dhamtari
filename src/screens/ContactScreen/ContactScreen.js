@@ -122,6 +122,12 @@ const ContactScreen = () => {
         />
 
         <ContactCardComponent
+          title="Accounting"
+          Img={account}
+          link="/contact/accounting"
+        />
+
+        <ContactCardComponent
           title="Architects"
           Img={civilengineer}
           link="/contact/civilengineer"
@@ -166,12 +172,6 @@ const ContactScreen = () => {
           title="Caterers"
           Img={caterers}
           link="/contact/caterer"
-        />
-
-        <ContactCardComponent
-          title="Chartered Accountants"
-          Img={account}
-          link="/contact/accounting"
         />
 
         <ContactCardComponent

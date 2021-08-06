@@ -1,38 +1,25 @@
 import React from "react";
-import { Card, Row, Col, Navbar, Button } from "react-bootstrap";
+import { Row, Col, Navbar, Button } from "react-bootstrap";
 import Header from "../../components/Header";
+import ContactDetailCard from "./ContactDetailCard";
+import accountdata from "./data/accounting";
 
 const AccountScreen = () => {
   return (
     <div>
       <Header />
+      <h3 className="heading text-center pt-1 my-2">Accounting Related:</h3>
       <div className="">
         {" "}
-        <h3 className="heading text-center pt-1 my-2">
-          Accounting related services:
-        </h3>
         <Row className="row p-2 text-center">
-          <Col sm={12} md={6} lg={6} xl={3}>
-            <Card>
-              <Card.Body>
-                <Card.Title>GST SUVIDHA KENDRA</Card.Title>
-                <Card.Subtitle className="mb-2 text-muted">
-                  In front of Bamleshwari Mandir, Shop no. 4, Bramhan Para,
-                  Dhamtari, Chhattisgarh 493773
-                </Card.Subtitle>
-                <Card.Text>
-                  Phone : 07722355843, 7000730770, 8817499998
-                </Card.Text>
-
-                <Card.Link href="https://www.instagram.com/gstdmt123/">
-                  <strong>Instagram</strong>
-                </Card.Link>
-              </Card.Body>
-            </Card>
-          </Col>
+          {accountdata.map((categorydata, index) => (
+            <Col key={index} sm={12} md={6} lg={6} xl={3}>
+              <ContactDetailCard categorydata={categorydata} />
+            </Col>
+          ))}
         </Row>
-        <div className="aler alert-info text-center blink_me p-3 my-5 h4 text-dark">
-          Contact details will be listed soon...
+        <div className="alert alert-info text-center blink_me p-3 my-5 h4 text-dark">
+          More details will be listed soon...
         </div>
         <Navbar className=" text-center text-dark mx-auto pt-4">
           <span className="mx-auto">
