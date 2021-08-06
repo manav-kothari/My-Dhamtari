@@ -1,7 +1,7 @@
 const computershopsdata = [
   {
     _id: "3",
-    title: "Raju Raichura",
+    title: "Rajesh Raichura",
     description: "Tara Choice Center",
     address: "Haraftarai Road, Dhamtari, Chhattisgarh 493773",
     number1: "9425505222",
