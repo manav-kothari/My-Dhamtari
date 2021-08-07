@@ -13,6 +13,18 @@ const insurancedata = [
     instagram: "",
     whatsapp: "",
   },
+  {
+    _id: "2",
+    title: "Pradeep Kumar Sethia",
+    description: "",
+    address: "Dhamtari, Chhattisgarh 493773",
+    number1: "9425205302",
+    number2: "",
+    number3: "",
+    directions: "",
+    instagram: "",
+    whatsapp: "",
+  },
 ];
 
 export default insurancedata;

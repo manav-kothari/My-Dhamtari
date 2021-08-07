@@ -32,7 +32,7 @@ const Header = ({ location }) => (
           style={{ color: "#02B290" }}
         >
           <IoIosContacts size={25} />
-          <small>Contact</small>
+          <small className="font-weight-bold">Contact</small>
         </Nav.Link>
 
         <Nav.Link
@@ -40,7 +40,7 @@ const Header = ({ location }) => (
           className="navigation nav-link text-warning text-center font-weight-bold"
         >
           <FaSearchLocation size={25} />
-          <small>Places</small>
+          <small className="font-weight-bold">Places</small>
         </Nav.Link>
 
         <Nav.Link
@@ -48,7 +48,7 @@ const Header = ({ location }) => (
           className="navigation nav-link text-info text-center font-weight-bold"
         >
           <GiNewspaper size={25} />
-          <small>News</small>
+          <small className="font-weight-bold">News</small>
         </Nav.Link>
 
         <Nav.Link
@@ -56,7 +56,7 @@ const Header = ({ location }) => (
           className="navigation nav-link text-danger text-center font-weight-bold"
         >
           <MdEventNote size={25} />
-          <small>Events</small>
+          <small className="font-weight-bold">Events</small>
         </Nav.Link>
 
         <Nav.Link
@@ -64,7 +64,7 @@ const Header = ({ location }) => (
           className="navigation py-auto nav-link text-success text-center font-weight-bold"
         >
           <AiFillShop size={25} />
-          <small>Shops</small>
+          <small className="font-weight-bold">Shops</small>
         </Nav.Link>
       </Nav>
     </Navbar>
