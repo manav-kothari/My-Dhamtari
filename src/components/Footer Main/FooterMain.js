@@ -49,9 +49,9 @@ function FooterMain() {
           Manav Kothari
         </a>
       </span>
-      <small className="text-muted mb-1">
-        Views: <span className="text-white">7.28K</span> (updated on 08/08/21)
-      </small>
+      <span className="text-muted mb-1">
+        Views: <span className="text-white">7.55K</span> (updated on 14/08/21)
+      </span>
     </FooterContainer>
   );
 }

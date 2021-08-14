@@ -23,6 +23,18 @@ const schooldata = [
     whatsapp: "",
   },
   {
+    _id: "10",
+    title: "Genesis College Of Higher Education",
+    address:
+      "Street No. 4, Vivekanand Colony, Near SAS Garden, Dhamtari, Chhattisgarh 493773",
+    number1: "07722240001",
+    number2: "",
+    number3: "",
+    directions: "https://goo.gl/maps/nMEmMKHm4NxAPuFV7",
+    instagram: "",
+    whatsapp: "",
+  },
+  {
     _id: "4",
     title: "Mennonite Eng. Sr. Sec. School",
     address: "Ratnabandha Road, Dhamtari, Chhattisgarh 493773",
