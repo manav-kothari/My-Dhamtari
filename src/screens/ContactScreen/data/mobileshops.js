@@ -46,6 +46,17 @@ const mobileshopsdata = [
     whatsapp: "",
   },
   {
+    _id: "6",
+    title: "Shri Mobile",
+    address: "Near Amapara, Dhamtari, Chhattisgarh 493773",
+    number1: "9770521600",
+    number2: "",
+    number3: "",
+    directions: "",
+    instagram: "",
+    whatsapp: "",
+  },
+  {
     _id: "5",
     title: "Sp Mobile",
     address: "Near Ratnabandha Chowk, Dhamtari, Chhattisgarh 493773",
