@@ -5,10 +5,6 @@ import PricingScreen from "./pages/Pricing/PricingScreen";
 import Product from "./pages/Product/Product";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import ScrollToTop from "./components/ScrollToTop";
-import BakeryShopScreen from "./screens/BakeryShopScreen";
-import ClothingShopScreen from "./screens/ClothingShopScreen";
-import ElectronicShopScreen from "./screens/ElectronicShopScreen";
-import GiftShopScreen from "./screens/GiftShopScreen";
 import EventsScreen from "./screens/EventsScreen";
 import NewsScreen from "./screens/NewsScreen/NewsScreen";
 import ShopComingSoonScreen from "./screens/ShopComingSoonScreen";
@@ -69,6 +65,7 @@ import InsuranceScreen from "./screens/ContactScreen/InsuranceScreen";
 import TaroScreen from "./screens/ContactScreen/TaroScreen";
 import PlumberScreen from "./screens/ContactScreen/PlumberScreen";
 import ElectricianScreen from "./screens/ContactScreen/ElectricianScreen";
+import HomeScreen from "./screens/HomeScreen";
 
 function App() {
   return (
@@ -76,7 +73,7 @@ function App() {
       <GlobalStyle />
       <ScrollToTop />
       <Switch>
-        <Route path="/" exact component={ContactScreen} />
+        <Route path="/" exact component={HomeScreen} />
         <Route path="/shops" exact component={ShopScreen} />
         <Route path="/news" exact component={NewsScreen} />
         <Route path="/events" exact component={EventsScreen} />
@@ -198,10 +195,6 @@ function App() {
         />
         <Route path="/places/nature" exact component={NatureFriendlyScreens} />
         <Route path="/places/adventure" exact component={AdventureScreen} />
-        <Route path="/clothingshops" exact component={ClothingShopScreen} />
-        <Route path="/electronicshops" exact component={ElectronicShopScreen} />
-        <Route path="/giftshops" exact component={GiftShopScreen} />
-        <Route path="/bakeryaccshops" exact component={BakeryShopScreen} />
         <Route path="/shopcomingsoon" exact component={ShopComingSoonScreen} />
         <Route path="/aboutshop" exact component={Home} />
         <Route path="/pricing" component={PricingScreen} />

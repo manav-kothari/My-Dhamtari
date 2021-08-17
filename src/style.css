@@ -334,3 +334,26 @@ body {
     font-size: 2vh;
   }
 }
+
+.homecard {
+  padding: 15px;
+  height: auto;
+  text-align: center;
+}
+
+.homecard-columns {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: 1fr;
+  grid-column-gap: 20px;
+  grid-row-gap: 10px;
+  overflow: hidden;
+}
+.homelogo {
+  width: 22vh;
+}
+@media screen and (min-width: 1000px) {
+  .homecard-columns {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

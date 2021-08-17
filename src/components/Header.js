@@ -1,7 +1,7 @@
 import React from "react";
 import { Navbar, Nav } from "react-bootstrap";
 import logo from "../images/logo.png";
-import { MdEventNote } from "react-icons/md";
+import { FiMoreHorizontal } from "react-icons/fi";
 import { AiFillShop } from "react-icons/ai";
 import { GiNewspaper } from "react-icons/gi";
 import { FaSearchLocation } from "react-icons/fa";
@@ -52,19 +52,19 @@ const Header = ({ location }) => (
         </Nav.Link>
 
         <Nav.Link
-          href="/events"
-          className="navigation nav-link text-danger text-center font-weight-bold"
-        >
-          <MdEventNote size={25} />
-          <small className="font-weight-bold">Events</small>
-        </Nav.Link>
-
-        <Nav.Link
           href="/shops"
           className="navigation py-auto nav-link text-success text-center font-weight-bold"
         >
           <AiFillShop size={25} />
           <small className="font-weight-bold">Shops</small>
+        </Nav.Link>
+
+        <Nav.Link
+          href="/"
+          className="navigation nav-link text-danger text-center font-weight-bold"
+        >
+          <FiMoreHorizontal size={25} />
+          <small className="font-weight-bold">More</small>
         </Nav.Link>
       </Nav>
     </Navbar>

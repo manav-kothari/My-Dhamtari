@@ -1,12 +1,55 @@
 import React from "react";
-import Header from "../components/Header";
+import { Navbar } from "react-bootstrap";
+
+import logo from "../images/logo.png";
+import contact from "../images/home/contact.png";
+import places from "../images/home/places.png";
+import news from "../images/home/news.png";
+import events from "../images/home/events.jpg";
+import menu from "../images/home/menu.png";
+import shops from "../images/home/shops.jpg";
+import weather from "../images/home/weather.png";
+import images from "../images/home/images.png";
+import CategoryCardComponent from "../components/CategoryCardComponent";
 
 const HomeScreen = () => {
   return (
-    <>
-      <Header></Header>
-      <h1>Home</h1>
-    </>
+    <div className="">
+      <Navbar
+        variant="dark"
+        sticky="top"
+        className="p-2"
+        style={{ background: "#000" }}
+      >
+        <Navbar.Brand
+          href="/"
+          className="mx-auto text-capitalize font-weight-bold "
+        >
+          <img
+            src={logo}
+            width="37"
+            height="35"
+            className="d-inline-block align-to mx-2"
+            alt="logo"
+          />{" "}
+          <span className="headerheading">My Dhamtari</span>
+        </Navbar.Brand>
+      </Navbar>
+      <div class="homecard-columns">
+        <CategoryCardComponent
+          image={contact}
+          title="Contact"
+          link="/contact"
+        />
+        <CategoryCardComponent image={places} title="Places" link="/places" />
+        <CategoryCardComponent image={news} title="Newspaper" link="/news" />
+        <CategoryCardComponent image={events} title="Events" link="/events" />
+        <CategoryCardComponent image={menu} title="Menu" link="/" />
+        <CategoryCardComponent image={shops} title="Shops" link="/" />
+        <CategoryCardComponent image={weather} title="Weather" link="/" />
+        <CategoryCardComponent image={images} title="Gallery" link="/" />
+      </div>
+    </div>
   );
 };
 
