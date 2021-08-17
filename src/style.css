@@ -350,10 +350,14 @@ body {
   overflow: hidden;
 }
 .homelogo {
-  width: 20vh;
+  width: 18vh;
 }
 @media screen and (min-width: 1000px) {
   .homecard-columns {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    grid-row-gap: 30px;
+  }
+  .homelogo {
+    width: 25vh;
   }
 }

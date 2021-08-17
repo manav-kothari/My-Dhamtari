@@ -47,7 +47,7 @@ const HomeScreen = () => {
         <CategoryCardComponent image={menu} title="Menu" link="/" />
         <CategoryCardComponent image={shops} title="Shops" link="/" />
         <CategoryCardComponent image={weather} title="Weather" link="/" />
-        <CategoryCardComponent image={images} title="Gallery" link="/" />
+        <CategoryCardComponent image={images} title="Images" link="/" />
       </div>
     </div>
   );
