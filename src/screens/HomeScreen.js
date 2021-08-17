@@ -3,9 +3,9 @@ import { Navbar } from "react-bootstrap";
 
 import logo from "../images/logo.png";
 import contact from "../images/home/contact.png";
-import places from "../images/home/places.png";
+import places from "../images/home/places.jpg";
 import news from "../images/home/news.png";
-import events from "../images/home/events.jpg";
+import events from "../images/home/events.png";
 import menu from "../images/home/menu.png";
 import shops from "../images/home/shops.jpg";
 import weather from "../images/home/weather.png";
@@ -35,7 +35,7 @@ const HomeScreen = () => {
           <span className="headerheading">My Dhamtari</span>
         </Navbar.Brand>
       </Navbar>
-      <div class="homecard-columns">
+      <div class="homecard-columns mb-3">
         <CategoryCardComponent
           image={contact}
           title="Contact"
@@ -45,7 +45,7 @@ const HomeScreen = () => {
         <CategoryCardComponent image={news} title="Newspaper" link="/news" />
         <CategoryCardComponent image={events} title="Events" link="/events" />
         <CategoryCardComponent image={menu} title="Menu" link="/" />
-        <CategoryCardComponent image={shops} title="Shops" link="/" />
+        <CategoryCardComponent image={shops} title="Shops" link="/shops" />
         <CategoryCardComponent image={weather} title="Weather" link="/" />
         <CategoryCardComponent image={images} title="Images" link="/" />
       </div>
