@@ -350,7 +350,7 @@ body {
   overflow: hidden;
 }
 .homelogo {
-  width: 19vh;
+  width: 18vh;
 }
 @media screen and (min-width: 1000px) {
   .homecard-columns {
