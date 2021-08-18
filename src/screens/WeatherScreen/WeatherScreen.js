@@ -3,6 +3,7 @@ import styled from "styled-components";
 import Axios from "axios";
 import WeatherComponent from "./WeatherInfoComponent";
 import Header from "../../components/Header";
+import { Spinner } from "react-bootstrap";
 
 export const WeatherIcons = {
   "01d": "./icons/sunny.svg",
@@ -43,11 +44,13 @@ const AppLabel = styled.span`
 
 function WeatherScreen() {
   const [weather, updateWeather] = useState();
+  const [loading, setLoading] = useState(true);
   const fetchWeather = async () => {
     const response = await Axios.get(
       `https://api.openweathermap.org/data/2.5/weather?q=Dhamtari&appid=2b1ad07c4fe5e5d588febfe2a8901f3b`
     );
     updateWeather(response.data);
+    setLoading(false);
   };
   useEffect(() => {
     fetchWeather();
@@ -55,11 +58,31 @@ function WeatherScreen() {
   }, []);
   return (
     <>
-      <Header />
-      <Container>
-        <AppLabel>My Dhamtari Weather</AppLabel>
-        <WeatherComponent weather={weather} city="Dhamtari" />
-      </Container>
+      {loading ? (
+        <>
+          <Container className="p-5 my-5">
+            <Spinner
+              animation="border"
+              role="status"
+              style={{
+                width: "100px",
+                height: "100px",
+                margin: "auto",
+                display: "block",
+                color: "black",
+              }}
+            ></Spinner>
+          </Container>
+        </>
+      ) : (
+        <>
+          <Header />
+          <Container>
+            <AppLabel>My Dhamtari Weather</AppLabel>
+            <WeatherComponent weather={weather} city="Dhamtari" />
+          </Container>
+        </>
+      )}
     </>
   );
 }
