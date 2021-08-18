@@ -35,10 +35,7 @@ const HomeScreen = () => {
           <span className="headerheading">My Dhamtari</span>
         </Navbar.Brand>
       </Navbar>
-      <div
-        className="homecard-columns mb-3"
-        style={{ backgroundColor: "#F5F5F5" }}
-      >
+      <div className="homecard-columns" style={{ backgroundColor: "#F5F5F5" }}>
         <CategoryCardComponent
           image={contact}
           title="Contact"
