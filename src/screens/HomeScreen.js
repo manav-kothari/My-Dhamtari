@@ -3,11 +3,11 @@ import { Navbar } from "react-bootstrap";
 
 import logo from "../images/logo.png";
 import contact from "../images/home/contact.png";
-import places from "../images/home/places.jpg";
+import places from "../images/home/places.png";
 import news from "../images/home/news.png";
 import events from "../images/home/events.png";
 import menu from "../images/home/menu.png";
-import shops from "../images/home/shops.jpg";
+import shops from "../images/home/shops.png";
 import weather from "../images/home/weather.png";
 import images from "../images/home/images.png";
 import CategoryCardComponent from "../components/CategoryCardComponent";
@@ -35,7 +35,10 @@ const HomeScreen = () => {
           <span className="headerheading">My Dhamtari</span>
         </Navbar.Brand>
       </Navbar>
-      <div class="homecard-columns mb-3">
+      <div
+        className="homecard-columns mb-3"
+        style={{ backgroundColor: "#F5F5F5" }}
+      >
         <CategoryCardComponent
           image={contact}
           title="Contact"
