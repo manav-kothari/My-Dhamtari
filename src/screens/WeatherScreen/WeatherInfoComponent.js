@@ -1,10 +1,9 @@
 import React from "react";
 import styled from "styled-components";
 import { WeatherIcons } from "./WeatherScreen";
-import sunseticon from "./icons/temp.svg";
 
 export const WeatherInfoIcons = {
-  sunset: { sunseticon },
+  sunset: "./icons/temp.svg",
   sunrise: "./icons/temp.svg",
   humidity: "./icons/humidity.svg",
   wind: "./icons/wind.svg",
