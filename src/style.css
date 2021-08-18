@@ -352,7 +352,7 @@ body {
   background-position: center;
 }
 .homelogo {
-  width: 18vh;
+  width: 15vh;
 }
 @media screen and (min-width: 1000px) {
   .homecard-columns {
