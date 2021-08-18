@@ -48,14 +48,22 @@ const HomeScreen = () => {
         <CategoryCardComponent image={places} title="Places" link="/places" />
         <CategoryCardComponent image={news} title="Newspaper" link="/news" />
         <CategoryCardComponent image={events} title="Events" link="/events" />
-        <CategoryCardComponent image={menu} title="Food Menu" link="/" />
+        <CategoryCardComponent
+          image={menu}
+          title="Food Menu"
+          link="/comingsoon"
+        />
         <CategoryCardComponent image={shops} title="Shops" link="/shops" />
         <CategoryCardComponent
           image={weather}
           title="Weather"
           link="/weather"
         />
-        <CategoryCardComponent image={images} title="Gallery" link="/" />
+        <CategoryCardComponent
+          image={images}
+          title="Gallery"
+          link="/comingsoon"
+        />
       </div>
     </div>
   );

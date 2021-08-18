@@ -67,6 +67,7 @@ import PlumberScreen from "./screens/ContactScreen/PlumberScreen";
 import ElectricianScreen from "./screens/ContactScreen/ElectricianScreen";
 import HomeScreen from "./screens/HomeScreen";
 import WeatherScreen from "./screens/WeatherScreen/WeatherScreen";
+import ComingSoon from "./screens/ComingSoon";
 
 function App() {
   return (
@@ -197,6 +198,7 @@ function App() {
         <Route path="/places/nature" exact component={NatureFriendlyScreens} />
         <Route path="/places/adventure" exact component={AdventureScreen} />
         <Route path="/shopcomingsoon" exact component={ShopComingSoonScreen} />
+        <Route path="/comingsoon" exact component={ComingSoon} />
         <Route path="/weather" exact component={WeatherScreen} />
         <Route path="/aboutshop" exact component={Home} />
         <Route path="/pricing" component={PricingScreen} />
