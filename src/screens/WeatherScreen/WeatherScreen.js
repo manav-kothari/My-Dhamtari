@@ -45,7 +45,7 @@ function WeatherScreen() {
   const [weather, updateWeather] = useState();
   const fetchWeather = async () => {
     const response = await Axios.get(
-      `http://api.openweathermap.org/data/2.5/weather?q=Dhamtari&appid=2b1ad07c4fe5e5d588febfe2a8901f3b`
+      `https://api.openweathermap.org/data/2.5/weather?q=Dhamtari&appid=2b1ad07c4fe5e5d588febfe2a8901f3b`
     );
     updateWeather(response.data);
   };
