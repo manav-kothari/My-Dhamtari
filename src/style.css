@@ -349,7 +349,7 @@ body {
   grid-row-gap: 10px;
   overflow: hidden;
   background-size: cover;
-  background-position: 115vh 0px;
+  background-position: center;
 }
 .homelogo {
   width: 18vh;
