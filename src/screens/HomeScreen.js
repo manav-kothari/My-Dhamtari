@@ -4,7 +4,7 @@ import { Navbar } from "react-bootstrap";
 import logo from "../images/logo.png";
 import background from "../images/background.jpg";
 import contact from "../images/home/contact.png";
-import places from "../images/home/places.png";
+import places from "../images/home/places3.png";
 import news from "../images/home/news.png";
 import events from "../images/home/events.png";
 import menu from "../images/home/menu3.png";
