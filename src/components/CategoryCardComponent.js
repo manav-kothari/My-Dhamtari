@@ -7,7 +7,7 @@ const CategoryCardComponent = ({ title, image, link }) => {
         <div class="homecard">
           <img src={image} className="homelogo mb-1" alt="logo" />
           <br />
-          <span variant="dark">{title}</span>
+          <span className="text-white">{title}</span>
         </div>
       </a>
     </>

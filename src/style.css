@@ -348,6 +348,8 @@ body {
   grid-column-gap: 20px;
   grid-row-gap: 10px;
   overflow: hidden;
+  background-size: cover;
+  background-position: 110vh 0px;
 }
 .homelogo {
   width: 18vh;
@@ -356,6 +358,7 @@ body {
   .homecard-columns {
     grid-template-columns: repeat(4, 1fr);
     grid-row-gap: 30px;
+    background-position: center;
   }
   .homelogo {
     width: 25vh;
