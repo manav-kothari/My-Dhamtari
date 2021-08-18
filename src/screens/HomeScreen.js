@@ -50,7 +50,11 @@ const HomeScreen = () => {
         <CategoryCardComponent image={events} title="Events" link="/events" />
         <CategoryCardComponent image={menu} title="Food Menu" link="/" />
         <CategoryCardComponent image={shops} title="Shops" link="/shops" />
-        <CategoryCardComponent image={weather} title="Weather" link="/" />
+        <CategoryCardComponent
+          image={weather}
+          title="Weather"
+          link="/weather"
+        />
         <CategoryCardComponent image={images} title="Gallery" link="/" />
       </div>
     </div>

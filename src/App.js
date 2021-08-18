@@ -66,6 +66,7 @@ import TaroScreen from "./screens/ContactScreen/TaroScreen";
 import PlumberScreen from "./screens/ContactScreen/PlumberScreen";
 import ElectricianScreen from "./screens/ContactScreen/ElectricianScreen";
 import HomeScreen from "./screens/HomeScreen";
+import WeatherScreen from "./screens/WeatherScreen/WeatherScreen";
 
 function App() {
   return (
@@ -196,6 +197,7 @@ function App() {
         <Route path="/places/nature" exact component={NatureFriendlyScreens} />
         <Route path="/places/adventure" exact component={AdventureScreen} />
         <Route path="/shopcomingsoon" exact component={ShopComingSoonScreen} />
+        <Route path="/weather" exact component={WeatherScreen} />
         <Route path="/aboutshop" exact component={Home} />
         <Route path="/pricing" component={PricingScreen} />
         <Route path="/product" component={Product} />

@@ -15,6 +15,13 @@ const RestaurantsScreen = () => {
       <Row className="row text-center">
         <Col sm={12} md={6} lg={4} xl={4}>
           <PlacesCardCompnent
+            title="Shimon Inn"
+            image="https://q-xx.bstatic.com/xdata/images/hotel/max500/109363840.jpg?k=f90f1a2737fb3e7f35e605042015d1e173cec9c2c9ffc7065860ae1ec569e9c2&o="
+            link="https://goo.gl/maps/GgrEdgYBxd9eiYVQA"
+          />
+        </Col>
+        <Col sm={12} md={6} lg={4} xl={4}>
+          <PlacesCardCompnent
             title="ATTA Restaurant"
             image="https://lh5.googleusercontent.com/p/AF1QipOF2fiqfdf0FnYRWZY5eOxbkE2NM2pgPkb2nO44=w408-h408-k-no"
             link="https://goo.gl/maps/oXQrfDHKEzXN73Gy8"
@@ -111,13 +118,7 @@ const RestaurantsScreen = () => {
             link="https://goo.gl/maps/nKpYEWLnhXSzf53G8"
           />
         </Col>
-        <Col sm={12} md={6} lg={4} xl={4}>
-          <PlacesCardCompnent
-            title="Shimon Inn"
-            image="https://q-xx.bstatic.com/xdata/images/hotel/max500/109363840.jpg?k=f90f1a2737fb3e7f35e605042015d1e173cec9c2c9ffc7065860ae1ec569e9c2&o="
-            link="https://goo.gl/maps/GgrEdgYBxd9eiYVQA"
-          />
-        </Col>
+
         <Col sm={12} md={6} lg={4} xl={4}>
           <PlacesCardCompnent
             title="Swastik Bhojnalay"
