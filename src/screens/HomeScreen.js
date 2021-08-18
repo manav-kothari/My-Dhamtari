@@ -5,7 +5,7 @@ import logo from "../images/logo.png";
 import background from "../images/background.jpg";
 import contact from "../images/home/contact.png";
 import places from "../images/home/places3.png";
-import news from "../images/home/news.png";
+import news from "../images/home/news2.png";
 import events from "../images/home/events.png";
 import menu from "../images/home/menu3.png";
 import shops from "../images/home/shops.png";
