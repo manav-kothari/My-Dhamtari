@@ -68,6 +68,7 @@ import ElectricianScreen from "./screens/ContactScreen/ElectricianScreen";
 import HomeScreen from "./screens/HomeScreen";
 import WeatherScreen from "./screens/WeatherScreen/WeatherScreen";
 import ComingSoon from "./screens/ComingSoon";
+import ShopScreenHome from "./screens/ShopScreen/ShopsHomeScreen";
 
 function App() {
   return (
@@ -76,7 +77,7 @@ function App() {
       <ScrollToTop />
       <Switch>
         <Route path="/" exact component={HomeScreen} />
-        <Route path="/shops" exact component={ShopScreen} />
+        <Route path="/shopspreregister" exact component={ShopScreen} />
         <Route path="/news" exact component={NewsScreen} />
         <Route path="/events" exact component={EventsScreen} />
         <Route path="/contact" exact component={ContactScreen} />
@@ -197,6 +198,7 @@ function App() {
         />
         <Route path="/places/nature" exact component={NatureFriendlyScreens} />
         <Route path="/places/adventure" exact component={AdventureScreen} />
+        <Route path="/shops" exact component={ShopScreenHome} />
         <Route path="/shopcomingsoon" exact component={ShopComingSoonScreen} />
         <Route path="/comingsoon" exact component={ComingSoon} />
         <Route path="/weather" exact component={WeatherScreen} />
