@@ -10,7 +10,7 @@ import events from "../images/home/events.png";
 import menu from "../images/home/menu3.png";
 import shops from "../images/home/shops.png";
 import weather from "../images/home/weather.png";
-import images from "../images/home/images.png";
+import cinema from "../images/home/cinema.png";
 import CategoryCardComponent from "../components/CategoryCardComponent";
 
 const HomeScreen = () => {
@@ -53,16 +53,17 @@ const HomeScreen = () => {
           title="Food Menu"
           link="/comingsoon"
         />
+
         <CategoryCardComponent image={shops} title="Shops" link="/shops" />
+        <CategoryCardComponent
+          image={cinema}
+          title="Theater Shows (bookmyshow)"
+          link="https://in.bookmyshow.com/explore/movies-dhamtari"
+        />
         <CategoryCardComponent
           image={weather}
           title="Weather"
           link="/weather"
-        />
-        <CategoryCardComponent
-          image={images}
-          title="Gallery"
-          link="/comingsoon"
         />
       </div>
     </div>
