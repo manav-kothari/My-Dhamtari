@@ -58,7 +58,7 @@ const HomeScreen = () => {
         <CategoryCardComponent
           image={cinema}
           title="Theater Shows (bookmyshow)"
-          link="https://in.bookmyshow.com/explore/movies-dhamtari"
+          link="/theater"
         />
         <CategoryCardComponent
           image={weather}

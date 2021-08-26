@@ -69,6 +69,7 @@ import HomeScreen from "./screens/HomeScreen";
 import WeatherScreen from "./screens/WeatherScreen/WeatherScreen";
 import ComingSoon from "./screens/ComingSoon";
 import ShopScreenHome from "./screens/ShopScreen/ShopsHomeScreen";
+import TheaterScreen from "./screens/TheaterScreen";
 
 function App() {
   return (
@@ -202,6 +203,7 @@ function App() {
         <Route path="/shopcomingsoon" exact component={ShopComingSoonScreen} />
         <Route path="/comingsoon" exact component={ComingSoon} />
         <Route path="/weather" exact component={WeatherScreen} />
+        <Route path="/theater" exact component={TheaterScreen} />
         <Route path="/aboutshop" exact component={Home} />
         <Route path="/pricing" component={PricingScreen} />
         <Route path="/product" component={Product} />
