@@ -45,6 +45,13 @@ const WaterfallsScreen = () => {
               link="https://goo.gl/maps/cwhH3THCNPRYx2ke7"
             />
           </Col>
+          <Col sm={12} md={6} lg={6} xl={6}>
+            <PlacesCardCompnent
+              title="Chingra Pagar Waterfall"
+              image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyqy971Them-rJO_L0yIdyeWwUL9Q7cKxiVeFN5M1PmCp8R3jtmG-UXD2aVR3fxgTFc60&usqp=CAU"
+              link="https://goo.gl/maps/dhjUdJx7x7jYoRyD9"
+            />
+          </Col>
           {/* <Col sm={12} md={6} lg={6} xl={6}>
             <PlacesCardCompnent
               title="Tirathgarh Waterfall"

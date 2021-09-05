@@ -11,6 +11,8 @@ import menu from "../images/home/menu3.png";
 import shops from "../images/home/shops.png";
 import weather from "../images/home/weather.png";
 import cinema from "../images/home/cinema.png";
+import ganesh from "../images/home/ganesh.png";
+import gallery from "../images/home/images.png";
 import CategoryCardComponent from "../components/CategoryCardComponent";
 
 const HomeScreen = () => {
@@ -65,6 +67,16 @@ const HomeScreen = () => {
           title="Weather"
           link="/weather"
         />
+        {/* <CategoryCardComponent
+          image={ganesh}
+          title="Ganesh Chaturthi Darshan"
+          link="/"
+        />
+        <CategoryCardComponent
+          image={gallery}
+          title="Gallery"
+          link="/gallery"
+        /> */}
       </div>
     </div>
   );

@@ -7,16 +7,12 @@ const EventsScreen = () => {
     <>
       <Header></Header>
       <div className="page">
-        <h2 className="text-center p-2 mt-2 heading">Latest Events</h2>
+        {/* <h2 className="text-center p-2 mt-2 heading">Latest Events</h2> */}
 
-        <div className="aler alert-danger text-center blink_me p-3 my-5 text-capitalize h2 text-dark">
-          No events happening
-          <br />
-          due to COVID
-        </div>
+        <h2 className="text-center my-4">No Events Found...</h2>
         <Navbar className=" text-center text-dark mx-auto">
           <span className="mx-auto">
-            If you want to list any Event here for FREE then{" "}
+            If you want to list any Event then{" "}
             <Button
               variant="info"
               href="//api.whatsapp.com/send?phone=917415519777"
