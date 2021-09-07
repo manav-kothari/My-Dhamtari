@@ -50,11 +50,7 @@ const HomeScreen = () => {
         <CategoryCardComponent image={places} title="Places" link="/places" />
         <CategoryCardComponent image={news} title="Newspaper" link="/news" />
         <CategoryCardComponent image={events} title="Events" link="/events" />
-        <CategoryCardComponent
-          image={menu}
-          title="Food Menu"
-          link="https://mydhamtarihomemenu.herokuapp.com/"
-        />
+        <CategoryCardComponent image={menu} title="Food Menu" link="/menu" />
 
         <CategoryCardComponent image={shops} title="Shops" link="/shops" />
         <CategoryCardComponent

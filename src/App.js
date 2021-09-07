@@ -70,6 +70,7 @@ import WeatherScreen from "./screens/WeatherScreen/WeatherScreen";
 import ComingSoon from "./screens/ComingSoon";
 import ShopScreenHome from "./screens/ShopScreen/ShopsHomeScreen";
 import TheaterScreen from "./screens/TheaterScreen";
+import MenuScreen from "./screens/MenuScreen";
 
 function App() {
   return (
@@ -82,8 +83,10 @@ function App() {
         <Route path="/news" exact component={NewsScreen} />
         <Route path="/events" exact component={EventsScreen} />
         <Route path="/contact" exact component={ContactScreen} />
+        <Route path="/menu" exact component={MenuScreen} />
+        <Route path="/menu/restaurant" exact component={ComingSoon} />
         <Route path="/ganeshchaturthi" exact component={ComingSoon} />
-        <Route path="/gallery" exact component={ContactSoon} />
+        <Route path="/gallery" exact component={ComingSoon} />
         <Route path="/contact/helpline" exact component={HelplineScreen} />
         <Route path="/contact/police" exact component={PoliceScreen} />
         <Route
