@@ -43,6 +43,11 @@ const HomeScreen = () => {
         style={{ backgroundImage: `url(${background})` }}
       >
         <CategoryCardComponent
+          image={ganesh}
+          title="Ganesh Chaturthi Darshan"
+          link="/ganeshchaturthi"
+        />
+        <CategoryCardComponent
           image={contact}
           title="Contact"
           link="/contact"
@@ -53,11 +58,6 @@ const HomeScreen = () => {
         <CategoryCardComponent image={menu} title="Food Menu" link="/menu" />
 
         <CategoryCardComponent image={shops} title="Shops" link="/shops" />
-        <CategoryCardComponent
-          image={ganesh}
-          title="Ganesh Chaturthi Darshan"
-          link="/ganeshchaturthi"
-        />
 
         <CategoryCardComponent
           image={weather}
