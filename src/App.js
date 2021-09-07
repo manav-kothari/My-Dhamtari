@@ -82,6 +82,8 @@ function App() {
         <Route path="/news" exact component={NewsScreen} />
         <Route path="/events" exact component={EventsScreen} />
         <Route path="/contact" exact component={ContactScreen} />
+        <Route path="/ganeshchaturthi" exact component={ComingSoon} />
+        <Route path="/gallery" exact component={ContactSoon} />
         <Route path="/contact/helpline" exact component={HelplineScreen} />
         <Route path="/contact/police" exact component={PoliceScreen} />
         <Route

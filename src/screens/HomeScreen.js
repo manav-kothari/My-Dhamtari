@@ -58,25 +58,27 @@ const HomeScreen = () => {
 
         <CategoryCardComponent image={shops} title="Shops" link="/shops" />
         <CategoryCardComponent
-          image={cinema}
-          title="Theater Shows (bookmyshow)"
-          link="https://in.bookmyshow.com/dhamtari/venue-list"
+          image={ganesh}
+          title="Ganesh Chaturthi Darshan"
+          link="/"
         />
+
         <CategoryCardComponent
           image={weather}
           title="Weather"
           link="/weather"
         />
-        {/* <CategoryCardComponent
-          image={ganesh}
-          title="Ganesh Chaturthi Darshan"
-          link="/"
+        <CategoryCardComponent
+          image={cinema}
+          title="Theater Shows (bookmyshow)"
+          link="https://in.bookmyshow.com/dhamtari/venue-list"
         />
+
         <CategoryCardComponent
           image={gallery}
           title="Gallery"
           link="/gallery"
-        /> */}
+        />
       </div>
     </div>
   );
