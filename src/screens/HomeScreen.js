@@ -56,7 +56,7 @@ const HomeScreen = () => {
         <CategoryCardComponent
           image={ganesh}
           title="Ganesh Chaturthi Darshan"
-          link="/"
+          link="/ganeshchaturthi"
         />
 
         <CategoryCardComponent
