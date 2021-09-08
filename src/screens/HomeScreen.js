@@ -1,7 +1,7 @@
 import React from "react";
 import { Navbar } from "react-bootstrap";
 
-import logo from "../images/logo.png";
+// import logo from "../images/logo.png";
 import background from "../images/background.jpg";
 import contact from "../images/home/contact.png";
 import places from "../images/home/places3.png";
@@ -28,13 +28,13 @@ const HomeScreen = () => {
           href="/"
           className="mx-auto text-capitalize font-weight-bold "
         >
-          <img
+          {/* <img
             src={logo}
             width="37"
             height="35"
             className="d-inline-block align-to mx-2"
             alt="logo"
-          />{" "}
+          />{" "} */}
           <span className="headerheading">My Dhamtari</span>
         </Navbar.Brand>
       </Navbar>
