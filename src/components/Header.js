@@ -1,6 +1,6 @@
 import React from "react";
 import { Navbar, Nav } from "react-bootstrap";
-import logo from "../images/logo.png";
+// import logo from "../images/logo.png";
 import { FiMoreHorizontal } from "react-icons/fi";
 import { AiFillShop } from "react-icons/ai";
 import { GiNewspaper } from "react-icons/gi";
@@ -13,13 +13,13 @@ const Header = ({ location }) => (
         href="/"
         className="mx-auto text-capitalize font-weight-bold "
       >
-        <img
+        {/* <img
           src={logo}
           width="32"
           height="30"
           className="d-inline-block align-to mx-2"
           alt="logo"
-        />{" "}
+        />{" "} */}
         <span className="headerheading">My Dhamtari</span>
       </Navbar.Brand>
     </Navbar>
