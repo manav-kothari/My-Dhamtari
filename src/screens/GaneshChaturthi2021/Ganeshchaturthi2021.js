@@ -35,8 +35,21 @@ const Ganeshchaturthi2021 = () => {
       <Header />
       <h4 className="heading text-center mt-3">Ganesh Chaturthi Darshan:</h4>
       <Row>
+        <iframe
+          width="560"
+          height="315"
+          mute="1"
+          autoplay="1"
+          src="https://www.youtube.com/embed/B6TdzgS_BaQ?autoplay=1&mute=1&enablejsapi=1"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+          className="mx-auto my-0"
+        />
         <CardComponent name="Near Ghadi Chowk" image={dmtkaraja} />
         <CardComponent name="Aamapara" image={amapara} />
+        <CardComponent name="Oshiya Vihar Colony - 2" image={oshiya} />
         <CardComponent name="Near Gole Bazaar" image={golabiri} />
         <CardComponent name="Near Ghadi Chowk" image={pump} />
         <CardComponent name="Near Aamapara" image={behind} />
@@ -45,11 +58,10 @@ const Ganeshchaturthi2021 = () => {
         <CardComponent name="Lal Bagicha" image={lal} />
         <CardComponent name="Bhramanpara" image={bhraman} />
         <CardComponent name="Near Dhobi Chowk" image={dhobi} />
-        <CardComponent name="Oshiya Vihar Colony - 2" image={oshiya} />
         <CardComponent name="Near Aamapara" image={amapara2} />
         <CardComponent name="Near Kostapara" image={kosta} />
-        <CardComponent name="Rambagh" image={rambagh} />
         <CardComponent name="Maitri Vihar Colony" image={maitri} />
+        <CardComponent name="Rambagh" image={rambagh} />
         <CardComponent name="Marathapara" image={marathapara} />
         <CardComponent name="Jagdalpur Road" image={jagd} />
         <CardComponent name="Ratnabandha Road" image={ratna} />
