@@ -1,59 +1,34 @@
 import React from "react";
 import Header from "../components/Header";
-// import { Card, Button, Col, Row } from "react-bootstrap";
+import { Col, Row } from "react-bootstrap";
+import restaurant from "../images/menu/restaurant.png";
+import home from "../images/menu/home.png";
 
 const MenuScreen = () => {
   return (
-    <div style={{ height: "90vh" }}>
+    <div className="page2 text-center">
       <Header />
-      <div className="alert alert-info text-center blink_me p-3 my-5 text-capitalize h1 text-dark">
-        Coming Soon...
-      </div>
+      <Row className="row p-2 text-center">
+        <div className="my-auto mx-auto">
+          <a href="http://mydhamtarirestaurantmenu.herokuapp.com/">
+            <Col sm={12} md={6} lg={6} xl={6}>
+              <img src={restaurant} height="280" width="280" alt="" />
+            </Col>
+          </a>
+          <Col sm={12} md={6} lg={6} xl={6}>
+            <a href="http://mydhamtarihomemenu.herokuapp.com/">
+              <img
+                src={home}
+                height="180"
+                width="180"
+                alt=""
+                className="mt-4 homemenulogo"
+              />
+            </a>
+          </Col>
+        </div>
+      </Row>
     </div>
-    // <div className="page2 text-center">
-    //   <Header />
-    //   <Row className="row p-2">
-    //     <Col sm={12} md={6} lg={4} xl={4}>
-    //       <Card className="my-2 p-1 rounded cards">
-    //         <Card.Body className="card-body text-center">
-    //           <a href="http://mydhamtarihomemenu.herokuapp.com/">
-    //             <Card.Title>
-    //               <strong className="text-dark">Homemade Food Menu</strong>
-    //             </Card.Title>
-    //           </a>
-    //           <a href="http://mydhamtarihomemenu.herokuapp.com/">
-    //             <Button
-    //               style={{ backgroundColor: "#000" }}
-    //               variant="dark btn-block"
-    //             >
-    //               See Menu
-    //             </Button>
-    //           </a>
-    //         </Card.Body>
-    //       </Card>
-    //     </Col>
-
-    //     <Col sm={12} md={6} lg={4} xl={4}>
-    //       <Card className="my-2 p-1 rounded cards">
-    //         <Card.Body className="card-body text-center">
-    //           <a href="/menu/restaurant">
-    //             <Card.Title>
-    //               <strong className="text-dark">Restaurant Menu</strong>
-    //             </Card.Title>
-    //           </a>
-    //           <a href="/menu/restaurant">
-    //             <Button
-    //               style={{ backgroundColor: "#000" }}
-    //               variant="dark btn-block"
-    //             >
-    //               See Menu
-    //             </Button>
-    //           </a>
-    //         </Card.Body>
-    //       </Card>
-    //     </Col>
-    //   </Row>
-    // </div>
   );
 };
 

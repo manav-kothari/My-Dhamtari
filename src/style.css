@@ -237,6 +237,9 @@ body {
   .logo {
     margin: auto;
   }
+  .homemenulogo {
+    margin-left: 50px;
+  }
 }
 
 .footer {
