@@ -28,6 +28,7 @@ import risai3 from "../../images/ganeshchaturthi2021/23.jpg";
 import unknown2 from "../../images/ganeshchaturthi2021/24.jpg";
 import sorid from "../../images/ganeshchaturthi2021/25.jpg";
 import sadar1 from "../../images/ganeshchaturthi2021/26.jpg";
+import vivek from "../../images/ganeshchaturthi2021/27.jpeg";
 
 const Ganeshchaturthi2021 = () => {
   return (
@@ -74,6 +75,7 @@ const Ganeshchaturthi2021 = () => {
         <CardComponent name="Sorid Nagar" image={sorid} />
         <CardComponent name="Near Sadar" image={sadar1} />
         <CardComponent name="-" image={unknown2} />
+        <CardComponent name="Vivekanand ka Raja" image={vivek} />
       </Row>
     </div>
   );
