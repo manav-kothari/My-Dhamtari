@@ -33,7 +33,9 @@ const Ganeshchaturthi2021 = () => {
   return (
     <div>
       <Header />
-      <h4 className="heading text-center mt-3">Ganesh Chaturthi Darshan:</h4>
+      <h4 className="heading text-center mt-3 mx-1">
+        Shri Ganesh Pandal/Jhanki Darshan (Dhamtari):
+      </h4>
       <Row>
         <iframe
           width="560"
