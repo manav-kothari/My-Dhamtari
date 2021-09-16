@@ -1,6 +1,6 @@
 import React from "react";
 import { Navbar, Nav } from "react-bootstrap";
-// import logo from "../images/logo.png";
+import logo from "../images/playstore.png";
 import { FiMoreHorizontal } from "react-icons/fi";
 import { AiFillShop } from "react-icons/ai";
 import { GiNewspaper } from "react-icons/gi";
@@ -9,19 +9,20 @@ import { IoIosContacts } from "react-icons/io";
 const Header = ({ location }) => (
   <>
     <Navbar variant="dark" className="p-2" style={{ background: "#000" }}>
-      <Navbar.Brand
-        href="/"
-        className="mx-auto text-capitalize font-weight-bold "
-      >
-        {/* <img
-          src={logo}
-          width="32"
-          height="30"
-          className="d-inline-block align-to mx-2"
-          alt="logo"
-        />{" "} */}
+      <Navbar.Brand href="/" className=" text-capitalize font-weight-bold logo">
         <span className="headerheading">My Dhamtari</span>
       </Navbar.Brand>
+      <div className="ml-auto mobileplaystore">
+        <a href="https://play.google.com/store/apps/details?id=com.mydhamtari">
+          <img
+            src={logo}
+            width="130"
+            height="40"
+            className="d-inline-block align-to "
+            alt="logo"
+          />
+        </a>
+      </div>
     </Navbar>
 
     <Navbar className="m-0 p-0 shadow-sm bg-white " sticky="top" bg="white">

@@ -43,7 +43,7 @@ const Ganeshchaturthi2021 = () => {
         <CardComponent name="Balak Chowk" image={balak} />
         <CardComponent name="Risaipara" image={risai} />
         <CardComponent name="Lal Bagicha" image={lal} />
-        <CardComponent name="Brhamanpara" image={bhraman} />
+        <CardComponent name="Bhramanpara" image={bhraman} />
         <CardComponent name="Near Dhobi Chowk" image={dhobi} />
         <CardComponent name="Oshiya Vihar Colony - 2" image={oshiya} />
         <CardComponent name="Near Aamapara" image={amapara2} />

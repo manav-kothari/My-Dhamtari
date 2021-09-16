@@ -79,6 +79,7 @@ body {
   color: #000;
 }
 .headerheading {
+  font-size: 1.25rem;
   font-weight: 700;
   text-align: center;
   font-family: sans-serif;
@@ -229,6 +230,13 @@ body {
     width: 100%;
     height: auto;
   }
+
+  .mobileplaystore {
+    display: none;
+  }
+  .logo {
+    margin: auto;
+  }
 }
 
 .footer {
@@ -261,6 +269,9 @@ body {
     font-size: 30px;
     margin-top: -105px;
     color: #fff;
+  }
+  .logo {
+    margin-left: 0.2rem;
   }
 }
 @media screen and (max-device-width: 335px) {
