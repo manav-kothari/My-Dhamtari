@@ -3,6 +3,7 @@ import { Button, Row, Navbar } from "react-bootstrap";
 import Header from "../../components/Header";
 import ShopCardComponent from "./ShopCardComponent";
 import aabhivadya from "../../images/shops/aabhivadya.jpg";
+import aradhna from "../../images/shops/aradhna.jpg";
 import mahadev from "../../images/shops/mahadev.jpg";
 
 const ShopScreenHome = () => {
@@ -15,7 +16,16 @@ const ShopScreenHome = () => {
           image={aabhivadya}
           link="https://aabhivadyamilks.herokuapp.com/"
         />
-        <ShopCardComponent name="Mahadev Agencies" image={mahadev} link="" />
+        <ShopCardComponent
+          name="Aradhna Traders"
+          image={aradhna}
+          link="/comingsoon"
+        />
+        <ShopCardComponent
+          name="Mahadev Agencies"
+          image={mahadev}
+          link="/comingsoon"
+        />
       </Row>
       <Navbar className=" text-center text-dark mx-auto">
         <span className="mx-auto">
