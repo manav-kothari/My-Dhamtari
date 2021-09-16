@@ -54,12 +54,12 @@ const Ganeshchaturthi2021 = () => {
         <CardComponent name="Near Ghadi Chowk" image={pump} />
         <CardComponent name="Near Aamapara" image={behind} />
         <CardComponent name="Balak Chowk" image={balak} />
-        <CardComponent name="Risaipara" image={risai} />
         <CardComponent name="Lal Bagicha" image={lal} />
-        <CardComponent name="Bhramanpara" image={bhraman} />
         <CardComponent name="Near Dhobi Chowk" image={dhobi} />
-        <CardComponent name="Near Aamapara" image={amapara2} />
         <CardComponent name="Near Kostapara" image={kosta} />
+        <CardComponent name="Bhramanpara" image={bhraman} />
+        <CardComponent name="Risaipara" image={risai} />
+        <CardComponent name="Near Aamapara" image={amapara2} />
         <CardComponent name="Maitri Vihar Colony" image={maitri} />
         <CardComponent name="Rambagh" image={rambagh} />
         <CardComponent name="Marathapara" image={marathapara} />
@@ -70,9 +70,9 @@ const Ganeshchaturthi2021 = () => {
         <CardComponent name="Near Gokulpur" image={gokul} />
         <CardComponent name="Near Risaipara" image={risai2} />
         <CardComponent name="Near Risaipara" image={risai3} />
-        <CardComponent name="-" image={unknown2} />
         <CardComponent name="Sorid Nagar" image={sorid} />
         <CardComponent name="Near Sadar" image={sadar1} />
+        <CardComponent name="-" image={unknown2} />
       </Row>
     </div>
   );
