@@ -43,10 +43,10 @@ const Ganeshchaturthi2021 = () => {
           src="https://www.youtube.com/embed/B6TdzgS_BaQ?autoplay=1&mute=1&enablejsapi=1"
           title="YouTube video player"
           frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;fullscreen"
+          allowfullscreen="allowfullscreen"
           className="mx-auto my-0"
-        />
+        ></iframe>
         <CardComponent name="Near Ghadi Chowk" image={dmtkaraja} />
         <CardComponent name="Aamapara" image={amapara} />
         <CardComponent name="Oshiya Vihar Colony - 2" image={oshiya} />
