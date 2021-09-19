@@ -56,9 +56,15 @@ const HomeScreen = () => {
           title="Contact"
           link="/contact"
         />
-        <CategoryCardComponent image={places} title="Places" link="/places" />
         <CategoryCardComponent image={news} title="Newspaper" link="/news" />
-        <CategoryCardComponent image={events} title="Events" link="/events" />
+        <CategoryCardComponent
+          image={events}
+          title="Events"
+          status="New!!!"
+          link="/events"
+        />
+        <CategoryCardComponent image={places} title="Places" link="/places" />
+
         <CategoryCardComponent image={menu} title="Food Menu" link="/menu" />
 
         <CategoryCardComponent image={shops} title="Shops" link="/shops" />
@@ -79,6 +85,11 @@ const HomeScreen = () => {
           title="Gallery"
           link="/gallery"
         />
+      </div>
+      <div className="text-white bg-dark text-center">
+        We have some exciting updates coming soon!!!
+        <br />
+        Stay tuned for more...
       </div>
     </div>
   );
