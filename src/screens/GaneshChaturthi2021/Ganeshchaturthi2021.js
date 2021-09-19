@@ -37,9 +37,23 @@ const Ganeshchaturthi2021 = () => {
     <div>
       <Header />
       <h4 className="heading text-center mt-3 mx-1">Shri Ganesh Visarjan:</h4>
-      <div className="alert alert-info text-center blink_me p-3 my-3 text-capitalize h1 text-dark">
-        Coming Soon...
-      </div>
+
+      <Row>
+        <iframe
+          width="560"
+          height="315"
+          autoplay="1"
+          src="https://www.youtube.com/embed/wNEddrYrKp4?autoplay=1&enablejsapi=1"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;fullscreen"
+          allowfullscreen="allowfullscreen"
+          className="mx-auto my-0"
+        ></iframe>
+        <div className="alert alert-info text-center blink_me p-3 my-3 mx-auto text-capitalize text-dark">
+          <h2 className="text-center">More Coming Soon...</h2>
+        </div>
+      </Row>
       <h4 className="heading text-center mt-3 mx-1">
         Shri Ganesh Pandal/Jhanki Darshan (Dhamtari):
       </h4>
