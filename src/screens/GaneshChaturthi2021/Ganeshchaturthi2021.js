@@ -36,6 +36,10 @@ const Ganeshchaturthi2021 = () => {
   return (
     <div>
       <Header />
+      <h4 className="heading text-center mt-3 mx-1">Shri Ganesh Visarjan:</h4>
+      <div className="alert alert-info text-center blink_me p-3 my-3 text-capitalize h1 text-dark">
+        Coming Soon...
+      </div>
       <h4 className="heading text-center mt-3 mx-1">
         Shri Ganesh Pandal/Jhanki Darshan (Dhamtari):
       </h4>

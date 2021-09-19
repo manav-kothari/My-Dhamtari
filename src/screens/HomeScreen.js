@@ -42,6 +42,11 @@ const HomeScreen = () => {
           </a>
         </div>
       </Navbar>
+      <div className="text-white bg-dark text-center">
+        We have some exciting updates coming soon!!!
+        <br />
+        Stay tuned for more...
+      </div>
       <div
         className="homecard-columns"
         style={{ backgroundImage: `url(${background})` }}
@@ -50,6 +55,7 @@ const HomeScreen = () => {
           image={ganesh}
           title="Ganesh Chaturthi Darshan"
           link="/ganeshchaturthi"
+          status2="Ganesh Visarjan Coming Soon!!!"
         />
         <CategoryCardComponent
           image={contact}
@@ -85,11 +91,6 @@ const HomeScreen = () => {
           title="Gallery"
           link="/gallery"
         />
-      </div>
-      <div className="text-white bg-dark text-center">
-        We have some exciting updates coming soon!!!
-        <br />
-        Stay tuned for more...
       </div>
     </div>
   );
