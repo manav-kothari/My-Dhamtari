@@ -37,6 +37,17 @@ const GaneshVisarjan2021 = () => {
           width="560"
           height="315"
           autoplay="1"
+          src="https://www.youtube.com/embed/_OLELlOsAx8"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;fullscreen"
+          allowfullscreen="allowfullscreen"
+          className="mx-auto my-2"
+        ></iframe>
+        <iframe
+          width="560"
+          height="315"
+          autoplay="1"
           src="https://www.youtube.com/embed/os1XlI-P7-4?start=15"
           title="YouTube video player"
           frameborder="0"
