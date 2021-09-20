@@ -15,6 +15,28 @@ const GaneshVisarjan2021 = () => {
           width="560"
           height="315"
           autoplay="1"
+          src="https://www.youtube.com/embed/3XZ1KVxaU2U"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;fullscreen"
+          allowfullscreen="allowfullscreen"
+          className="mx-auto my-2"
+        ></iframe>
+        <iframe
+          width="560"
+          height="315"
+          autoplay="1"
+          src="https://www.youtube.com/embed/xrJdLAFsiVQ"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;fullscreen"
+          allowfullscreen="allowfullscreen"
+          className="mx-auto my-2"
+        ></iframe>
+        <iframe
+          width="560"
+          height="315"
+          autoplay="1"
           src="https://www.youtube.com/embed/os1XlI-P7-4?start=15"
           title="YouTube video player"
           frameborder="0"
@@ -67,66 +89,12 @@ const GaneshVisarjan2021 = () => {
           allowfullscreen="allowfullscreen"
           className="mx-auto my-2"
         ></iframe>
-        <iframe
-          width="560"
-          height="315"
-          autoplay="1"
-          src="https://www.youtube.com/embed/Zu5bc2m6Rck"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;fullscreen"
-          allowfullscreen="allowfullscreen"
-          className="mx-auto my-2"
-        ></iframe>
+
         <iframe
           width="560"
           height="315"
           autoplay="1"
           src="https://www.youtube.com/embed/wNEddrYrKp4"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;fullscreen"
-          allowfullscreen="allowfullscreen"
-          className="mx-auto my-2"
-        ></iframe>
-        <iframe
-          width="560"
-          height="315"
-          autoplay="1"
-          src="https://www.youtube.com/embed/SLojNWzTaTQ"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;fullscreen"
-          allowfullscreen="allowfullscreen"
-          className="mx-auto my-2"
-        ></iframe>
-        <iframe
-          width="560"
-          height="315"
-          autoplay="1"
-          src="https://www.youtube.com/embed/aPz-JYxYP2Y"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;fullscreen"
-          allowfullscreen="allowfullscreen"
-          className="mx-auto my-2"
-        ></iframe>
-        <iframe
-          width="560"
-          height="315"
-          autoplay="1"
-          src="https://www.youtube.com/embed/pdMB8o8VYyo"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;fullscreen"
-          allowfullscreen="allowfullscreen"
-          className="mx-auto my-2"
-        ></iframe>
-        <iframe
-          width="560"
-          height="315"
-          autoplay="1"
-          src="https://www.youtube.com/embed/ah89eDVnXUk"
           title="YouTube video player"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;fullscreen"
