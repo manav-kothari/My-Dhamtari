@@ -33,6 +33,7 @@ const GaneshVisarjan2021 = () => {
           allowfullscreen="allowfullscreen"
           className="mx-auto my-2"
         ></iframe>
+        <CardComponent name="Gole Bazzar" image={v01} />
         <iframe
           width="560"
           height="315"
@@ -44,7 +45,6 @@ const GaneshVisarjan2021 = () => {
           allowfullscreen="allowfullscreen"
           className="mx-auto my-2"
         ></iframe>
-        <CardComponent name="Gole Bazzar" image={v01} />
         <iframe
           width="560"
           height="315"
