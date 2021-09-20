@@ -12,7 +12,17 @@ const GaneshVisarjan2021 = () => {
 
       <Row>
         <CardComponent name="Gole Bazzar" image={v01} />
-
+        <iframe
+          width="560"
+          height="315"
+          autoplay="1"
+          src="https://www.youtube.com/embed/UczzcNLA2uc"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;fullscreen"
+          allowfullscreen="allowfullscreen"
+          className="mx-auto my-2"
+        ></iframe>
         <iframe
           width="560"
           height="315"
