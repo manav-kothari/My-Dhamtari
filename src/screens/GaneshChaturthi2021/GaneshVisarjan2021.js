@@ -11,7 +11,17 @@ const GaneshVisarjan2021 = () => {
       <h4 className="heading text-center mt-3 mx-1">Shri Ganesh Visarjan:</h4>
 
       <Row>
-        <CardComponent name="Gole Bazzar" image={v01} />
+        <iframe
+          width="560"
+          height="315"
+          autoplay="1"
+          src="https://www.youtube.com/embed/os1XlI-P7-4"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;fullscreen"
+          allowfullscreen="allowfullscreen"
+          className="mx-auto my-2"
+        ></iframe>
         <iframe
           width="560"
           height="315"
@@ -34,6 +44,7 @@ const GaneshVisarjan2021 = () => {
           allowfullscreen="allowfullscreen"
           className="mx-auto my-2"
         ></iframe>
+        <CardComponent name="Gole Bazzar" image={v01} />
         <iframe
           width="560"
           height="315"
