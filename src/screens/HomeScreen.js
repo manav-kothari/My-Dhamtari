@@ -63,12 +63,7 @@ const HomeScreen = () => {
           link="/contact"
         />
         <CategoryCardComponent image={news} title="Newspaper" link="/news" />
-        <CategoryCardComponent
-          image={events}
-          title="Events"
-          status="New!!!"
-          link="/events"
-        />
+        <CategoryCardComponent image={events} title="Events" link="/events" />
         <CategoryCardComponent image={places} title="Places" link="/places" />
 
         <CategoryCardComponent image={menu} title="Food Menu" link="/menu" />
