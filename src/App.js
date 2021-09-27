@@ -73,6 +73,7 @@ import TheaterScreen from "./screens/TheaterScreen";
 import MenuScreen from "./screens/MenuScreen";
 import Ganeshchaturthi2021 from "./screens/GaneshChaturthi2021/Ganeshchaturthi2021";
 import GaneshVisarjan2021 from "./screens/GaneshChaturthi2021/GaneshVisarjan2021";
+import Gallery from "./screens/Gallery";
 
 function App() {
   return (
@@ -93,7 +94,7 @@ function App() {
           exact
           component={Ganeshchaturthi2021}
         />
-        <Route path="/gallery" exact component={ComingSoon} />
+        <Route path="/gallery" exact component={Gallery} />
         <Route path="/contact/helpline" exact component={HelplineScreen} />
         <Route path="/contact/police" exact component={PoliceScreen} />
         <Route

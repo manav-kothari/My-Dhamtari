@@ -5,12 +5,18 @@ import ShopCardComponent from "./ShopCardComponent";
 import aabhivadya from "../../images/shops/aabhivadya.jpg";
 import aradhna from "../../images/shops/aradhna.jpg";
 import mahadev from "../../images/shops/mahadev.jpg";
+import bas from "../../images/shops/bas.jpg";
 
 const ShopScreenHome = () => {
   return (
     <div>
       <Header />
       <Row className="row p-2">
+        <ShopCardComponent
+          name="Basakhmal and Sons"
+          image={bas}
+          link="https://basakhmalandsons.com/"
+        />
         <ShopCardComponent
           name="Aabhivadya Milks"
           image={aabhivadya}

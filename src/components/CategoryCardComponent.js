@@ -1,6 +1,13 @@
 import React from "react";
 
-const CategoryCardComponent = ({ title, image, link, status, status2 }) => {
+const CategoryCardComponent = ({
+  title,
+  titledark,
+  image,
+  link,
+  status,
+  status2,
+}) => {
   return (
     <>
       <a href={link}>
@@ -9,6 +16,7 @@ const CategoryCardComponent = ({ title, image, link, status, status2 }) => {
           <br />
           <span className="text-white">{title}</span>
           <br />
+          <span className="text-dark">{titledark}</span>
           <span className="text-danger text-weight-bold bg-light blink_me">
             {status}
           </span>
