@@ -65,7 +65,7 @@ const HomeScreen = () => {
           image={shops}
           title="Shops"
           link="/shops"
-          status="New!"
+          status="New!!!"
         />
 
         <CategoryCardComponent

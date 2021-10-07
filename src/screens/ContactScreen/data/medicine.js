@@ -12,6 +12,18 @@ const mdicinedata = [
     whatsapp: "",
   },
   {
+    _id: "4",
+    title: "Manidhari Agencies (Medical Whole seller)",
+    address: "Tikara para Chowk Nh-30, Dhamtari, Chhattisgarh 493773",
+    description: "nahar02010@gmail.com",
+    number1: "9617475000",
+    number2: "",
+    number3: "",
+    directions: "",
+    instagram: "",
+    whatsapp: "",
+  },
+  {
     _id: "3",
     title: "Manish Medical",
     address: "Near Bus Stand, Dhamtari, Chhattisgarh 493773",
