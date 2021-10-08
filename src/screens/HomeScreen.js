@@ -13,6 +13,7 @@ import weather from "../images/home/weather.png";
 import cinema from "../images/home/cinema.png";
 import gallery from "../images/home/images.png";
 import CategoryCardComponent from "../components/CategoryCardComponent";
+import navratri from "../images/navratri2021/navratriicon.png";
 
 const HomeScreen = () => {
   return (
@@ -50,6 +51,12 @@ const HomeScreen = () => {
         className="homecard-columns"
         style={{ backgroundImage: `url(${background})` }}
       >
+        <CategoryCardComponent
+          image={navratri}
+          title="Navratri"
+          link="/comingsoon"
+          status2="Coming Soon!!!"
+        />
         <CategoryCardComponent
           image={contact}
           title="Contact"
