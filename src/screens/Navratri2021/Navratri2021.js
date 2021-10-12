@@ -44,6 +44,10 @@ const Navratri2021 = () => {
           allowfullscreen="allowfullscreen"
           className="mx-auto my-0"
         ></iframe>
+
+        <CardComponent name="Shri Gujrati Samaj" image={one} />
+        <CardComponent name="Bilai Mata Mandir" image={ten} />
+        <CardComponent name="Angarmoti Mandir" image={five} />
         <iframe
           width="560"
           height="315"
@@ -55,9 +59,6 @@ const Navratri2021 = () => {
           allowfullscreen="allowfullscreen"
           className="mx-auto my-0"
         ></iframe>
-        <CardComponent name="Shri Gujrati Samaj" image={one} />
-        <CardComponent name="Bilai Mata Mandir" image={ten} />
-        <CardComponent name="Angarmoti Mandir" image={five} />
         <CardComponent name="Dhamtari ki Rani" image={two} />
         <CardComponent
           name="Navyuvak Durga Utsav Samiti, Baniypara"
