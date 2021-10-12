@@ -24,6 +24,7 @@ import nineteen from "../../images/navratri2021/nineteen.jpeg";
 import twenty from "../../images/navratri2021/twenty.jpeg";
 import twentyone from "../../images/navratri2021/twentyone.jpeg";
 import twentytwo from "../../images/navratri2021/twentytwo.jpeg";
+import twentythree from "../../images/navratri2021/twentythree.jpeg";
 
 const Navratri2021 = () => {
   return (
@@ -81,6 +82,7 @@ const Navratri2021 = () => {
         <CardComponent name="" image={twenty} />
         <CardComponent name="" image={twentyone} />
         <CardComponent name="" image={twentytwo} />
+        <CardComponent name="Shanti Colony" image={twentythree} />
         <iframe
           width="560"
           height="315"
