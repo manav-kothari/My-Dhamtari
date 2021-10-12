@@ -65,7 +65,7 @@ const Navratri2021 = () => {
           name="Navyuvak Durga Utsav Samiti, Baniypara"
           image={three}
         />
-        <CardComponent name="" image={four} />
+        <CardComponent name="Brahmanpara" image={four} />
         <CardComponent name="" image={six} />
         <CardComponent name="Near Dhobi Chowk" image={seven} />
         <CardComponent name="" image={eight} />
@@ -76,7 +76,7 @@ const Navratri2021 = () => {
         <CardComponent name="Near Kacheri garden" image={fourteen} />
         <CardComponent name="Sorid Chowk" image={fifteen} />
         <CardComponent name="" image={sixteen} />
-        <CardComponent name="" image={seventeen} />
+        <CardComponent name="Near Bilai Mata Mandir" image={seventeen} />
         <CardComponent name="" image={eighteen} />
         <CardComponent name="" image={nineteen} />
         <CardComponent name="" image={twenty} />
