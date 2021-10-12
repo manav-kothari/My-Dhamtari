@@ -44,21 +44,32 @@ const Navratri2021 = () => {
           allowfullscreen="allowfullscreen"
           className="mx-auto my-0"
         ></iframe>
-        <CardComponent name="Gujrati Samaj" image={one} />
+        <iframe
+          width="560"
+          height="315"
+          autoplay="1"
+          src="https://www.youtube.com/embed/S5Z48SLlj5s?autoplay=1&enablejsapi=1"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;fullscreen"
+          allowfullscreen="allowfullscreen"
+          className="mx-auto my-0"
+        ></iframe>
+        <CardComponent name="Shri Gujrati Samaj" image={one} />
+        <CardComponent name="Bilai Mata Mandir" image={ten} />
+        <CardComponent name="Angarmoti Mandir" image={five} />
         <CardComponent name="Dhamtari ki Rani" image={two} />
         <CardComponent
           name="Navyuvak Durga Utsav Samiti, Baniypara"
           image={three}
         />
         <CardComponent name="" image={four} />
-        <CardComponent name="Angarmoti Mandir" image={five} />
         <CardComponent name="" image={six} />
         <CardComponent name="Near Dhobi Chowk" image={seven} />
         <CardComponent name="" image={eight} />
         <CardComponent name="Shiv Chowk Durga Utsav Samiti" image={nine} />
-        <CardComponent name="Bilai Mata Mandir" image={ten} />
         <CardComponent name="Risaipara Durga Utsav Samiti" image={eleven} />
-        <CardComponent name="Near Kodumal Dharamlshala" image={twelve} />
+        <CardComponent name="Near Kodumal Dharamshala" image={twelve} />
         <CardComponent name="Sadar Bazaar" image={thirteen} />
         <CardComponent name="Near Kacheri garden" image={fourteen} />
         <CardComponent name="Sorid Chowk" image={fifteen} />
