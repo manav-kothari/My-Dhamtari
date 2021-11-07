@@ -11,9 +11,9 @@ import menu from "../images/home/menu3.png";
 import shops from "../images/home/shops.png";
 import weather from "../images/home/weather.png";
 import cinema from "../images/home/cinema.png";
-import gallery from "../images/home/images.png";
+// import gallery from "../images/home/images.png";
 import CategoryCardComponent from "../components/CategoryCardComponent";
-import navratri from "../images/navratri2021/navratriicon.png";
+// import navratri from "../images/navratri2021/navratriicon.png";
 
 const HomeScreen = () => {
   return (
@@ -51,12 +51,12 @@ const HomeScreen = () => {
         className="homecard-columns"
         style={{ backgroundImage: `url(${background})` }}
       >
-        <CategoryCardComponent
+        {/* <CategoryCardComponent
           image={navratri}
           title="Navratri"
           link="/navratri2021"
           status2="New!!!"
-        />
+        /> */}
         <CategoryCardComponent
           image={contact}
           title="Contact"
@@ -86,11 +86,11 @@ const HomeScreen = () => {
           link="https://in.bookmyshow.com/dhamtari/venue-list"
         />
 
-        <CategoryCardComponent
+        {/* <CategoryCardComponent
           image={gallery}
           title="Gallery"
           link="/gallery"
-        />
+        /> */}
       </div>
     </div>
   );
