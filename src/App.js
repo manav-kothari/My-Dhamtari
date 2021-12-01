@@ -75,6 +75,7 @@ import Ganeshchaturthi2021 from "./screens/GaneshChaturthi2021/Ganeshchaturthi20
 import GaneshVisarjan2021 from "./screens/GaneshChaturthi2021/GaneshVisarjan2021";
 import Gallery from "./screens/Gallery";
 import Navratri2021 from "./screens/Navratri2021/Navratri2021";
+import HomemadeCakeScreen from "./screens/ContactScreen/HomemadeCakeScreen";
 
 function App() {
   return (
@@ -187,6 +188,11 @@ function App() {
           path="/contact/photographers"
           exact
           component={PhotographersScreen}
+        />
+        <Route
+          path="/contact/homemadecake"
+          exact
+          component={HomemadeCakeScreen}
         />
         <Route path="/contact/bhawan" exact component={BhawanScreen} />
         <Route path="/contact/yoga" exact component={YogaScreen} />

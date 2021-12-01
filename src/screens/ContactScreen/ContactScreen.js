@@ -22,7 +22,7 @@ import education from "../../images/contact/education.svg";
 import fitness from "../../images/contact/fitness.svg";
 import flexprintingservices from "../../images/contact/flexprintingservices.svg";
 import furniture from "../../images/contact/furniture.svg";
-import generatorsonhire from "../../images/contact/generatorsonhire.svg";
+// import generatorsonhire from "../../images/contact/generatorsonhire.svg";
 import housekeeping from "../../images/contact/housekeeping.svg";
 import interiordesigners from "../../images/contact/interiordesigners.svg";
 import logistics from "../../images/contact/logistics.svg";
@@ -38,6 +38,7 @@ import towingservices from "../../images/contact/towingservices.svg";
 import wallpapers from "../../images/contact/wallpapers.svg";
 import yogaclasses from "../../images/contact/yogaclasses.svg";
 import mobile from "../../images/contact/mobile.svg";
+import homemadecake from "../../images/contact/homemadecake.png";
 // import constructionmachinerysupplies from "../../images/contact/constructionmachinerysupplies.svg";
 import job from "../../images/contact/job.svg";
 import borewell from "../../images/contact/borewellcontractors.svg";
@@ -163,6 +164,12 @@ const ContactScreen = () => {
         />
 
         <ContactCardComponent
+          title="Cake Bakers- Homemade"
+          Img={homemadecake}
+          link="/contact/homemadecake"
+        />
+
+        <ContactCardComponent
           title="Car On Hire"
           Img={caronhire}
           link="/contact/caronhire"
@@ -257,11 +264,11 @@ const ContactScreen = () => {
           Img={game}
           link="/contact/gaming"
         />
-        <ContactCardComponent
+        {/* <ContactCardComponent
           title="Generator"
           Img={generatorsonhire}
           link="/contact/comingsoon"
-        />
+        /> */}
 
         <ContactCardComponent
           title="House Keeping"
